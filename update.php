@@ -18,6 +18,8 @@ class Update
         $file = fopen(dirname(__FILE__).'/'.$fileName, 'w+');
 
         $ch = curl_init($zipUrl);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
+        curl_setopt($ch, CURLOPT_REFERER, 'https://ebelge.gib.gov.tr');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_FILE, $file);
@@ -127,6 +129,12 @@ class Update
 
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-%20UBL-TR%20Catalogue.xlsx', 'Sovos_UBL_TR_Catalogue.xlsx');
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-S%C4%B1k%20Sorulan%20Sorular.xlsx', 'Sovos_Sorulan_Sorular.xlsx');
+
+        rename(dirname(__FILE__).'/e-FaturaPaketi', 'GIB_eFatura');
+        rename(dirname(__FILE__).'/Sovos Bulut e-Arşiv Fatura WS API 2.2', 'Sovos_eArsiv');
+        rename(dirname(__FILE__).'/Sovos Bulut e-Fatura WS API v2.2', 'Sovos_eFatura');
+        rename(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API/Sovos Bulut e-İrsaliye WS API v1.2', 'Sovos_eIrsaliye');
+        rmdir(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API');
 
         $this->crawler();
 
