@@ -7,13 +7,35 @@ require __DIR__.'/vendor/autoload.php';
 use Exception;
 use HeadlessChromium\BrowserFactory;
 use HeadlessChromium\Page;
+use Symfony\Component\Filesystem\Filesystem;
 use ZipArchive;
 
 class Update
 {
+    private array $removeFiles = [
+        'GIB_eFatura', 'Sovos_eArsiv', 'Sovos_eFatura',
+        'Sovos_eIrsaliye', 'build',
+        'E_Fatura_Canli_Core_Main.js', 'E_Fatura_Canli_Ext_All.js',
+        'E_Fatura_Canli_Ext_Base.js', 'Sovos_Sorulan_Sorular.xlsx',
+        'Sovos_UBL_TR_Catalogue.xlsx', 'dummy-debug.html',
+    ];
+
     private Page $page;
 
-    public function downloadFile(string $zipUrl, string $fileName, bool $unzip = false): void
+    public function __construct(
+        private $filesystem = new Filesystem,
+    ) {}
+
+    private function clear(): void
+    {
+        foreach ($this->removeFiles as $removeFile) {
+            $this->filesystem->remove($removeFile);
+        }
+
+        $this->filesystem->mkdir(dirname(__FILE__).'/build');
+    }
+
+    private function downloadFile(string $zipUrl, string $fileName, bool $unzip = false): void
     {
         $file = fopen(dirname(__FILE__).'/'.$fileName, 'w+');
 
@@ -24,7 +46,7 @@ class Update
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_FILE, $file);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
         if (curl_exec($ch) === false) {
             throw new Exception('Curl error: '.curl_error($ch));
         }
@@ -116,6 +138,8 @@ class Update
     public function run(): void
     {
         echo PHP_EOL.'Update started...'.PHP_EOL;
+
+        $this->clear();
 
         $this->downloadFile('https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi.zip', 'e-FaturaPaketi.zip', true);
 
