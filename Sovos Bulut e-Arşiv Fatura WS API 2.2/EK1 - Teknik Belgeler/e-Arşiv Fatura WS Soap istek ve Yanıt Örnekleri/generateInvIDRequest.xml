@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inv="http://fitcons.com/earchive/invoice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inv:invIdGenerationRequest>
+         <Identifier>1111111111</Identifier>
+         <Branch>ttttt</Branch>
+         <Cust_inv_id>1</Cust_inv_id>
+         <Issue_date>2016-01-01</Issue_date>
+      </inv:invIdGenerationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getUBLListRequest>
+         <ein:Identifier>urn:mail:defaultgb@fitcons.com</ein:Identifier>
+         <ein:VKN_TCKN>1234567801</ein:VKN_TCKN>
+         <ein:DocType>ENVELOPE</ein:DocType>
+         <ein:Type>INBOUND</ein:Type>
+         <ein:FromDate>2015-11-12T00:00:00.000+02:00</ein:FromDate>
+         <ein:ToDate>2015-11-13T00:00:00.000+02:00</ein:ToDate>
+      </ein:getUBLListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

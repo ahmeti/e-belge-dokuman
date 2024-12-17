@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://fitcons.com/earchive/report">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <rep:getReportListRequest>
+         <startDate>2015-01-01</startDate>
+         <endDate>2017-01-01</endDate>
+         <vkn>1111111111</vkn>
+         <approved>0</approved>
+		 <!--Zero or more repetitions:-->
+         <customizationParams>
+            <!--Optional:-->
+            <paramName>?</paramName>
+            <!--Optional:-->
+            <paramValue>?</paramValue>
+         </customizationParams>
+      </rep:getReportListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

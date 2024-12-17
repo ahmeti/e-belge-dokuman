@@ -1,0 +1,10 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <approveReportResponse xmlns="http://fitcons.com/earchive/report">
+         <Result xmlns="">
+            <Result>SUCCESS</Result>
+         </Result>
+         <Detail xmlns="">Report DD4738BB-47E8-4A65-AC4E-E1B8C9443BF9 is approved.</Detail>
+      </approveReportResponse>
+   </s:Body>
+</s:Envelope>

@@ -1,0 +1,13 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <invoiceCancellationServiceResponseType xmlns="http://fitcons.com/earchive/invoicecancellation">
+         <Result xmlns="">
+            <Result>SUCCESS</Result>
+         </Result>
+         <invoiceCancellation xmlns="">
+            <message>Fatura iptal bilgileri basari ile kaydedilmistir.</message>
+            <code>1</code>
+         </invoiceCancellation>
+      </invoiceCancellationServiceResponseType>
+   </s:Body>
+</s:Envelope>

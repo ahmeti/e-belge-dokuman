@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getReportDataResponse xmlns="http://fitcons.com/earchive/report">
+         <Result xmlns="">
+            <Result>SUCCESS</Result>
+         </Result>
+         <Detail xmlns="">200 : Report reached to the system</Detail>
+         <binaryData xmlns="">UEsDBBQACAAIADBYpEgAAAAAAAAAAAAAAAAkAAAAREQ0NzM4QkItNDdFOC00QTY1LUFDNEUtRTFCOEM5NDQzQkY57ZnJbttIEIbveQpBc26p98VIGEhZBkGSGSDRAJPcqjeZMEUapBTHefq0JGsl5YwxgJ2DBMMGqur/u7qa/EjBz19+nxW9b6Fu8qp80ScD3O+F0lU+L6cv+v9M3iLd7zVzKD0UVRle9G9D03+ZPXseIEm+XYTR8s8nuK7qRe97k1807jLM4EPlYL5yvJzPry+Gw3X5IESYL2oYTKtvg3ndW6sH3xvf76U+yuaibOhWc3NzM7hhg6qeDinGeIjNMBX5Jp/+sSlf296/yqY2dXfCmgz//fjh86pxlJfL3brQz5710mezTwtNkV+tY/vx1eRuqzJLk3s+PA62ymeLq1AUIe4yB2ZXyWf72dld7TsNT1ptbC7hR14XcAvlPctQxoVU2vxqmS6zjVG9PPa/quz1a66YHo8RV2804iMp0OgVf4PekLF+ZThn47dma7gRtdx8ur5m4zRnKKe5m0CdX+YZxUQizBHe9dlZd8Itn+fNkRPDR057NS0XWxWL/9JTZ90Jt46eCD9y+mVPaYBHq29GuovuXbIb7frGaHuu48ni7UQtm8J3H7p121a0tNOq9KHOZ5/DVZFn70d/vptsVYe5jkNqbmHk88wA1kKDQ8Q6gzj1DmnDIhLR0BCMYRiHQbqN947uTtnyrH6E+eswDXXGROSCU6fBKhBWEOUVpcZL4aWVzAgqmEvO2ntrCWNWamcEt8xYzYJm28V2lu0dLH6EsgjlLJw+0lbNPS5fYQZlnihwgXH66fC4q2h5zKvrAmaTxRzqjIgBEVvtfqY9Lh/K4MLVnVANtN7t+yDXkl5DDeM8nW6eTT592ar2wl24nObjvJjmTX4CTsuKItSTVdNpngPF9sF6kDztcJjaT89gXsPl0YjugidFK8/3lV9k6WkhDvtZhe9XrgbYtZe7xP3qv+vlgeND5Tp4OIBh9wQO463pb9aCInfrbJrwidmmeyBdD+9bp7dfM3fpQWIoFoQSQveu4VXipAx8/rm6Tb+zUZH3vrz78HH0dSvdJbt33NXXTtyxsSOu/T9KskeipCLWyjRThJ3HiGOqEHBikFTOaWkcEebhlCRCASOWLzHI08OaKyqU51EybIQSEACMxAK7YA1Q7jGxErCKKghPJIWnpyQ9U/JMyTMlf3dK8keiJKFUYhMVIgo44qBYoqRmyProuVZKmQAPpqRItCWMa0w9OBOFkiEBEEcNmhOLjaHGApaGYFBSWSadd95rFYmg2gn/9JTs8jhT8kzJMyWPdva0lBSPREmI3EunCMLeB8QJjih91eYoam+E5el1EscHU9JQATgwHQwYIIYyJnCI3BFNHFVRGBK0MCpEoZUxHstIwGgRPFhvHaFPT0l5puSZkmdK/u6UlI9ESaGw5JEJpClT6Ru3Y8gAqISbQIhRNEr38HdJaYQPnIOnwSmHMSOEEQEqvWOakLAoNFbpHVYIBpHYEB1ozy1O67IYwfKnp6Q+U/JMyTMlH4OS28D+f1qzZz8BUEsHCNNpwY9fBAAAuB0AAFBLAQIUABQACAAIADBYpEjTacGPXwQAALgdAAAkAAAAAAAAAAAAAAAAAAAAAABERDQ3MzhCQi00N0U4LTRBNjUtQUM0RS1FMUI4Qzk0NDNCRjlQSwUGAAAAAAEAAQBSAAAAsQQAAAAA</binaryData>
+      </getReportDataResponse>
+   </s:Body>
+</s:Envelope>

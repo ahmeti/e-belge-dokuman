@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getInvoiceViewRequest>
+         <ein:UUID></ein:UUID>
+         <ein:CustInvID>ca0d8247-1d16-4563-858f-5dd58d6a35d0</ein:CustInvID>
+         <ein:Identifier>urn:mail:defaultgb@fitcons.com</ein:Identifier>
+         <ein:VKN_TCKN>1234567801</ein:VKN_TCKN>
+         <ein:Type>OUTBOUND</ein:Type>
+         <ein:DocType>PDF</ein:DocType>
+      </ein:getInvoiceViewRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

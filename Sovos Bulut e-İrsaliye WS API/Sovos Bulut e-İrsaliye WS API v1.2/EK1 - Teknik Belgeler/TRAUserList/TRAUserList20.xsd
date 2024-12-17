@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ©2018 Foriba -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:attribute name="type" type="xs:string"/>
+	<xs:element name="UserList" type="T_UserList"/>
+	<xs:element name="User" type="T_User"/>
+	<xs:element name="Type" type="xs:string"/>
+	<xs:element name="Title" type="xs:string"/>
+	<xs:element name="Name" type="xs:string"/>
+	<xs:element name="Identifier" type="xs:string"/>
+	<xs:element name="FirstCreationTime" type="xs:dateTime"/>
+	<xs:element name="Documents" type="T_Documents"/>
+	<xs:element name="Document" type="T_Document"/>
+	<xs:element name="DeletionTime" type="xs:dateTime"/>
+	<xs:element name="CreationTime" type="xs:dateTime"/>
+	<xs:element name="Alias" type="T_Alias"/>
+	<xs:element name="AccountType" type="xs:string"/>
+	<xs:complexType name="T_User">
+		<xs:sequence>
+			<xs:element ref="Identifier"/>
+			<xs:element ref="Title"/>
+			<xs:element ref="Type"/>
+			<xs:element ref="FirstCreationTime"/>
+			<xs:element ref="AccountType"/>
+			<xs:element ref="Documents" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_UserList">
+		<xs:sequence>
+			<xs:element ref="User" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_Documents">
+		<xs:sequence>
+			<xs:element ref="Document" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="T_Document">
+		<xs:sequence>
+			<xs:element ref="Alias" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute ref="type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="T_Alias">
+		<xs:sequence>
+			<xs:element ref="Name" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="CreationTime" minOccurs="0"/>
+			<xs:element ref="DeletionTime" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

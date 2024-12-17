@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inv="http://fitcons.com/earchive/invoicecancellation">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inv:invoiceCancellationServiceRequestType>
+         <!--Zero or more repetitions:-->
+         <invoiceCancelInfoTypeList>
+            <invoiceId>BK02017003562419</invoiceId>
+            <vkn>1111111111</vkn>
+            <!--Optional:-->
+            <branch>default</branch>
+            <totalAmount>206.19</totalAmount>
+            <cancelDate>2018-04-12</cancelDate>
+            <!--Optional:-->
+            <custInvID></custInvID>
+         </invoiceCancelInfoTypeList>
+      </inv:invoiceCancellationServiceRequestType>
+   </soapenv:Body>
+</soapenv:Envelope>

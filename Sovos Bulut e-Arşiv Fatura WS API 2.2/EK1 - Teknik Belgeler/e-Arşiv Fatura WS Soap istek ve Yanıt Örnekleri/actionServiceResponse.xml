@@ -1,0 +1,24 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:actionServiceResponseType xmlns:ns2="http://fitcons.com/earchive/invoice" xmlns:ns3="http://fitcons.com/earchive/base" xmlns:ns4="http:/fitcons.com/earchive/getuserlist" xmlns:ns5="http://fitcons.com/earchive/report" xmlns:ns6="http://fitcons.com/earchive/invoicecancellation" xmlns:ns7="http://fitcons.com/earchive/reconciliation">
+         <Result>SUCCESS</Result>
+         <Detail>e-Archive objection reached to the system</Detail>
+         <Parameters>
+            <Name>OBJECTION_ID</Name>
+            <Value>ITIRAZ12345678</Value>
+         </Parameters>
+         <Parameters>
+            <Name>OBJECTION_DATE</Name>
+            <Value>2021-07-02</Value>
+         </Parameters>
+         <Parameters>
+            <Name>OBJECTION_METHOD</Name>
+            <Value>KEP</Value>
+         </Parameters>
+         <Parameters>
+            <Name>OBJECTION_DESCRIPTION</Name>
+            <Value>İtiraz nedeni</Value>
+         </Parameters>
+      </ns2:actionServiceResponseType>
+   </S:Body>
+</S:Envelope>

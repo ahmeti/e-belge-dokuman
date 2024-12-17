@@ -1,0 +1,14 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <invIdGenerationResponse xmlns="http://fitcons.com/earchive/invoice">
+         <Result xmlns="">
+            <StatusCode>10</StatusCode>
+            <StatusDescription>Baþarýlý.</StatusDescription>
+         </Result>
+         <Invoice_ID xmlns="">TT72016000000001</Invoice_ID>
+         <UUID xmlns="">0B711A26-95B5-4986-952D-DA24911B445D</UUID>
+         <issue_time xmlns="">2016-01-01</issue_time>
+         <Cust_inv_id xmlns="">1</Cust_inv_id>
+      </invIdGenerationResponse>
+   </s:Body>
+</s:Envelope>

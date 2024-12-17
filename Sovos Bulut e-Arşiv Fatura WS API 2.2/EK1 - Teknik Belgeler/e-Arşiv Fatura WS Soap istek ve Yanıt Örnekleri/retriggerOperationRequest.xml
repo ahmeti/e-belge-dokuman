@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inv="http://fitcons.com/earchive/invoice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inv:retriggerServiceRequest>
+         <VKN>1111111111</VKN>
+         <branch>default</branch>
+         <!--Optional:-->
+         <invoiceID>YN02015000000024</invoiceID>
+         <!--Optional:-->
+         <invoiceUUID>fbcf7fde-c06a-42d2-938e-56bacb4e5f04</invoiceUUID>
+         <!--Zero or more repetitions:-->
+         <customizationParams>
+            <!--Optional:-->
+            <paramName>SMTP</paramName>
+            <!--Optional:-->
+            <paramValue>yunus.tastutan@fitcons.com</paramValue>
+         </customizationParams>
+      </inv:retriggerServiceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

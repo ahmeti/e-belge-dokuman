@@ -1,0 +1,12 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getStatusResponseType xmlns="http://fitcons.com/earchive/invoice">
+         <UUID xmlns="">fbcf7fde-c06a-42d2-938e-56bacb4e5f04</UUID>
+         <invoiceNumber xmlns="">YN02015000000024</invoiceNumber>
+         <statusCode xmlns="">130</statusCode>
+         <Detail xmlns="">Invoice is signed successfuly</Detail>
+         <Hash xmlns="">1a9c7e7c2ea98df4fb1fb142d565be4ccfe20bf2e827bf55d8aac9849bc2a8a7</Hash>
+         <ReportUuid xmlns="">unknown</ReportUuid>
+      </getStatusResponseType>
+   </s:Body>
+</s:Envelope>

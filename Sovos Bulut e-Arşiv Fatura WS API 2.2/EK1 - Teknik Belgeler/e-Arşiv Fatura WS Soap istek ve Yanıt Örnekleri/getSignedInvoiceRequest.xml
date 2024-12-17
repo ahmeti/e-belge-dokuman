@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inv="http://fitcons.com/earchive/invoice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inv:getStatusRequestType>
+         <!--Optional:-->
+         <UUID>fbcf7fde-c06a-42d2-938e-56bacb4e5f04</UUID>
+         <!--Optional:-->
+         <vkn>1111111111</vkn>
+         <!--Optional:-->
+         <invoiceNumber></invoiceNumber>
+         <!--Optional:-->
+         <custInvID></custInvID>
+      </inv:getStatusRequestType>
+   </soapenv:Body>
+</soapenv:Envelope>

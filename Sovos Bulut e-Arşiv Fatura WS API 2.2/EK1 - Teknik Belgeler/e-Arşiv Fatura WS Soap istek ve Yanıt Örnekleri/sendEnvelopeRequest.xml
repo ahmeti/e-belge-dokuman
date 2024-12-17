@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inv="http://fitcons.com/earchive/invoice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inv:sendInvoiceRequestType>
+         <senderID>1111111111</senderID>
+         <receiverID>2222222222</receiverID>
+         <docType>XML</docType>
+         <fileName>envelope11.zip</fileName>
+         <hash>5792C6DF9F2CA07938B380889DDA0433</hash>
+         <binaryData>cid:499139203306</binaryData>
+         <!--Zero or more repetitions:-->
+         <customizationParams>
+            <!--Optional:-->
+            <paramName>BRANCH</paramName>
+            <!--Optional:-->
+            <paramValue>default</paramValue>
+         </customizationParams>
+         <!--Optional:-->
+         <responsiveOutput>
+            <!--Optional:-->
+            <outputType>NONE</outputType>
+         </responsiveOutput>
+      </inv:sendInvoiceRequestType>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:sendInvoiceResponseType xmlns:ns2="http://fitcons.com/earchive/invoice">
+    <Detail>OK</Detail>
+    <Result>
+        <Result>SUCCESS</Result>
+    </Result>
+    <preCheckErrorResults/>
+    <preCheckSuccessResults>
+        <preCheckSuccess>
+            <UUID>3710e77e-d264-46c5-bec9-c05923ee2522</UUID>
+            <Vkn>1111111111</Vkn>
+            <InvoiceNumber>FT02016000074956</InvoiceNumber>
+            <SuccessCode>200</SuccessCode>
+            <SuccessDesc>OK</SuccessDesc>
+        </preCheckSuccess>
+        <preCheckSuccess>
+            <UUID>0911e936-a35e-418c-b9a1-58d50382dd99</UUID>
+            <Vkn>1111111111</Vkn>
+            <InvoiceNumber>FT02016000074957</InvoiceNumber>
+            <SuccessCode>200</SuccessCode>
+            <SuccessDesc>OK</SuccessDesc>
+        </preCheckSuccess>
+    </preCheckSuccessResults>
+</ns2:sendInvoiceResponseType>

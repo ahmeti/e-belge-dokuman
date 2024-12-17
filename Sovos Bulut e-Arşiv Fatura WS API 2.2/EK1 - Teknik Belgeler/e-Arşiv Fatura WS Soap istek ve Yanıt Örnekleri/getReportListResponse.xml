@@ -1,0 +1,1075 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getReportListResponse xmlns="http://fitcons.com/earchive/report">
+         <Result xmlns="">
+            <Result>SUCCESS</Result>
+         </Result>
+         <Reports xmlns="">
+            <uuid>D81964D2-299A-4783-AFDE-CB145EF7C654</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-06</periodCode>
+            <sectionStartDate>2016-06-01</sectionStartDate>
+            <sectionEndDate>2016-06-01</sectionEndDate>
+            <partNumber>1</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>17880</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>8DE1E080-CC6B-4FF8-8AA4-B4FDF496E1D3</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-01</sectionStartDate>
+            <sectionEndDate>2016-11-01</sectionEndDate>
+            <partNumber>1</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>136850</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>4D866817-FBE9-4FDA-899B-76CB62E9D520</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-01</sectionStartDate>
+            <sectionEndDate>2016-10-26</sectionEndDate>
+            <partNumber>1</partNumber>
+            <invoiceCount>925</invoiceCount>
+            <invoiceTotalAmount>126468.86</invoiceTotalAmount>
+            <cancelInvoiceCount>2</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>253.42</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>054F8AD0-C59A-43ED-A159-FDAC72537194</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-05</periodCode>
+            <sectionStartDate>2016-05-01</sectionStartDate>
+            <sectionEndDate>2016-05-06</sectionEndDate>
+            <partNumber>1</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>136850</invoiceTotalAmount>
+            <cancelInvoiceCount>1</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>126.71</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>CE5F5CE4-F298-4C18-AA7C-10F88681D49C</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-05</periodCode>
+            <sectionStartDate>2016-05-06</sectionStartDate>
+            <sectionEndDate>2016-05-11</sectionEndDate>
+            <partNumber>2</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>135303.39</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>0F69E683-1D6E-4AC2-B77D-98591DA99251</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-26</sectionStartDate>
+            <sectionEndDate>2016-10-30</sectionEndDate>
+            <partNumber>2</partNumber>
+            <invoiceCount>1</invoiceCount>
+            <invoiceTotalAmount>136.85</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>4DAFF126-77AB-45FF-A10C-9215F25CFCB6</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-20</sectionStartDate>
+            <sectionEndDate>2016-09-14</sectionEndDate>
+            <partNumber>2</partNumber>
+            <invoiceCount>1</invoiceCount>
+            <invoiceTotalAmount>136.85</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>1A42B534-7FB8-47F6-A935-5C7608755217</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>14</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>10C7BBE9-4B5E-4098-9A48-44E6500F07B9</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>15</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>8D21F62A-8CA4-4E9B-A141-77E290E43BE7</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>16</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>90998848-49F5-4554-BE3C-5FF186457BB8</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>17</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>27700AE7-FFDF-4A0A-A20D-6468EAFE4DBA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>18</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>D04F3A5D-CA11-4DA1-B9C2-258B017F0BE3</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>19</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>FC472791-87C8-4255-8216-FF296B8BFF97</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>20</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>AFB0B575-7A21-4A56-8ECA-6D1BBDB2914A</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>21</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>4A2F2B66-4E86-47E3-B207-3BC7D01BD940</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>22</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>FC515AD6-244E-413F-8A1A-42CD1070B59F</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>23</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>C43427BF-CD1D-41FC-8C91-87FE400BC611</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-30</sectionStartDate>
+            <sectionEndDate>2016-10-12</sectionEndDate>
+            <partNumber>3</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>7D2795EF-D2BE-469C-9E0C-67986FCE5E76</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-12</sectionStartDate>
+            <sectionEndDate>2016-10-12</sectionEndDate>
+            <partNumber>4</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>19DB7DD9-F668-4874-89FA-C13D21A80003</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>34</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>6462CE59-B1C9-4FEB-995A-0DEFDFEDB650</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>35</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>31982D29-E1C1-4CDF-9F37-3BE7947D8D18</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-01</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>2</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>136850</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>A62A77C4-C90D-4261-8161-33472807B7DD</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>3</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>136850</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>9E2417C8-D7C0-4E48-8818-623482484677</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>36</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>0D211F06-1D50-4873-BE66-13DC8D3F0480</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>37</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>172E4879-86BE-498D-909C-2FCF6666C9F6</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>38</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>EF273C49-F762-4D1B-84A9-5AA562A06896</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>39</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>60DA7E21-7218-48E3-98FD-DA83D7F92E91</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>40</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>B5DA7054-1B05-4244-8C47-1D25AEC6BA28</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>41</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>58D866F2-A8D6-4361-AC56-B10C37EDD50B</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>42</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>CF2D80D8-6956-40CD-B65D-3E992C44E88B</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>43</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>3170E5A8-AA2A-43EB-9FDE-DA2E99D27473</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-12</sectionStartDate>
+            <sectionEndDate>2016-10-25</sectionEndDate>
+            <partNumber>6</partNumber>
+            <invoiceCount>0</invoiceCount>
+            <invoiceTotalAmount>0</invoiceTotalAmount>
+            <cancelInvoiceCount>2</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>253.42</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>18E0830B-0F05-4F74-9DF6-2F5BCD849ECA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-14</sectionStartDate>
+            <sectionEndDate>2016-09-14</sectionEndDate>
+            <partNumber>5</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>E7F5D76D-39F4-496A-9897-611618EDAC99</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-14</sectionStartDate>
+            <sectionEndDate>2016-09-14</sectionEndDate>
+            <partNumber>6</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>1CE55FFD-0946-45A9-B24B-582FF2B3C8DA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-14</sectionStartDate>
+            <sectionEndDate>2016-09-14</sectionEndDate>
+            <partNumber>7</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>2C83A66F-AD77-4074-A694-3AE315843019</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>9</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>BC0EAEE4-372A-4CE5-8C08-E863D01B32BB</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>10</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>9BF7D6BC-977F-4586-A918-53F0181AEFDE</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>11</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>C65CBB36-5475-4E62-9D8E-CCE3F9658EBD</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-01</sectionStartDate>
+            <sectionEndDate>2016-09-20</sectionEndDate>
+            <partNumber>1</partNumber>
+            <invoiceCount>241</invoiceCount>
+            <invoiceTotalAmount>15968.14</invoiceTotalAmount>
+            <cancelInvoiceCount>1</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>126.71</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>2DE25057-CE0A-456F-9160-486CBEBE0A71</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-08</periodCode>
+            <sectionStartDate>2016-08-01</sectionStartDate>
+            <sectionEndDate>2016-08-31</sectionEndDate>
+            <partNumber>1</partNumber>
+            <invoiceCount>190</invoiceCount>
+            <invoiceTotalAmount>12914.8</invoiceTotalAmount>
+            <cancelInvoiceCount>1</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>15.15</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>FDFA9A31-FC7D-41E2-A41C-02CC8ACD4FCB</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-06</periodCode>
+            <sectionStartDate>2016-06-01</sectionStartDate>
+            <sectionEndDate>2016-06-02</sectionEndDate>
+            <partNumber>2</partNumber>
+            <invoiceCount>1000</invoiceCount>
+            <invoiceTotalAmount>17880</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>032CC766-1FBB-40DD-B663-77C076FCB9DA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>17</partNumber>
+            <invoiceCount>1</invoiceCount>
+            <invoiceTotalAmount>136.85</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>6526AA07-A729-4C3D-A252-990A6470EADE</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>6</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>57A1F70B-16E3-4F16-830E-A3C11D91418C</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>7</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>978816D9-708B-4C2C-ADC0-35B67AEC41E3</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>8</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>2076D7D3-1FAA-4932-9D70-3395E5348E46</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>9</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>4BCB8D1A-F245-4D02-BB8E-361B5A638106</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>4</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>2938ECFA-21F6-4372-A952-28F5BDAC9997</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>5</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>37DCE347-4C11-4E66-A5FC-F49B0B187A11</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>10</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>E86A161C-ACB0-4418-ADAF-92052F55702D</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>11</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>1915D2B6-2828-4E86-BEAA-E066CFBD0EEA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>12</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>F56EFD3B-7AD9-4088-B624-FB1B8B4183FA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>13</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>23B28455-8DD9-4436-9627-C083E35FC29B</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>24</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>579D9DB5-06AA-446E-83B9-5B7C4E789EA4</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>25</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>DAFCB9D8-8FA9-4CCC-B1B0-821604B9A680</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>26</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>1E6856D2-A5B7-4742-8B6D-42F56713ED23</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>27</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>09B97B20-BA04-4307-92AC-DBF56C7D4740</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>28</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>FF71C7A5-E37C-4B75-A1A8-D9E8B2283B6D</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>29</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>6672E9D4-A03B-44E1-AFB2-58D361886055</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>30</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>B2E970E4-2437-4E67-94C0-5771D9D429B2</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>31</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>1BD9F719-EE0F-4D1E-B90F-CBEDB30E0EB2</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>32</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>7CC6529D-3C5C-4B89-B974-3A121162F3D1</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>33</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>115885BC-A09B-43A4-B7FF-442D60983AD0</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-12</sectionStartDate>
+            <sectionEndDate>2016-10-12</sectionEndDate>
+            <partNumber>5</partNumber>
+            <invoiceCount>5</invoiceCount>
+            <invoiceTotalAmount>684.25</invoiceTotalAmount>
+            <cancelInvoiceCount>2</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>253.42</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>45DEDCD1-DE53-4C67-9887-DA7F898AF169</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-14</sectionStartDate>
+            <sectionEndDate>2016-09-14</sectionEndDate>
+            <partNumber>3</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>A563F563-DBA9-4F87-9FAC-61BFF55976ED</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-09</periodCode>
+            <sectionStartDate>2016-09-14</sectionStartDate>
+            <sectionEndDate>2016-09-14</sectionEndDate>
+            <partNumber>4</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>CFCB57DC-402D-42D6-9D54-6EDA457528BC</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>44</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>9C1962C2-0794-4226-A653-DB7E115775E8</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>45</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>C49357B9-EB27-46F4-B11C-8E461EFB2875</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>46</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>B8BDAE43-64F4-4FE8-8BFC-0AD503151F21</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>47</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>E8556E98-3BEE-48DF-A43C-6E197DED3527</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>48</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>495009DF-7FAE-4E3C-BBFD-E17F91DA7970</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>49</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>59ADFE2E-38BF-4B2B-98E6-65A0E7D5256D</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>50</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>0234C25D-2E4D-433D-B231-98DF35B0D390</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>51</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>DCCF274D-D54E-4C94-B532-0D8DCEC86E81</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>52</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>B8F67092-865A-416C-BFDD-2BDFB87D2BFA</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-11</periodCode>
+            <sectionStartDate>2016-11-03</sectionStartDate>
+            <sectionEndDate>2016-11-03</sectionEndDate>
+            <partNumber>53</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>9E349D71-10D4-4B2E-A9C3-1BCE28A6C154</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-25</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>7</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>2</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>253.42</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>57E4CCC7-4345-45FF-B74C-2450A24CEFDF</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>8</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>5AB7EFB2-D497-44A7-8422-8209FF235F67</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>12</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>2</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>253.42</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>DE854CBA-C032-4142-9B27-CD980EA7C61C</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>13</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>07437D9E-316F-40AE-86CF-9ADD61DDDA79</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>14</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>8819EC0C-214A-49B0-BB4E-435C33A6F46D</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>15</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+         <Reports xmlns="">
+            <uuid>9D2EFBB7-D033-462E-A870-551D2446AC60</uuid>
+            <tcknVkn>1111111111</tcknVkn>
+            <periodCode>2016-10</periodCode>
+            <sectionStartDate>2016-10-19</sectionStartDate>
+            <sectionEndDate>2016-10-19</sectionEndDate>
+            <partNumber>16</partNumber>
+            <invoiceCount>10</invoiceCount>
+            <invoiceTotalAmount>1368.5</invoiceTotalAmount>
+            <cancelInvoiceCount>0</cancelInvoiceCount>
+            <calcelInvoiceTotalAmount>0</calcelInvoiceTotalAmount>
+            <gibStatus>190:Rapor henüz onaylanmadý</gibStatus>
+         </Reports>
+      </getReportListResponse>
+   </s:Body>
+</s:Envelope>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sh:StandardBusinessDocument xmlns:ef="http://www.efatura.gov.tr/package-namespace" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader PackageProxy_1_2.xsd">
+	<sh:StandardBusinessDocumentHeader>
+		<sh:HeaderVersion>1.2</sh:HeaderVersion>
+		<sh:Sender>
+			<sh:Identifier>urn:mail:defaultgb@fitcons.com</sh:Identifier>
+			<sh:ContactInformation>
+				<sh:Contact>3880718497</sh:Contact>
+				<sh:ContactTypeIdentifier>VKN_TCKN</sh:ContactTypeIdentifier>
+			</sh:ContactInformation>
+		</sh:Sender>
+		<sh:Receiver>
+			<sh:Identifier>urn:mail:yolcuberaberpk@gtb.gov.tr</sh:Identifier>
+			<sh:ContactInformation>
+				<sh:Contact>GÜMRÜK VE TİCARET BAKANLIĞI BİLGİ İŞLEMDAİRESİ BAŞKANLIĞI</sh:Contact>
+				<sh:ContactTypeIdentifier>UNVAN</sh:ContactTypeIdentifier>
+			</sh:ContactInformation>
+			<sh:ContactInformation>
+				<sh:Contact>1460415308</sh:Contact>
+				<sh:ContactTypeIdentifier>VKN_TCKN</sh:ContactTypeIdentifier>
+			</sh:ContactInformation>
+		</sh:Receiver>
+		<sh:DocumentIdentification>
+			<sh:Standard>UBL-TR</sh:Standard>
+			<sh:TypeVersion>1.2</sh:TypeVersion>
+			<sh:InstanceIdentifier>921f7683-1a0a-3333-98b9-6eccc7a11878</sh:InstanceIdentifier>
+			<sh:Type>SENDERENVELOPE</sh:Type>
+			<sh:MultipleType>false</sh:MultipleType>
+			<sh:CreationDateAndTime>2018-04-12T14:03:38.280+03:00</sh:CreationDateAndTime>
+		</sh:DocumentIdentification>
+	</sh:StandardBusinessDocumentHeader>
+	<ef:Package>
+		<Elements>
+			<ElementType>CREDITNOTE</ElementType>
+			<ElementCount>1</ElementCount>
+			<ElementList>
+				<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns1="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns11="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:ns12="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:ns3="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:ns6="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:ns9="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2" xmlns:xades="http://uri.etsi.org/01903/v1.4.1#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					
+					<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+					<cbc:CustomizationID>TR1.2</cbc:CustomizationID>
+					<cbc:ProfileID>YOLCUBERABERFATURA</cbc:ProfileID>
+					<cbc:ID>COY2018000000021</cbc:ID>
+					<cbc:CopyIndicator>false</cbc:CopyIndicator>
+					<cbc:UUID>164944c5-9d29-1111-b2af-d9539ec6fcf5</cbc:UUID>
+					<cbc:IssueDate>2018-05-28</cbc:IssueDate>
+					<cbc:IssueTime>17:34:17</cbc:IssueTime>
+					<cbc:CreditNoteTypeCode>SATISIPTALIADE</cbc:CreditNoteTypeCode>
+					<cac:BillingReference>
+						<cac:InvoiceDocumentReference>
+							<cbc:ID>845e56c1-32d0-451e-ac8f-f13eb35eab0f</cbc:ID>
+							<cbc:IssueDate>2018-05-28</cbc:IssueDate>
+							<cbc:DocumentType>INVOICE</cbc:DocumentType>
+						</cac:InvoiceDocumentReference>
+						<cac:CreditNoteDocumentReference>
+							<cbc:ID>A-002505</cbc:ID>
+							<cbc:IssueDate>2018-05-24</cbc:IssueDate>
+							<cbc:DocumentType>GIDERPUSULASI</cbc:DocumentType>
+						</cac:CreditNoteDocumentReference>
+					</cac:BillingReference>
+						<cac:AdditionalDocumentReference>
+						<cbc:ID>A1000000000</cbc:ID>
+						<cbc:DocumentTypeCode>CUST_INV_ID</cbc:DocumentTypeCode>
+						<cbc:IssueDate>2020-05-01</cbc:IssueDate>
+					</cac:AdditionalDocumentReference>
+					<cac:Signature>
+						<cbc:ID schemeID="VKN_TCKN">3880718497</cbc:ID>
+						<cac:SignatoryParty>
+							<cbc:WebsiteURI>www.fitsolutions.com.tr</cbc:WebsiteURI>
+							<cac:PartyIdentification>
+								<cbc:ID schemeID="VKN">3880718497</cbc:ID>
+							</cac:PartyIdentification>
+							<cac:PartyName>
+								<cbc:Name>FIT DANISMANLIK VE TEKNOLOJI BILISIM HIZMETLERI A.S.</cbc:Name>
+							</cac:PartyName>
+							<cac:PostalAddress>
+								<cbc:Room>45</cbc:Room>
+								<cbc:StreetName>Öz Sokak</cbc:StreetName>
+								<cbc:BuildingName>Gold Plaza</cbc:BuildingName>
+								<cbc:BuildingNumber>19</cbc:BuildingNumber>
+								<cbc:CitySubdivisionName>Altayçesme Mahellesi</cbc:CitySubdivisionName>
+								<cbc:CityName>ISTANBUL</cbc:CityName>
+								<cbc:PostalZone>34843</cbc:PostalZone>
+								<cbc:Region>Marmara</cbc:Region>
+								<cac:Country>
+									<cbc:Name>TÜRKIYE</cbc:Name>
+								</cac:Country>
+							</cac:PostalAddress>
+							<cac:Contact>
+								<cbc:Telephone>0(216) 445 93 79</cbc:Telephone>
+								<cbc:Telefax>0(216) 445 92 87</cbc:Telefax>
+								<cbc:ElectronicMail>muhasebe@fitcons.com</cbc:ElectronicMail>
+							</cac:Contact>
+						</cac:SignatoryParty>
+						<cac:DigitalSignatureAttachment>
+							<cac:ExternalReference>
+								<cbc:URI>#Signature_TST2018047894325</cbc:URI>
+							</cac:ExternalReference>
+						</cac:DigitalSignatureAttachment>
+					</cac:Signature>
+					<cac:AccountingSupplierParty>
+						<cac:Party>
+							<cbc:WebsiteURI>www.fitsolutions.com.tr</cbc:WebsiteURI>
+							<cac:PartyIdentification>
+								<cbc:ID schemeID="VKN">3880718497</cbc:ID>
+							</cac:PartyIdentification>
+							<cac:PartyIdentification>
+								<cbc:ID schemeID="TICARETSICILNO">TSN1234564545</cbc:ID>
+							</cac:PartyIdentification>
+							<cac:PartyIdentification>
+								<cbc:ID schemeID="MERSISNO">1234566987654327</cbc:ID>
+							</cac:PartyIdentification>
+							<cac:PartyName>
+								<cbc:Name>Test Mükellefi</cbc:Name>
+							</cac:PartyName>
+							<cac:PostalAddress>
+								<cbc:Room>2</cbc:Room>
+								<cbc:StreetName>PAPATYA SK.</cbc:StreetName>
+								<cbc:BuildingName>BİNA</cbc:BuildingName>
+								<cbc:BuildingNumber>1</cbc:BuildingNumber>
+								<cbc:CitySubdivisionName>ÜMRANİYE</cbc:CitySubdivisionName>
+								<cbc:CityName>İSTANBUL</cbc:CityName>
+								<cbc:PostalZone>34080</cbc:PostalZone>
+								<cbc:Region>MARMARA</cbc:Region>
+								<cbc:District>MAHALLE</cbc:District>
+								<cac:Country>
+									<cbc:Name>TÜRKİYE</cbc:Name>
+								</cac:Country>
+							</cac:PostalAddress>
+							<cac:PartyTaxScheme>
+								<cac:TaxScheme>
+									<cbc:Name>9 EYLÜL VERGİ DAİRESİ</cbc:Name>
+								</cac:TaxScheme>
+							</cac:PartyTaxScheme>
+							<cac:Contact>
+								<cbc:Telephone>0(212) 212 12 12</cbc:Telephone>
+								<cbc:Telefax>0(212) 212 12 11</cbc:Telefax>
+								<cbc:ElectronicMail>bulutdestek@fitcons.com</cbc:ElectronicMail>
+							</cac:Contact>
+						</cac:Party>
+					</cac:AccountingSupplierParty>
+					<cac:AccountingCustomerParty>
+						<cac:Party>
+							<cbc:WebsiteURI/>
+							<cac:PartyIdentification>
+								<cbc:ID schemeID="VKN">1460415308</cbc:ID>
+							</cac:PartyIdentification>
+							<cac:PartyName>
+								<cbc:Name>Gümrük ve Ticaret Bakanlığı Gümrükler Genel Müdürlüğü- Bilgi İşlem Dairesi Başkanlığı</cbc:Name>
+							</cac:PartyName>
+							<cac:PostalAddress>
+								<cbc:CitySubdivisionName/>
+								<cbc:CityName>Ankara</cbc:CityName>
+								<cac:Country>
+									<cbc:Name>Türkiye</cbc:Name>
+								</cac:Country>
+							</cac:PostalAddress>
+							<cac:PartyTaxScheme>
+								<cac:TaxScheme>
+									<cbc:Name>Ulus</cbc:Name>
+								</cac:TaxScheme>
+							</cac:PartyTaxScheme>
+							<cac:PartyLegalEntity>
+								<cbc:RegistrationName>Gümrük ve Ticaret Bakanlığı Gümrükler Genel Müdürlüğü- Bilgi İşlem Dairesi Başkanlığı</cbc:RegistrationName>
+							</cac:PartyLegalEntity>
+						</cac:Party>
+					</cac:AccountingCustomerParty>
+					<cac:LegalMonetaryTotal>
+						<cbc:LineExtensionAmount currencyID="TRY">466.00</cbc:LineExtensionAmount>
+						<cbc:TaxExclusiveAmount currencyID="TRY">456.68</cbc:TaxExclusiveAmount>
+						<cbc:TaxInclusiveAmount currencyID="TRY">461.25</cbc:TaxInclusiveAmount>
+						<cbc:PayableAmount currencyID="TRY">461.25</cbc:PayableAmount>
+					</cac:LegalMonetaryTotal>
+					<cac:CreditNoteLine>
+						<cbc:ID/>
+					</cac:CreditNoteLine>
+				</CreditNote>
+			</ElementList>
+		</Elements>
+	</ef:Package>
+</sh:StandardBusinessDocument>
+</sh:StandardBusinessDocument>

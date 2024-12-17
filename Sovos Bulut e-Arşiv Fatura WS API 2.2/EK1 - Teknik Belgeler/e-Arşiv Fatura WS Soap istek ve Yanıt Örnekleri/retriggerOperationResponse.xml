@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <retriggerServiceResponse xmlns="http://fitcons.com/earchive/invoice">
+         <Result xmlns="">
+            <Result>SUCCESS</Result>
+         </Result>
+         <responseCode xmlns="">200</responseCode>
+         <responsedetail xmlns="">Retrigger operation done.</responsedetail>
+      </retriggerServiceResponse>
+   </s:Body>
+</s:Envelope>

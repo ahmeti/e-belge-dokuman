@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:get="http:/fitcons.com/earchive/getuserlist">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <get:getUserListRequest>
+         <get:vknTckn>1111111111</get:vknTckn>
+      </get:getUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,29 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inv="http://fitcons.com/earchive/invoice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inv:actionServiceRequestType>
+         <SenderID>1111111111</SenderID>
+         <Branch>default</Branch>
+         <!--Optional:-->
+         <InvoiceID>FA02021000000138</InvoiceID>
+         <ActionType>EARSIV_ITIRAZ</ActionType>
+         <!--Zero or more repetitions:-->
+         <Parameters>
+            <Name>OBJECTION_ID</Name>
+            <Value>ITIRAZ12345678</Value>
+         </Parameters>
+         <Parameters>
+            <Name>OBJECTION_DATE</Name>
+            <Value>2021-07-02</Value>
+         </Parameters>
+	    <Parameters>
+            <Name>OBJECTION_METHOD</Name>
+            <Value>KEP</Value>
+         </Parameters>
+   	    <Parameters>
+            <Name>OBJECTION_DESCRIPTION</Name>
+            <Value>İtiraz nedeni</Value>
+         </Parameters>
+      </inv:actionServiceRequestType>
+   </soapenv:Body>
+</soapenv:Envelope>

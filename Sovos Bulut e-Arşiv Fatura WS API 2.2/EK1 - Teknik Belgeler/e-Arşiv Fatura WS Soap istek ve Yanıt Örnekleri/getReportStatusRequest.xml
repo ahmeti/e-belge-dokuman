@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://fitcons.com/earchive/report">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <rep:getReportStatusRequestType>
+         <UUID>DD4738BB-47E8-4A65-AC4E-E1B8C9443BF9</UUID>
+         <VKN>1111111111</VKN>
+      </rep:getReportStatusRequestType>
+   </soapenv:Body>
+</soapenv:Envelope>
