@@ -1,2 +1,17 @@
-# e-belge-dokuman
-E-Fatura Paketi ve Sovos Dokümanları
+## e-Fatura Dokümantasyon
+https://ebelge.gib.gov.tr/efaturamevzuat.html
+
+## Sovos Api Dokümantasyon
+https://api.fitbulut.com/servis/#/servis
+
+
+#### e-Fatura Paketi Download Url
+https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi.zip
+
+#### Sovos Api Download Url
+https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Fatura%20WS%20API%20v2.2.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Ar%C5%9Fiv%20Fatura%20WS%20API%202.2.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-%C4%B0rsaliye%20WS%20API.zip
+
+https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-%20UBL-TR%20Catalogue.xlsx
+https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-S%C4%B1k%20Sorulan%20Sorular.xlsx
