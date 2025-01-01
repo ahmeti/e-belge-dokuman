@@ -5,6 +5,8 @@ namespace Ahmeti\EBelgeDokuman;
 require __DIR__.'/vendor/autoload.php';
 
 use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Psr7\Utils;
 use HeadlessChromium\BrowserFactory;
 use HeadlessChromium\Page;
 use Symfony\Component\Filesystem\Filesystem;
@@ -20,11 +22,23 @@ class Update
         'Sovos_UBL_TR_Catalogue.xlsx', 'dummy-debug.html',
     ];
 
+    private Client $client;
+
     private Page $page;
 
     public function __construct(
         private $filesystem = new Filesystem,
-    ) {}
+    ) {
+        $this->client = new Client([
+            'allow_redirects' => true,
+            'strict' => true,
+            'timeout' => 60,
+            'headers' => [
+                'User-Agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0',
+                'Referer' => 'https://ebelge.gib.gov.tr',
+            ],
+        ]);
+    }
 
     private function clear(): void
     {
@@ -35,23 +49,12 @@ class Update
         $this->filesystem->mkdir(dirname(__FILE__).'/build');
     }
 
-    private function downloadFile(string $zipUrl, string $fileName, bool $unzip = false): void
+    private function downloadFile(string $url, string $fileName, bool $unzip = false): void
     {
-        $file = fopen(dirname(__FILE__).'/'.$fileName, 'w+');
+        $resource = Utils::tryFopen(dirname(__FILE__).'/'.$fileName, 'w+');
+        $stream = Utils::streamFor($resource);
 
-        $ch = curl_init($zipUrl);
-        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
-        curl_setopt($ch, CURLOPT_REFERER, 'https://ebelge.gib.gov.tr');
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_FILE, $file);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 60);
-        if (curl_exec($ch) === false) {
-            throw new Exception('Curl error: '.curl_error($ch));
-        }
-        curl_close($ch);
-        fclose($file);
+        $this->client->get($url, ['sink' => $stream]);
 
         if ($unzip) {
             $zip = new ZipArchive;
