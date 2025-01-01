@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ©2015 FIT Consulting -->
+<!-- ©2024 Sovos -->
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http:/fitcons.com/eInvoice/" targetNamespace="http:/fitcons.com/eInvoice/">
 	<wsdl:types>
 		<xs:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http:/fitcons.com/eInvoice/">
-			<xs:include schemaLocation="ClientEInvoiceServicesTypes-2.1.xsd"/>
-			<xs:include schemaLocation="EInvoiceServicesCommonTypes-1.0.xsd"/>
+			<xs:include schemaLocation="./Schemas/ClientEInvoiceServicesTypes-2.2.xsd"/>
+			<xs:include schemaLocation="./Schemas/EInvoiceServicesCommonTypes-1.0.xsd"/>
 		</xs:schema>
 	</wsdl:types>
 	<wsdl:message name="sendUBLRequestMessage">
@@ -70,6 +70,15 @@
 	<wsdl:message name="getInvResponsesFaultMessage">
 		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
 	</wsdl:message>
+	<wsdl:message name="getPartialUserListRequestMessage">
+		<wsdl:part element="tns:getPartialUserListRequest" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getPartialUserListResponseMessage">
+		<wsdl:part element="tns:getPartialUserListResponse" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getPartialUserListFaultMessage">
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
+	</wsdl:message>
 	<wsdl:portType name="ClientEInvoiceServicesPort">
 		<wsdl:operation name="sendUBL">
 			<wsdl:input message="tns:sendUBLRequestMessage"/>
@@ -105,6 +114,11 @@
 			<wsdl:input message="tns:getInvResponsesRequestMessage"/>
 			<wsdl:output message="tns:getInvResponsesResponseMessage"/>
 			<wsdl:fault name="getInvResponsesFault" message="tns:getInvResponsesFaultMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="getPartialUserList">
+			<wsdl:input message="tns:getPartialUserListRequestMessage"/>
+			<wsdl:output message="tns:getPartialUserListResponseMessage"/>
+			<wsdl:fault message="tns:getPartialUserListFaultMessage" name="getPartialUserListFault"/>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="ClientEInvoiceServicesBinding" type="tns:ClientEInvoiceServicesPort">
@@ -191,6 +205,18 @@
 			</wsdl:output>
 			<wsdl:fault name="getInvResponsesFault">
 				<soap:fault name="getInvResponsesFault" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getPartialUserList">
+			<soap:operation soapAction="getPartialUserList"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="getPartialUserListFault">
+				<soap:fault name="getPartialUserListFault" use="literal"/>
 			</wsdl:fault>
 		</wsdl:operation>
 	</wsdl:binding>

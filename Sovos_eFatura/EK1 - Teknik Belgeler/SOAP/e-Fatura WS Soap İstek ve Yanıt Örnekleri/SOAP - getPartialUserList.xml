@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getPartialUserListRequest>
+         <ein:Identifier>urn:mail:defaultgb@fitcons.com</ein:Identifier>
+         <ein:VKN_TCKN>3880718497</ein:VKN_TCKN>
+         <ein:Role>GB</ein:Role>
+         <ein:IncludeBinary>false</ein:IncludeBinary>
+         <!--Optional:-->
+         <ein:FileNameList>
+            <!--Zero or more repetitions:-->
+            <ein:fileName>GB_USER_LIST_ZIP_PART_1</ein:fileName>
+         </ein:FileNameList>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+      </ein:getPartialUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
