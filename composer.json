@@ -13,9 +13,11 @@
         }
     ],
     "require-dev": {
-        "symfony/var-dumper": "^7.2",
-        "laravel/pint": "^1.18",
+        "ext-zip": "*",
         "chrome-php/chrome": "^1.12",
-        "symfony/filesystem": "^7.2"
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/pint": "^1.18",
+        "symfony/filesystem": "^7.2",
+        "symfony/var-dumper": "^7.2"
     }
 }
