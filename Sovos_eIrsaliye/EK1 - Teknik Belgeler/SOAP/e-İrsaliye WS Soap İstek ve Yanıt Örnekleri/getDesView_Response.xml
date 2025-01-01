@@ -1,0 +1,14 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getDesViewResponse xmlns="http://foriba.com/eDespatch/">
+         <Response>
+            <UUID>665056B6-9000-1EDF-9BEA-1EA15A26C0B2</UUID>
+            <Type>INBOUND</Type>
+            <DocType>DESPATCH</DocType>
+            <ViewType>HTML</ViewType>
+            <DocData>UEsDBBQACAgIAKJWPlkAAAAAAAAAAAAAAAApAAAAMDA1MDU2QjYtOTAwMC0xRURGLTlCRUEtMUVBMTVBMjZDMEIyLmh0bWztvcmyo9iWIDqvr9DztKrKNMKdvvMbEc9AIBohhAAB0oy+FSB6qSzH9Qc1SqscvmncyfuBG/lftXWOe8TxNpobNy3zvYsddAR7s/bq9mrYjb79</DocData>
+            <Result>0</Result>
+         </Response>
+      </getDesViewResponse>
+   </s:Body>
+</s:Envelope>

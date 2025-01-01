@@ -1,0 +1,7 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getDesUserListResponse xmlns="http://foriba.com/eDespatch/">
+         <DocData>UEsDBBQAAAAIAMBTPllKib8QUI8FALuBOgAPAAAAVFJBVXNlckxpc3QueG1s5L3bVhtLsjZ6v8fY76DRF/sOZp0P3r3W3wUqg1ontg6sFjc9ClFALZ34SxLd4gX8BvPKw/8r8A7g99pfZEkgPE1ZWcrKRXZ72kLGwMyoyIyM+OKLiD//r39OxpX7OJ0ns+l//Ek/1P5UiafD2VUyvfmPPy0X1wfen/7Xf/7f/9ef+/M4bSTzRQVfP51/+uc8+Y8/3S4Wd59+++0f//jH4T/Mw1l685uhafpvf2s2usPbeBIdJNP5IpoO4z+9fNfVr7/rT/jfVSrsf8je4X3tKp4ukusEn9EN07Id1/O1P/+29en1F/aSxTj+z17Y7f35t+z95h9Wd/F/ti/CBj5Pb9ef/pyk88VxGkcLiN9LJvF/GpruHGj6geb3dPuTrn2yvT//9scvW39/MBzOltMF+5FhqxeedILuoN3682/b/7D+2upsuJxgwM/1z6Y6crd0EPi67oMLK9jSVuvPbOzK/U1qFABxTFVE3f81m+1NmswaaIk2+O/R0h++90P6QAtak4tbLg8xzmFNQAgi8QPTVi+5UqSmhaJrYOqiIXU0q/24nsIU2a2YqpvxUaPlkxYwzQCiuiTSRAG5AvsPXh7G22GeIlzGTkeXPTrDdkGlCjyDqpzvziNEja2DLBXl1jD6uxrP+kDjuM6P/umFMbKDRQ9v1werOM4TQ+0sRWwsuafEJOwpMEns/f2p7dGAXfLo6RQ0XzaAmzMKV29rquVF1/i7AA6nTuQ8j1FWv8+3oZ+HFOImkow08+jJcyxf0Mx5iejoSV1253ROnCASBfWdUEN36f0NGM6gxk112k7ux8svyUH+NoWsvTanC0jtHLNQVjBdX5ApddqN132Oz1WF35sbP4oXmZncCUrFZ5cXz+qsTMrMniVb5co2GLpn2C6NKvX/cUppt9+/ZIMPmJyzMx/nnzLX++Y+3haeJUPWzfUqXX62BNFirn8eniOd1hQhI8WDS+/O8GfDKUMQNzntsypWxyZfOHEPi0baD6o4ggG90mhoflCF6kIaGgwl9ul5Yq6ajDPutD3pAJ7RJblVl8QKquTOWb9vGMmiRN1u3Oc2xPxguR50iIZN8tDoWjlbD8wUB7cPnx+8Pn8OGpq2/e+IaXA9LvCAdXOOqt2iQKpmmsDiOAK0kGg1SZX</DocData>
+      </getDesUserListResponse>
+   </s:Body>
+</s:Envelope>

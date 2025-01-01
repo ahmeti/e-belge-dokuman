@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:edes="http://foriba.com/eDespatch/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <edes:getDesViewRequest>
+         <edes:Identifier>urn:mail:defaultpk@fitcons.com</edes:Identifier>
+         <edes:VKN_TCKN>3880718497</edes:VKN_TCKN>
+         <!--1 or more repetitions:-->
+         <edes:DocDetails>
+            <!--Optional:-->
+            <edes:UUID>665056B6-9000-1EDF-9BEA-1EA15A26C0B2</edes:UUID>
+            <!--Optional:-->
+            <!--Optional:-->
+            <edes:Type>INBOUND</edes:Type>
+            <edes:DocType>DESPATCH</edes:DocType>
+            <edes:ViewType>HTML</edes:ViewType>
+            <!--Zero or more repetitions:-->
+            <edes:Parameters>?</edes:Parameters>
+         </edes:DocDetails>
+         <!--Zero or more repetitions:-->
+         <edes:Parameters>?</edes:Parameters>
+      </edes:getDesViewRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

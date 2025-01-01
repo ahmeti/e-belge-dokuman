@@ -1,0 +1,12 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <sendDesUBLResponse xmlns="http://foriba.com/eDespatch/">
+         <Response>
+            <EnvUUID>7d7ee88b-fec5-4262-9f8a-7ceea058cdd1</EnvUUID>
+            <UUID>264d3255-5837-4a6a-9666-999bedbd6fc9</UUID>
+            <ID>GIB2024000000000</ID>
+            <CustDesID>11be88e3-0d3f-4824-8a7f-eed4abe9c52d</CustDesID>
+         </Response>
+      </sendDesUBLResponse>
+   </s:Body>
+</s:Envelope>

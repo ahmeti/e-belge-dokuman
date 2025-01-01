@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:edes="http://foriba.com/eDespatch/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <edes:getDesPartialUserListRequest>
+         <edes:Identifier>urn:mail:defaultgb@fitcons.com</edes:Identifier>
+         <edes:VKN_TCKN>3880718497</edes:VKN_TCKN>
+         <edes:Role>GB</edes:Role>
+         <edes:IncludeBinary>false</edes:IncludeBinary>
+         <!--Optional:-->
+         <edes:FileNameList>
+            <!--Zero or more repetitions:-->
+            <edes:fileName>GB_USER_LIST_ZIP_PART_2</edes:fileName>
+         </edes:FileNameList>
+         <!--Zero or more repetitions:-->
+         <edes:Parameters>?</edes:Parameters>
+      </edes:getDesPartialUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

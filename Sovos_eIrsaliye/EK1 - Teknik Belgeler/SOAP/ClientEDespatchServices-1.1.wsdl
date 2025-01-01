@@ -1,110 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- ©2018 Foriba -->
-<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://foriba.com/eDespatch/" targetNamespace="http://foriba.com/eDespatch/">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- ©2024 Sovos -->
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://foriba.com/eDespatch/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://foriba.com/eDespatch/">
 	<wsdl:types>
 		<xs:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://foriba.com/eDespatch/">
-			<xs:include schemaLocation="ClientEDespatchServicesTypes-1.0.xsd"/>
-			<xs:include schemaLocation="EDespatchServicesCommonTypes-1.0.xsd"/>
+			<xs:include schemaLocation="./Schemas/ClientEDespatchServicesTypes-1.1.xsd"/>
+			<xs:include schemaLocation="./Schemas/EDespatchServicesCommonTypes-1.0.xsd"/>
 		</xs:schema>
 	</wsdl:types>
 	<wsdl:message name="sendDesUBLRequestMessage">
-		<wsdl:part name="parameter" element="tns:sendDesUBLRequest"/>
+		<wsdl:part element="tns:sendDesUBLRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="sendDesUBLResponseMessage">
-		<wsdl:part name="parameter" element="tns:sendDesUBLResponse"/>
+		<wsdl:part element="tns:sendDesUBLResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="sendDesUBLFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUBLListRequestMessage">
-		<wsdl:part name="parameter" element="tns:getDesUBLListRequest"/>
+		<wsdl:part element="tns:getDesUBLListRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUBLListResponseMessage">
-		<wsdl:part name="parameter" element="tns:getDesUBLListResponse"/>
+		<wsdl:part element="tns:getDesUBLListResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUBLListFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUBLRequestMessage">
-		<wsdl:part name="parameter" element="tns:getDesUBLRequest"/>
+		<wsdl:part element="tns:getDesUBLRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUBLResponseMessage">
-		<wsdl:part name="parameter" element="tns:getDesUBLResponse"/>
+		<wsdl:part element="tns:getDesUBLResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUBLFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesReceiptsRequestMessage">
-		<wsdl:part name="parameter" element="tns:getDesReceiptsRequest"/>
+		<wsdl:part element="tns:getDesReceiptsRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesReceiptsResponseMessage">
-		<wsdl:part name="parameter" element="tns:getDesReceiptsResponse"/>
+		<wsdl:part element="tns:getDesReceiptsResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesReceiptsFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesEnvelopeStatusRequestMessage">
-		<wsdl:part name="parameter" element="tns:getDesEnvelopeStatusRequest"/>
+		<wsdl:part element="tns:getDesEnvelopeStatusRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesEnvelopeStatusResponseMessage">
-		<wsdl:part name="parameter" element="tns:getDesEnvelopeStatusResponse"/>
+		<wsdl:part element="tns:getDesEnvelopeStatusResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesEnvelopeStatusFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesViewRequestMessage">
-		<wsdl:part name="parameter" element="tns:getDesViewRequest"/>
+		<wsdl:part element="tns:getDesViewRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesViewResponseMessage">
-		<wsdl:part name="parameter" element="tns:getDesViewResponse"/>
+		<wsdl:part element="tns:getDesViewResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesViewFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUserListRequestMessage">
-		<wsdl:part name="parameter" element="tns:getDesUserListRequest"/>
+		<wsdl:part element="tns:getDesUserListRequest" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUserListResponseMessage">
-		<wsdl:part name="parameter" element="tns:getDesUserListResponse"/>
+		<wsdl:part element="tns:getDesUserListResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="getDesUserListFaultMessage">
-		<wsdl:part name="parameter" element="tns:ProcessingFault"/>
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getDesPartialUserListRequestMessage">
+		<wsdl:part element="tns:getDesPartialUserListRequest" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getDesPartialUserListResponseMessage">
+		<wsdl:part element="tns:getDesPartialUserListResponse" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getDesPartialUserListFaultMessage">
+		<wsdl:part element="tns:ProcessingFault" name="parameter"/>
 	</wsdl:message>
 	<wsdl:portType name="ClientEDespatchServicesPort">
 		<wsdl:operation name="sendDesUBL">
 			<wsdl:input message="tns:sendDesUBLRequestMessage"/>
 			<wsdl:output message="tns:sendDesUBLResponseMessage"/>
-			<wsdl:fault name="sendDesUBLFault" message="tns:sendDesUBLFaultMessage"/>
+			<wsdl:fault message="tns:sendDesUBLFaultMessage" name="sendDesUBLFault"/>
 		</wsdl:operation>
 		<wsdl:operation name="getDesUBLList">
 			<wsdl:input message="tns:getDesUBLListRequestMessage"/>
 			<wsdl:output message="tns:getDesUBLListResponseMessage"/>
-			<wsdl:fault name="getDesUBLListFault" message="tns:getDesUBLListFaultMessage"/>
+			<wsdl:fault message="tns:getDesUBLListFaultMessage" name="getDesUBLListFault"/>
 		</wsdl:operation>
 		<wsdl:operation name="getDesUBL">
 			<wsdl:input message="tns:getDesUBLRequestMessage"/>
 			<wsdl:output message="tns:getDesUBLResponseMessage"/>
-			<wsdl:fault name="getDesUBLFault" message="tns:getDesUBLFaultMessage"/>
+			<wsdl:fault message="tns:getDesUBLFaultMessage" name="getDesUBLFault"/>
 		</wsdl:operation>
 		<wsdl:operation name="getDesReceipts">
 			<wsdl:input message="tns:getDesReceiptsRequestMessage"/>
 			<wsdl:output message="tns:getDesReceiptsResponseMessage"/>
-			<wsdl:fault name="getDesReceiptsFault" message="tns:getDesReceiptsFaultMessage"/>
+			<wsdl:fault message="tns:getDesReceiptsFaultMessage" name="getDesReceiptsFault"/>
 		</wsdl:operation>
 		<wsdl:operation name="getDesEnvelopeStatus">
 			<wsdl:input message="tns:getDesEnvelopeStatusRequestMessage"/>
 			<wsdl:output message="tns:getDesEnvelopeStatusResponseMessage"/>
-			<wsdl:fault name="getDesEnvelopeStatusFault" message="tns:getDesEnvelopeStatusFaultMessage"/>
+			<wsdl:fault message="tns:getDesEnvelopeStatusFaultMessage" name="getDesEnvelopeStatusFault"/>
 		</wsdl:operation>
 		<wsdl:operation name="getDesView">
 			<wsdl:input message="tns:getDesViewRequestMessage"/>
 			<wsdl:output message="tns:getDesViewResponseMessage"/>
-			<wsdl:fault name="getDesViewFault" message="tns:getDesViewFaultMessage"/>
+			<wsdl:fault message="tns:getDesViewFaultMessage" name="getDesViewFault"/>
 		</wsdl:operation>
 		<wsdl:operation name="getDesUserList">
 			<wsdl:input message="tns:getDesUserListRequestMessage"/>
 			<wsdl:output message="tns:getDesUserListResponseMessage"/>
-			<wsdl:fault name="getDesUserListFault" message="tns:getDesUserListFaultMessage"/>
+			<wsdl:fault message="tns:getDesUserListFaultMessage" name="getDesUserListFault"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDesPartialUserList">
+			<wsdl:input message="tns:getDesPartialUserListRequestMessage"/>
+			<wsdl:output message="tns:getDesPartialUserListResponseMessage"/>
+			<wsdl:fault message="tns:getDesPartialUserListFaultMessage" name="getDesPartialUserListFault"/>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="ClientEDespatchServicesBinding" type="tns:ClientEDespatchServicesPort">
@@ -193,9 +207,21 @@
 				<soap:fault name="getDesUserListFault" use="literal"/>
 			</wsdl:fault>
 		</wsdl:operation>
+		<wsdl:operation name="getDesPartialUserList">
+			<soap:operation soapAction="getDesPartialUserList"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="getDesPartialUserListFault">
+				<soap:fault name="getDesPartialUserListFault" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
 	</wsdl:binding>
 	<wsdl:service name="ClientEDespatchServices">
-		<wsdl:port name="ClientEDespatchServicesPort" binding="tns:ClientEDespatchServicesBinding">
+		<wsdl:port binding="tns:ClientEDespatchServicesBinding" name="ClientEDespatchServicesPort">
 			<soap:address location="http://replaceWithActualURL"/>
 		</wsdl:port>
 	</wsdl:service>

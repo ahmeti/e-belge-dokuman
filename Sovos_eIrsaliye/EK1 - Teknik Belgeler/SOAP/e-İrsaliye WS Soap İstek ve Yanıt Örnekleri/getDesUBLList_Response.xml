@@ -1,0 +1,22 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getDesUBLListResponse xmlns="http://foriba.com/eDespatch/">
+         <Response>
+            <UUID>005056BD-4A8A-1OEF-9ED6-0522914302E3</UUID>
+            <Identifier>urn:mail:defaultgb@fitcons.com</Identifier>
+            <VKN_TCKN>6130027985</VKN_TCKN>
+            <EnvUUID xsi:type="xsd:string">005056BD-4A8A-1OEF-9ED6-0522914302E3</EnvUUID>
+            <ID>GIB2024000080357</ID>
+            <InsertDateTime>2024-09-25T00:00:01.611+03:00</InsertDateTime>
+         </Response>
+         <Response>
+            <UUID>005056BD-744A-1EOF-9ED6-067966FE42D2</UUID>
+            <Identifier>urn:mail:defaultgb@fitcons.com</Identifier>
+            <VKN_TCKN>6130027985</VKN_TCKN>
+            <EnvUUID xsi:type="xsd:string">005056BD-744A-1EOF-9ED6-067966FE42D2</EnvUUID>
+            <ID>GIB2024000630004</ID>
+            <InsertDateTime>2024-09-25T00:00:12.557+03:00</InsertDateTime>
+         </Response>
+      </getDesUBLListResponse>
+   </s:Body>
+</s:Envelope>

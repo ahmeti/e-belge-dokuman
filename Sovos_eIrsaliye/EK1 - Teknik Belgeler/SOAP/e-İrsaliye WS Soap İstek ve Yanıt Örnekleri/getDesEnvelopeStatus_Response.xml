@@ -1,0 +1,14 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getDesEnvelopeStatusResponse xmlns="http://foriba.com/eDespatch/">
+         <Response>
+            <UUID>6650568E-432E-1EEF-9EF0-207FB6CA0039</UUID>
+            <IssueDate>2024-09-26</IssueDate>
+            <DocumentTypeCode>SENDERENVELOPE</DocumentTypeCode>
+            <DocumentType>SENDERENVELOPE</DocumentType>
+            <ResponseCode>1300</ResponseCode>
+            <Description>BASARIYLA TAMAMLANDI</Description>
+         </Response>
+      </getDesEnvelopeStatusResponse>
+   </s:Body>
+</s:Envelope>

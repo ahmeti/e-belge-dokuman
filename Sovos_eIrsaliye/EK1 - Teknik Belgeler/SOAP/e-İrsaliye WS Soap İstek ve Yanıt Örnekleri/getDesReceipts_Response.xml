@@ -1,0 +1,25 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getDesReceiptsResponse xmlns="http://foriba.com/eDespatch/">
+         <Response>
+            <DespatchUUID>665056B6-9000-1EDF-9BEA-1EA15A26C0B2</DespatchUUID>
+            <Receipts>
+               <EnvUUID>4b9a3090-ccab-434d-aa14-064ac1ba08f3</EnvUUID>
+               <UUID>1fa32f8b-ba17-4d7e-9c4e-bd6d3c91cdce</UUID>
+               <ID>FIT2024000000118</ID>
+               <InsertDateTime>2024-09-12T11:12:35.68+03:00</InsertDateTime>
+               <IssueDate>2024-09-12T00:00:00+03:00</IssueDate>
+               <DocData>UEsDBBQACAgIAEpUPlkAAAAAAAAAAAAAAAAoAAAAMWZhMzJmOGItYmExNy00ZDdlLTljNGUtYmQ2ZDNjOTFjZGNlLnhtbOy923KjyLouel9PUdHzsqbbHITL6hjdEUKchETKHDKBjHUDJBaCBGFJlhDPsiLW5b5d837ezbHfa//ILpftch16jhpjrYjd1eGwSPL0n78vQe6/eXmWr9v9hB3WWf6+q3mz+/2X+23z2ybZrXe/NUmd737btXm2vl1nyX69aX67T/lvu6zI6+S3bsd+ezHDhfTLwyS/ZUn2Jyeabup600xWq22+SvY5XLabJm/2u</DocData>
+            </Receipts>
+            <Receipts>
+               <EnvUUID>1d8f80dd-0a6d-4f9c-b48b-1bc81f94b794</EnvUUID>
+               <UUID>d6157b6c-93a6-4851-9f67-cb568fb27b2d</UUID>
+               <ID>FIT2024000000117</ID>
+               <InsertDateTime>2024-09-11T07:50:06.57+03:00</InsertDateTime>
+               <IssueDate>2024-09-11T00:00:00+03:00</IssueDate>
+               <DocData>UEsDBBQACAgIAEpUPlkAAAAAAAAAAAAAAAAoAAAAZDYxNTdiNmMtOTNhNi00ODUxLTlmNjctY2I1NjhmYjI3YjJkLnhtbOy923KjyLouel9PUdHzsmZ1cRCy1TG6I4Q4CYmUOWQCGesGSEoIEoQlWUI8y4pYl/t2zft5N8d+r/0ju1y2y3XoOWqMtSJ2V4fDIsnDn//x+xLk/puXZ/mmPUzZcZPlb7uaN/vff7nbNb9tk/1m/1uT1Pn+t32bZ5uPmyw5</DocData>
+            </Receipts>
+         </Response>
+      </getDesReceiptsResponse>
+   </s:Body>
+</s:Envelope>

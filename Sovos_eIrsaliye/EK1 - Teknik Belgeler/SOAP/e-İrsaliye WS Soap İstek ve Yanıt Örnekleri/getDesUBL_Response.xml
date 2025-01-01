@@ -1,0 +1,10 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <getDesUBLResponse xmlns="http://foriba.com/eDespatch/">
+         <Response>
+            <UUID>fb8b86ec-09cd-465c-ab53-f89ed24fa00f</UUID>
+            <DocData>UEsDBBQACAgIAN1UPlkAAAAAAAAAAAAAAAAoAAAAZmI4Yjg2ZWMtMDljZC00NjVjLWFiNTMtZjg5ZWQyNGZhOTVmLnhtbOy9SXPjSJomfI9fEZZ9jI4UFkIhplWmGUHsJJyCA+4A3OaCTQQBBwiRFBf8lrGZ41y7732r6v/1vaAUCm0RGVkVVTNmX0aaTITDt3d/Hgeo/AsusmLV7Sb5fpUV748Nb7e//nS3aX9ZJ9vV9pc2aYrtL9uuyFY3qyzZrdbtL3cp/2WblUWT/HLc5r88m+Gj9NP9JL9kSfYHJ5qum2bdTpbLTbFMdgVcduu2aHfbJ5Omf9+kKnTP3powB2nL3a775eLicDj8fJB/Xm+WF5IgCBfC+AL65NvV8t8+9y6Ou79ref24K9ot3H5rC8ckL77s4m6z+rnYbVfnfQjiWJAv9uLP8s/S4yaO29VX9ixeRO7cPy/+cdVud0mbFTBqu3rY0Xx9v8l/zMDvf/75f0DzZvc/mmTV5uvsfxB1/vFFp5/Fn6HPT7+9ew///gJ6+wU6Paph+9urpvuWJ4pq4dPut7/k21/81bJNdneb4r2d//rTg00+FkUqifkn8eMn4fLm4ygRxx+TJBt9HI0uP91cZfKlciXA+p8nKHK7vVnfX0+Tdt2CsHzVnwV2i125zt9P+HK9We3K5i31</DocData>
+         </Response>
+      </getDesUBLResponse>
+   </s:Body>
+</s:Envelope>

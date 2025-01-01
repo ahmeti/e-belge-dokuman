@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:edes="http://foriba.com/eDespatch/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <edes:getDesUserListRequest>
+         <edes:Identifier>urn:mail:defaultpk@fitcons.com</edes:Identifier>
+         <edes:VKN_TCKN>3880718497</edes:VKN_TCKN>
+         <edes:Role>PK</edes:Role>
+         <!--Zero or more repetitions:-->
+         <edes:Parameters>?</edes:Parameters>
+      </edes:getDesUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
