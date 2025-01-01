@@ -1,4 +1,4 @@
-<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:p0="http://fitcons.com/earchive/base" xmlns:p1="http://fitcons.com/earchive/invoicecancellation" xmlns:p2="http://fitcons.com/earchive/reconciliation" xmlns:p3="http://fitcons.com/earchive/report" xmlns:p4="http:/fitcons.com/earchive/getuserlist" xmlns:tns="http://fitcons.com/earchive/invoice" targetNamespace="http://fitcons.com/earchive/invoice">
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:p0="http://fitcons.com/earchive/base" xmlns:p1="http://fitcons.com/earchive/invoicecancellation" xmlns:p3="http://fitcons.com/earchive/report" xmlns:p4="http:/fitcons.com/earchive/getuserlist" xmlns:tns="http://fitcons.com/earchive/invoice" targetNamespace="http://fitcons.com/earchive/invoice">
 	<wsdl:types>
 		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http:/fitcons.com/earchive/getuserlist" version="1.0">
 			<xs:element name="getUserListFault">
@@ -23,75 +23,59 @@
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-		</xs:schema>
-		<xs:schema xmlns:ns1="http://fitcons.com/earchive/base" xmlns:tns="http://fitcons.com/earchive/reconciliation" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fitcons.com/earchive/reconciliation" version="1.0">
-			<xs:import namespace="http://fitcons.com/earchive/base"/>
-			<xs:element name="reconciliationServiceRequestType">
+			<xs:element name="getPartialUserListRequest">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element name="date" type="xs:date"/>
-						<xs:element name="vkn" type="xs:string"/>
-						<xs:element name="branch" type="xs:string"/>
+						<xs:element name="vknTckn" type="xs:string"/>
+						<xs:element name="includeBinary" type="xs:boolean" />
+						<xs:element minOccurs="0" maxOccurs="1" name="fileNameList" type="p4:fileNameList"/>
+						<xs:element name="parameters" type="p4:parameters" minOccurs="0" maxOccurs="1"/>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name="reconciliationServiceResponseType">
+			<xs:element name="getPartialUserListResponse">
 				<xs:complexType>
 					<xs:sequence>
-						<xs:element minOccurs="0" name="reconciliationResponseType" type="tns:reconciliationResponseType"/>
-						<xs:element minOccurs="0" name="result" type="ns1:Result"/>
+						<xs:element name="metaData" type="p4:metaData"/>
+						<xs:element name="parameters" type="p4:parameters" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="userListPart" minOccurs="0" maxOccurs="unbounded" type="p4:userListPart" />
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:complexType name="reconciliationResponseType">
+			<xs:complexType name="userListPart">
 				<xs:sequence>
-					<xs:element name="message" type="xs:string"/>
-					<xs:element maxOccurs="unbounded" minOccurs="0" name="failedCurrencyInfoTypeList" nillable="true" type="tns:currencyInfoType"/>
-					<xs:element maxOccurs="unbounded" minOccurs="0" name="inboundTypeList" nillable="true" type="tns:inboundType"/>
+					<xs:element name="fileName" type="xs:string"/>
+					<xs:element name="binaryData" type="xs:base64Binary"/>
 				</xs:sequence>
 			</xs:complexType>
-			<xs:complexType name="currencyInfoType">
+			<xs:complexType name="fileNameList">
 				<xs:sequence>
-					<xs:element minOccurs="0" name="count" type="xs:long"/>
-					<xs:element minOccurs="0" name="currencyCode" type="xs:string"/>
-					<xs:element maxOccurs="unbounded" minOccurs="0" name="invoiceInfoTypeList" nillable="true" type="tns:invoiceInfoType"/>
-					<xs:element minOccurs="0" name="totalAmount" type="xs:decimal"/>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="fileName" type="xs:string"/>
 				</xs:sequence>
 			</xs:complexType>
-			<xs:complexType name="invoiceInfoType">
+			<xs:complexType name="parameters">
 				<xs:sequence>
-					<xs:element minOccurs="0" name="invoiceId" type="xs:string"/>
-					<xs:element minOccurs="0" name="statusCode" type="xs:int"/>
-					<xs:element minOccurs="0" name="statusDescription" type="xs:string"/>
-					<xs:element minOccurs="0" name="uuid" type="xs:string"/>
+					<xs:element name="parameter" type="p4:parameterType" minOccurs="0" maxOccurs="unbounded"/>
 				</xs:sequence>
 			</xs:complexType>
-			<xs:complexType name="inboundType">
+			<xs:complexType name="parameterType">
 				<xs:sequence>
-					<xs:element minOccurs="0" name="currencyCode" type="xs:string"/>
-					<xs:element minOccurs="0" name="invoiceCount" type="xs:int"/>
-					<xs:element minOccurs="0" name="totalAmount" type="xs:decimal"/>
+					<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="value" type="xs:string" minOccurs="1" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="metaData">
+				<xs:sequence>
+					<xs:element name="totalPartCount" type="xs:int" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="userCountPerPart" type="xs:int" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="totalUserCount" type="xs:long" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="correlationID" type="xs:string" minOccurs="1" maxOccurs="1"/>
+					<xs:element name="lastUpdatedAt" type="xs:dateTime" minOccurs="1" maxOccurs="1"/>
 				</xs:sequence>
 			</xs:complexType>
 		</xs:schema>
 		<xs:schema xmlns:ns1="http://fitcons.com/earchive/base" xmlns:tns="http://fitcons.com/earchive/report" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fitcons.com/earchive/report" version="1.0">
 			<xs:import namespace="http://fitcons.com/earchive/base"/>
-			<xs:element name="approveReportRequest">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="UUID" type="xs:string"/>
-						<xs:element name="VKN_TCKN" type="xs:string"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="approveReportResponse">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="Result" type="ns1:Result"/>
-						<xs:element name="Detail" type="xs:string"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
 			<xs:element name="getReportDataRequest">
 				<xs:complexType>
 					<xs:sequence>
@@ -106,24 +90,6 @@
 						<xs:element name="Result" type="ns1:Result"/>
 						<xs:element name="Detail" type="xs:string"/>
 						<xs:element minOccurs="0" name="binaryData" type="xs:base64Binary"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="getReportDetailRequest">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="UUID" type="xs:string"/>
-						<xs:element name="VKN_TCKN" type="xs:string"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="getReportDetailResponse">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="Result" type="ns1:Result"/>
-						<xs:element name="Detail" type="xs:string"/>
-						<xs:element maxOccurs="unbounded" minOccurs="0" name="invoice" type="xs:string"/>
-						<xs:element maxOccurs="unbounded" minOccurs="0" name="cancel" type="xs:string"/>
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
@@ -199,29 +165,6 @@
 		</xs:schema>
 		<xs:schema xmlns:ns1="http://fitcons.com/earchive/base" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fitcons.com/earchive/invoice" version="1.0">
 			<xs:import namespace="http://fitcons.com/earchive/base"/>
-			<xs:element name="detailedInvoiceQueryRequest">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="senderId" type="xs:string"/>
-						<xs:element name="receiverId" type="xs:string"/>
-						<xs:element name="queryStartDate" type="xs:string"/>
-						<xs:element name="queryEndDate" type="xs:string"/>
-						<xs:element name="custinvID" type="xs:string"/>
-						<xs:element name="UUID" type="xs:string"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="detailedInvoiceQueryResponse">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="SenderID" type="xs:string"/>
-						<xs:element name="ReceiverID" type="xs:string"/>
-						<xs:element name="Result" type="xs:string"/>
-						<xs:element name="ErrorDetail" type="xs:string"/>
-						<xs:element maxOccurs="unbounded" minOccurs="0" name="invoice" type="tns:invoiceDetail"/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
 			<xs:element name="getInvoiceDocumentRequestType">
 				<xs:complexType>
 					<xs:sequence>
@@ -418,16 +361,6 @@
 					<xs:element minOccurs="0" name="binaryData" type="xs:base64Binary"/>
 				</xs:sequence>
 			</xs:complexType>
-			<xs:complexType name="invoiceDetail">
-				<xs:sequence>
-					<xs:element name="invoiceID" type="xs:string"/>
-					<xs:element name="invoiceUUID" type="xs:string"/>
-					<xs:element name="customerInvoiceID" type="xs:string"/>
-					<xs:element name="invoiceDate" type="xs:string"/>
-					<xs:element name="invoiceAmount" type="xs:string"/>
-					<xs:element maxOccurs="unbounded" minOccurs="0" name="additional" type="tns:additional"/>
-				</xs:sequence>
-			</xs:complexType>
 			<xs:complexType name="additional">
 				<xs:sequence>
 					<xs:element name="keyCode" type="xs:string"/>
@@ -585,15 +518,6 @@
 	<wsdl:message name="cancelInvoiceFault">
 		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
 	</wsdl:message>
-	<wsdl:message name="reconciliationCheckIn">
-		<wsdl:part element="p2:reconciliationServiceRequestType" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="reconciliationCheckOut">
-		<wsdl:part element="p2:reconciliationServiceResponseType" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="reconciliationCheckFault">
-		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
-	</wsdl:message>
 	<wsdl:message name="sendReportIn">
 		<wsdl:part element="p3:sendReportRequestType" name="parameter"/>
 	</wsdl:message>
@@ -610,15 +534,6 @@
 		<wsdl:part element="tns:retriggerServiceResponse" name="parameter"/>
 	</wsdl:message>
 	<wsdl:message name="retriggerOperationFault">
-		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
-	</wsdl:message>
-	<wsdl:message name="detailedInvoiceQueryIn">
-		<wsdl:part element="tns:detailedInvoiceQueryRequest" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="detailedInvoiceQueryOut">
-		<wsdl:part element="tns:detailedInvoiceQueryResponse" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="detailedInvoiceQueryFault">
 		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
 	</wsdl:message>
 	<wsdl:message name="generateInvIDIn">
@@ -657,24 +572,6 @@
 	<wsdl:message name="getReportDataFault">
 		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
 	</wsdl:message>
-	<wsdl:message name="getReportDetailIn">
-		<wsdl:part element="p3:getReportDetailRequest" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="getReportDetailOut">
-		<wsdl:part element="p3:getReportDetailResponse" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="getReportDetailFault">
-		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
-	</wsdl:message>
-	<wsdl:message name="approveReportIn">
-		<wsdl:part element="p3:approveReportRequest" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="approveReportOut">
-		<wsdl:part element="p3:approveReportResponse" name="parameter"/>
-	</wsdl:message>
-	<wsdl:message name="approveReportFault">
-		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
-	</wsdl:message>
 	<wsdl:message name="getUserListIn">
 		<wsdl:part element="p4:getUserListRequest" name="parameter"/>
 	</wsdl:message>
@@ -683,6 +580,15 @@
 	</wsdl:message>
 	<wsdl:message name="getUserListFault">
 		<wsdl:part element="p4:getUserListFault" name="getUserListFault"/>
+	</wsdl:message>
+	<wsdl:message name="getPartialUserListIn">
+		<wsdl:part element="p4:getPartialUserListRequest" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getPartialUserListOut">
+		<wsdl:part element="p4:getPartialUserListResponse" name="parameter"/>
+	</wsdl:message>
+	<wsdl:message name="getPartialUserListFault">
+		<wsdl:part element="p0:processingFaultType" name="processingFaultType"/>
 	</wsdl:message>
 	<wsdl:portType name="eArsivInvoicePortType">
 		<wsdl:operation name="sendInvoice">
@@ -720,11 +626,6 @@
 			<wsdl:output message="tns:cancelInvoiceOut"/>
 			<wsdl:fault message="tns:cancelInvoiceFault" name="processingFaultType"/>
 		</wsdl:operation>
-		<wsdl:operation name="reconciliationCheck">
-			<wsdl:input message="tns:reconciliationCheckIn"/>
-			<wsdl:output message="tns:reconciliationCheckOut"/>
-			<wsdl:fault message="tns:reconciliationCheckFault" name="processingFaultType"/>
-		</wsdl:operation>
 		<wsdl:operation name="sendReport">
 			<wsdl:input message="tns:sendReportIn"/>
 			<wsdl:output message="tns:sendReportOut"/>
@@ -734,11 +635,6 @@
 			<wsdl:input message="tns:retriggerOperationIn"/>
 			<wsdl:output message="tns:retriggerOperationOut"/>
 			<wsdl:fault message="tns:retriggerOperationFault" name="processingFaultType"/>
-		</wsdl:operation>
-		<wsdl:operation name="detailedInvoiceQuery">
-			<wsdl:input message="tns:detailedInvoiceQueryIn"/>
-			<wsdl:output message="tns:detailedInvoiceQueryOut"/>
-			<wsdl:fault message="tns:detailedInvoiceQueryFault" name="processingFaultType"/>
 		</wsdl:operation>
 		<wsdl:operation name="generateInvID">
 			<wsdl:input message="tns:generateInvIDIn"/>
@@ -760,20 +656,15 @@
 			<wsdl:output message="tns:getReportDataOut"/>
 			<wsdl:fault message="tns:getReportDataFault" name="processingFaultType"/>
 		</wsdl:operation>
-		<wsdl:operation name="getReportDetail">
-			<wsdl:input message="tns:getReportDetailIn"/>
-			<wsdl:output message="tns:getReportDetailOut"/>
-			<wsdl:fault message="tns:getReportDetailFault" name="processingFaultType"/>
-		</wsdl:operation>
-		<wsdl:operation name="approveReport">
-			<wsdl:input message="tns:approveReportIn"/>
-			<wsdl:output message="tns:approveReportOut"/>
-			<wsdl:fault message="tns:approveReportFault" name="processingFaultType"/>
-		</wsdl:operation>
 		<wsdl:operation name="getUserList">
 			<wsdl:input message="tns:getUserListIn"/>
 			<wsdl:output message="tns:getUserListOut"/>
 			<wsdl:fault message="tns:getUserListFault" name="getUserListFault"/>
+		</wsdl:operation>
+		<wsdl:operation name="getPartialUserList">
+			<wsdl:input message="tns:getPartialUserListIn"/>
+			<wsdl:output message="tns:getPartialUserListOut"/>
+			<wsdl:fault message="tns:getPartialUserListFault" name="processingFaultType"/>
 		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="eArsivInvoicePortTypeBinding" type="tns:eArsivInvoicePortType">
@@ -862,18 +753,6 @@
 				<soap:fault name="processingFaultType" use="literal"/>
 			</wsdl:fault>
 		</wsdl:operation>
-		<wsdl:operation name="reconciliationCheck">
-			<soap:operation soapAction="reconciliationCheck"/>
-			<wsdl:input>
-				<soap:body parts="parameter" use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<soap:body use="literal"/>
-			</wsdl:output>
-			<wsdl:fault name="processingFaultType">
-				<soap:fault name="processingFaultType" use="literal"/>
-			</wsdl:fault>
-		</wsdl:operation>
 		<wsdl:operation name="sendReport">
 			<soap:operation soapAction="sendReport"/>
 			<wsdl:input>
@@ -888,18 +767,6 @@
 		</wsdl:operation>
 		<wsdl:operation name="retriggerOperation">
 			<soap:operation soapAction="retriggerOperation"/>
-			<wsdl:input>
-				<soap:body parts="parameter" use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<soap:body use="literal"/>
-			</wsdl:output>
-			<wsdl:fault name="processingFaultType">
-				<soap:fault name="processingFaultType" use="literal"/>
-			</wsdl:fault>
-		</wsdl:operation>
-		<wsdl:operation name="detailedInvoiceQuery">
-			<soap:operation soapAction="detailedInvoiceQuery"/>
 			<wsdl:input>
 				<soap:body parts="parameter" use="literal"/>
 			</wsdl:input>
@@ -958,30 +825,6 @@
 				<soap:fault name="processingFaultType" use="literal"/>
 			</wsdl:fault>
 		</wsdl:operation>
-		<wsdl:operation name="getReportDetail">
-			<soap:operation soapAction="getReportDetail"/>
-			<wsdl:input>
-				<soap:body parts="parameter" use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<soap:body use="literal"/>
-			</wsdl:output>
-			<wsdl:fault name="processingFaultType">
-				<soap:fault name="processingFaultType" use="literal"/>
-			</wsdl:fault>
-		</wsdl:operation>
-		<wsdl:operation name="approveReport">
-			<soap:operation soapAction="approveReport"/>
-			<wsdl:input>
-				<soap:body parts="parameter" use="literal"/>
-			</wsdl:input>
-			<wsdl:output>
-				<soap:body use="literal"/>
-			</wsdl:output>
-			<wsdl:fault name="processingFaultType">
-				<soap:fault name="processingFaultType" use="literal"/>
-			</wsdl:fault>
-		</wsdl:operation>
 		<wsdl:operation name="getUserList">
 			<soap:operation soapAction="getUserList"/>
 			<wsdl:input>
@@ -992,6 +835,18 @@
 			</wsdl:output>
 			<wsdl:fault name="getUserListFault">
 				<soap:fault name="getUserListFault" use="literal"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getPartialUserList">
+			<soap:operation soapAction="getPartialUserList"/>
+			<wsdl:input>
+				<soap:body parts="parameter" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="processingFaultType">
+				<soap:fault name="processingFaultType" use="literal"/>
 			</wsdl:fault>
 		</wsdl:operation>
 	</wsdl:binding>

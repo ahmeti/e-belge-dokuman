@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:get="http:/fitcons.com/earchive/getuserlist">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <get:getPartialUserListRequest>
+         <get:vknTckn>11111111111</get:vknTckn>
+         <get:includeBinary>true</get:includeBinary>
+         <!--Optional:-->
+         <get:fileNameList>
+            <!--Zero or more repetitions:-->
+            <get:fileName>?</get:fileName>
+         </get:fileNameList>
+         <!--Optional:-->
+         <get:parameters>
+            <!--Zero or more repetitions:-->
+            <get:parameter>
+               <get:name>?</get:name>
+               <get:value>?</get:value>
+            </get:parameter>
+         </get:parameters>
+      </get:getPartialUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
