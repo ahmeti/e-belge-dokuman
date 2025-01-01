@@ -150,18 +150,17 @@ class Update
         $this->downloadFile('https://portal.efatura.gov.tr/efatura/extjs/ext-all.js', 'E_Fatura_Canli_Ext_All.js');
         $this->downloadFile('https://portal.efatura.gov.tr/efatura/js/core-main.js', 'E_Fatura_Canli_Core_Main.js');
 
-        $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Fatura%20WS%20API%20v2.2.zip', 'SovosFatura.zip', true);
-        $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Ar%C5%9Fiv%20Fatura%20WS%20API%202.2.zip', 'SovosArsiv.zip', true);
-        $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-%C4%B0rsaliye%20WS%20API.zip', 'SovosIrsaliye.zip', true);
+        $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Fatura%20WS%20API%20v2.3.zip', 'SovosFatura.zip', true);
+        $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Ar%C5%9Fiv%20Fatura%20WS%20API%20v2.3.zip', 'SovosArsiv.zip', true);
+        $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-%C4%B0rsaliye%20WS%20API%20v1.3.zip', 'SovosIrsaliye.zip', true);
 
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-%20UBL-TR%20Catalogue.xlsx', 'Sovos_UBL_TR_Catalogue.xlsx');
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-S%C4%B1k%20Sorulan%20Sorular.xlsx', 'Sovos_Sorulan_Sorular.xlsx');
 
         rename(dirname(__FILE__).'/e-FaturaPaketi', 'GIB_eFatura');
-        rename(dirname(__FILE__).'/Sovos Bulut e-Arşiv Fatura WS API 2.2', 'Sovos_eArsiv');
-        rename(dirname(__FILE__).'/Sovos Bulut e-Fatura WS API v2.2', 'Sovos_eFatura');
-        rename(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API/Sovos Bulut e-İrsaliye WS API v1.2', 'Sovos_eIrsaliye');
-        rmdir(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API');
+        rename(dirname(__FILE__).'/Sovos Bulut e-Arşiv Fatura WS API 2.3', 'Sovos_eArsiv');
+        rename(dirname(__FILE__).'/Sovos Bulut e-Fatura WS API v2.3', 'Sovos_eFatura');
+        rename(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API v1.3', 'Sovos_eIrsaliye');
 
         $this->crawler();
 
