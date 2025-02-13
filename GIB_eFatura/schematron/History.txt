@@ -191,5 +191,22 @@
 8) ProfileIDCheck güncellendi.
 9) InvoiceTypeCodeCheck güncellendi.
 
+20250128
+----------
+1) IADEInvioceCheck eklendi.
+2) TaxExemptionReasonCodeType güncellendi.
+3) ihracExemptionReasonCodeType güncellendi.
+4) istisnaTaxExemptionReasonCodeType güncellendi.
+5) TaxExemptionReasonCodeCheck güncellendi.
+6) AdditionalItemIdentificationIDType eklendi.
+7) DespatchAdvice/DespatchSupplierParty-DeliveryCustomerParty PartyIdentificationSchemeIDCheck eklendi.
+8) DespatchAdvice/DespatchSupplierParty-DeliveryCustomerParty PartyIdentificationPartyNamePersonCheck eklendi.
+9) IlacTibbiCihazAdditionalItemIdentificationCheck eklendi.
+10) InvoiceTypeCodeCheck güncellendi.
+11) InvoiceTypeCodeList güncellendi.
+12) ProfileIDType güncellendi.
+
+
+
 
 

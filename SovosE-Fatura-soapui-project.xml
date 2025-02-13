@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="7ceea5d6-f83f-4ddd-99b0-493f08ebf44d" activeEnvironment="Default" name="SovosE-Fatura" resourceRoot="" soapui-version="5.8.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="8aa2306d-2de3-4da5-9765-dd87a4b170d3" wsaVersion="NONE" name="ClientEInvoiceServicesBinding" type="wsdl" bindingName="{http:/fitcons.com/eInvoice/}ClientEInvoiceServicesBinding" soapVersion="1_1" anonymous="optional" definition="file:/Users/ahmet/code/e-belge-dokuman/Sovos_eFatura/EK1%20-%20Teknik%20Belgeler/SOAP/ClientEInvoiceServices-2.2.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/Users/ahmet/code/e-belge-dokuman/Sovos_eFatura/EK1%20-%20Teknik%20Belgeler/SOAP/ClientEInvoiceServices-2.2.wsdl"><con:part><con:url>file:/Users/ahmet/code/e-belge-dokuman/Sovos_eFatura/EK1%20-%20Teknik%20Belgeler/SOAP/ClientEInvoiceServices-2.2.wsdl</con:url><con:content><![CDATA[<!--©2024 Sovos-->
+<wsdl:definitions targetNamespace="http:/fitcons.com/eInvoice/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http:/fitcons.com/eInvoice/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http:/fitcons.com/eInvoice/" xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:include schemaLocation="./Schemas/ClientEInvoiceServicesTypes-2.2.xsd"/>
+      <xs:include schemaLocation="./Schemas/EInvoiceServicesCommonTypes-1.0.xsd"/>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="sendUBLRequestMessage">
+    <wsdl:part name="parameter" element="tns:sendUBLRequest"/>
+  </wsdl:message>
+  <wsdl:message name="sendUBLResponseMessage">
+    <wsdl:part name="parameter" element="tns:sendUBLResponse"/>
+  </wsdl:message>
+  <wsdl:message name="sendUBLFaultMessage">
+    <wsdl:part name="parameter" element="tns:ProcessingFault"/>
+  </wsdl:message>
+  <wsdl:message name="getUBLListRequestMessage">
+    <wsdl:part name="parameter" element="tns:getUBLListRequest"/>
+  </wsdl:message>
+  <wsdl:message name="getUBLListResponseMessage">
+    <wsdl:part name="parameter" element="tns:getUBLListResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getUBLListFaultMessage">
+    <wsdl:part name="parameter" element="tns:ProcessingFault"/>
+  </wsdl:message>
+  <wsdl:message name="getUBLRequestMessage">
+    <wsdl:part name="parameter" element="tns:getUBLRequest"/>
+  </wsdl:message>
+  <wsdl:message name="getUBLResponseMessage">
+    <wsdl:part name="parameter" element="tns:getUBLResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getUBLFaultMessage">
+    <wsdl:part name="parameter" element="tns:ProcessingFault"/>
+  </wsdl:message>
+  <wsdl:message name="getEnvelopeStatusRequestMessage">
+    <wsdl:part name="parameter" element="tns:getEnvelopeStatusRequest"/>
+  </wsdl:message>
+  <wsdl:message name="getEnvelopeStatusResponseMessage">
+    <wsdl:part name="parameter" element="tns:getEnvelopeStatusResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getEnvelopeStatusFaultMessage">
+    <wsdl:part name="parameter" element="tns:ProcessingFault"/>
+  </wsdl:message>
+  <wsdl:message name="getInvoiceViewRequestMessage">
+    <wsdl:part name="parameter" element="tns:getInvoiceViewRequest"/>
+  </wsdl:message>
+  <wsdl:message name="getInvoiceViewResponseMessage">
+    <wsdl:part name="parameter" element="tns:getInvoiceViewResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getInvoiceViewFaultMessage">
+    <wsdl:part name="parameter" element="tns:ProcessingFault"/>
+  </wsdl:message>
+  <wsdl:message name="getRAWUserListRequestMessage">
+    <wsdl:part element="tns:getRAWUserListRequest" name="parameter"/>
+  </wsdl:message>
+  <wsdl:message name="getRAWUserListResponseMessage">
+    <wsdl:part element="tns:getRAWUserListResponse" name="parameter"/>
+  </wsdl:message>
+  <wsdl:message name="getRAWUserListFaultMessage">
+    <wsdl:part element="tns:ProcessingFault" name="parameter"/>
+  </wsdl:message>
+  <wsdl:message name="getInvResponsesRequestMessage">
+    <wsdl:part name="parameter" element="tns:getInvResponsesRequest"/>
+  </wsdl:message>
+  <wsdl:message name="getInvResponsesResponseMessage">
+    <wsdl:part name="parameter" element="tns:getInvResponsesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="getInvResponsesFaultMessage">
+    <wsdl:part name="parameter" element="tns:ProcessingFault"/>
+  </wsdl:message>
+  <wsdl:message name="getPartialUserListRequestMessage">
+    <wsdl:part element="tns:getPartialUserListRequest" name="parameter"/>
+  </wsdl:message>
+  <wsdl:message name="getPartialUserListResponseMessage">
+    <wsdl:part element="tns:getPartialUserListResponse" name="parameter"/>
+  </wsdl:message>
+  <wsdl:message name="getPartialUserListFaultMessage">
+    <wsdl:part element="tns:ProcessingFault" name="parameter"/>
+  </wsdl:message>
+  <wsdl:portType name="ClientEInvoiceServicesPort">
+    <wsdl:operation name="sendUBL">
+      <wsdl:input message="tns:sendUBLRequestMessage"/>
+      <wsdl:output message="tns:sendUBLResponseMessage"/>
+      <wsdl:fault name="sendUBLFault" message="tns:sendUBLFaultMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="getUBLList">
+      <wsdl:input message="tns:getUBLListRequestMessage"/>
+      <wsdl:output message="tns:getUBLListResponseMessage"/>
+      <wsdl:fault name="getUBLListFault" message="tns:getUBLListFaultMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="getUBL">
+      <wsdl:input message="tns:getUBLRequestMessage"/>
+      <wsdl:output message="tns:getUBLResponseMessage"/>
+      <wsdl:fault name="getUBLFault" message="tns:getUBLFaultMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="getEnvelopeStatus">
+      <wsdl:input message="tns:getEnvelopeStatusRequestMessage"/>
+      <wsdl:output message="tns:getEnvelopeStatusResponseMessage"/>
+      <wsdl:fault name="getEnvelopeStatusFault" message="tns:getEnvelopeStatusFaultMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="getInvoiceView">
+      <wsdl:input message="tns:getInvoiceViewRequestMessage"/>
+      <wsdl:output message="tns:getInvoiceViewResponseMessage"/>
+      <wsdl:fault name="getInvoiceViewFault" message="tns:getInvoiceViewFaultMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="getRAWUserList">
+      <wsdl:input message="tns:getRAWUserListRequestMessage"/>
+      <wsdl:output message="tns:getRAWUserListResponseMessage"/>
+      <wsdl:fault message="tns:getRAWUserListFaultMessage" name="getRAWUserListFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="getInvResponses">
+      <wsdl:input message="tns:getInvResponsesRequestMessage"/>
+      <wsdl:output message="tns:getInvResponsesResponseMessage"/>
+      <wsdl:fault name="getInvResponsesFault" message="tns:getInvResponsesFaultMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="getPartialUserList">
+      <wsdl:input message="tns:getPartialUserListRequestMessage"/>
+      <wsdl:output message="tns:getPartialUserListResponseMessage"/>
+      <wsdl:fault message="tns:getPartialUserListFaultMessage" name="getPartialUserListFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ClientEInvoiceServicesBinding" type="tns:ClientEInvoiceServicesPort">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="sendUBL">
+      <soap:operation soapAction="sendUBL"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="sendUBLFault">
+        <soap:fault name="sendUBLFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUBLList">
+      <soap:operation soapAction="getUBLList"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getUBLListFault">
+        <soap:fault name="getUBLListFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUBL">
+      <soap:operation soapAction="getUBL"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getUBLFault">
+        <soap:fault name="getUBLFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getEnvelopeStatus">
+      <soap:operation soapAction="getEnvelopeStatus"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getEnvelopeStatusFault">
+        <soap:fault name="getEnvelopeStatusFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInvoiceView">
+      <soap:operation soapAction="getInvoiceView"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getInvoiceViewFault">
+        <soap:fault name="getInvoiceViewFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRAWUserList">
+      <soap:operation soapAction="getRAWUserList"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getRAWUserListFault">
+        <soap:fault name="getRAWUserListFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInvResponses">
+      <soap:operation soapAction="getInvResponses"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getInvResponsesFault">
+        <soap:fault name="getInvResponsesFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPartialUserList">
+      <soap:operation soapAction="getPartialUserList"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="getPartialUserListFault">
+        <soap:fault name="getPartialUserListFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClientEInvoiceServices">
+    <wsdl:port name="ClientEInvoiceServicesPort" binding="tns:ClientEInvoiceServicesBinding">
+      <soap:address location="http://fitcons.com/eInvoice/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>file:/Users/ahmet/code/e-belge-dokuman/Sovos_eFatura/EK1%20-%20Teknik%20Belgeler/SOAP/Schemas/ClientEInvoiceServicesTypes-2.2.xsd</con:url><con:content><![CDATA[<!--©2024 Sovos-->
+<xs:schema targetNamespace="http:/fitcons.com/eInvoice/" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http:/fitcons.com/eInvoice/">
+  <xs:element name="sendUBLRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="SenderIdentifier" type="xs:string" minOccurs="0"/>
+        <xs:element name="ReceiverIdentifier" type="xs:string" minOccurs="0"/>
+        <xs:element name="DocType" type="xs:string"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="DocData" type="xs:base64Binary"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sendUBLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Response" type="SendUBLResponseType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="SendUBLResponseType">
+    <xs:sequence>
+      <xs:element name="EnvUUID" type="xs:string"/>
+      <xs:element name="UUID" type="xs:string"/>
+      <xs:element name="ID" type="xs:string"/>
+      <xs:element name="CustInvID" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getUBLListRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="UUID" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="DocType" type="xs:string"/>
+        <xs:element name="Type" type="xs:string"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="FromDate" type="xs:dateTime" minOccurs="0"/>
+        <xs:element name="ToDate" type="xs:dateTime" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getUBLListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="UBLList" type="GetUBLListResponseType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="GetUBLListResponseType">
+    <xs:sequence>
+      <xs:element name="UUID" type="xs:string"/>
+      <xs:element name="Identifier" type="xs:string"/>
+      <xs:element name="VKN_TCKN" type="xs:string"/>
+      <xs:element name="EnvType" type="xs:string" minOccurs="0"/>
+      <xs:element name="EnvUUID" minOccurs="0"/>
+      <xs:element name="ID" type="xs:string" minOccurs="0"/>
+      <xs:element name="CustInvID" type="xs:string" minOccurs="0"/>
+      <xs:element name="InsertDateTime" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getUBLRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="UUID" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="DocType" type="xs:string"/>
+        <xs:element name="Type" type="xs:string"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getUBLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DocData" type="xs:base64Binary" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getEnvelopeStatusRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="UUID" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getEnvelopeStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Response" type="getEnvelopeStatusResponseType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="getEnvelopeStatusResponseType">
+    <xs:sequence>
+      <xs:element name="UUID" type="xs:string"/>
+      <xs:element name="IssueDate" type="xs:date"/>
+      <xs:element name="DocumentTypeCode" type="xs:string" minOccurs="0"/>
+      <xs:element name="DocumentType" type="xs:string" minOccurs="0"/>
+      <xs:element name="ResponseCode" type="xs:string" minOccurs="0"/>
+      <xs:element name="Description" type="xs:string" minOccurs="0"/>
+      <xs:element name="DocData" type="xs:base64Binary" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getInvoiceViewRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="UUID" type="xs:string"/>
+        <xs:element name="CustInvID" type="xs:string"/>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="Type" type="xs:string"/>
+        <xs:element name="DocType" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getInvoiceViewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DocData" type="xs:base64Binary"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getRAWUserListRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="Role" type="xs:string"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getRAWUserListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DocData" type="xs:base64Binary"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getInvResponsesRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="UUID" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="Type" type="xs:string"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getInvResponsesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Response" type="GetInvResponsesResponseType" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="GetInvResponsesResponseType">
+    <xs:sequence>
+      <xs:element name="InvoiceUUID" type="xs:string"/>
+      <xs:element name="InvResponses" type="GetInvResponsesResponseInvResponsesType" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetInvResponsesResponseInvResponsesType">
+    <xs:sequence>
+      <xs:element name="EnvUUID" type="xs:string"/>
+      <xs:element name="UUID" type="xs:string"/>
+      <xs:element name="ID" type="xs:string"/>
+      <xs:element name="InsertDateTime" type="xs:dateTime"/>
+      <xs:element name="IssueDate" type="xs:dateTime"/>
+      <xs:element name="ARType" type="xs:string"/>
+      <xs:element name="ARNotes" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="DocData" type="xs:base64Binary" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getPartialUserListRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identifier" type="xs:string"/>
+        <xs:element name="VKN_TCKN" type="xs:string"/>
+        <xs:element name="Role" type="xs:string"/>
+        <xs:element name="IncludeBinary" type="xs:boolean"/>
+        <xs:element minOccurs="0" maxOccurs="1" name="FileNameList" type="FileNameListType"/>
+        <xs:element name="Parameters" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="FileNameListType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="fileName" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getPartialUserListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="metaDataPart" minOccurs="0" maxOccurs="1" type="MetaDataResponseType"/>
+        <xs:element name="userListPart" minOccurs="0" maxOccurs="unbounded" type="UserListPartResponseType"/>
+        <xs:element name="Parameters" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="UserListPartResponseType">
+    <xs:sequence>
+      <xs:element name="fileName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="binaryData" type="xs:base64Binary" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MetaDataResponseType">
+    <xs:sequence>
+      <xs:element name="totalPartCount" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="userCountPerPart" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="totalUserCount" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="correlationID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="lastUpdatedAt" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:/Users/ahmet/code/e-belge-dokuman/Sovos_eFatura/EK1%20-%20Teknik%20Belgeler/SOAP/Schemas/EInvoiceServicesCommonTypes-1.0.xsd</con:url><con:content><![CDATA[<!--©2024 Sovos-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http:/fitcons.com/eInvoice/" xmlns="http:/fitcons.com/eInvoice/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ProcessingFault">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Code" type="xs:int"/>
+        <xs:element name="Message" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint></con:endpoints><con:operation id="a92fbbed-edb7-4664-bd25-0a3659a720f9" isOneWay="false" action="getEnvelopeStatus" name="getEnvelopeStatus" bindingOperationName="getEnvelopeStatus" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="9416bee2-88cd-4d46-960a-fb885181d24b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getEnvelopeStatusRequest>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <!--1 or more repetitions:-->
+         <ein:UUID>?</ein:UUID>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+      </ein:getEnvelopeStatusRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getEnvelopeStatus"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="a353368b-db6e-4389-83b1-028813cdc167" isOneWay="false" action="getInvoiceView" name="getInvoiceView" bindingOperationName="getInvoiceView" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f0ae89f1-d6cf-41e2-bafe-917a0854e73b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getInvoiceViewRequest>
+         <ein:UUID>?</ein:UUID>
+         <ein:CustInvID>?</ein:CustInvID>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <ein:Type>?</ein:Type>
+         <ein:DocType>?</ein:DocType>
+      </ein:getInvoiceViewRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getInvoiceView"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="bad634e1-9f31-48dd-8684-ae972c340f09" isOneWay="false" action="getInvResponses" name="getInvResponses" bindingOperationName="getInvResponses" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="10197fd5-dc2e-4c40-b5a6-130bcb7aed2a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getInvResponsesRequest>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <!--1 or more repetitions:-->
+         <ein:UUID>?</ein:UUID>
+         <ein:Type>?</ein:Type>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+      </ein:getInvResponsesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getInvResponses"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="094d10f6-f075-45fa-adf3-178db75beb36" isOneWay="false" action="getPartialUserList" name="getPartialUserList" bindingOperationName="getPartialUserList" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d9efcb7e-d7ac-4e0d-8225-e8a135fa5bb0" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getPartialUserListRequest>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <ein:Role>?</ein:Role>
+         <ein:IncludeBinary>?</ein:IncludeBinary>
+         <!--Optional:-->
+         <ein:FileNameList>
+            <!--Zero or more repetitions:-->
+            <ein:fileName>?</ein:fileName>
+         </ein:FileNameList>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+      </ein:getPartialUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getPartialUserList"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="ce52f3d0-314d-4589-b023-202a67e5674d" isOneWay="false" action="getRAWUserList" name="getRAWUserList" bindingOperationName="getRAWUserList" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c4d80bc4-dd3b-46e3-b595-4a07c08b44cd" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getRAWUserListRequest>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <ein:Role>?</ein:Role>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+      </ein:getRAWUserListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getRAWUserList"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="b1393711-451a-446d-a268-94335f75cbaf" isOneWay="false" action="getUBL" name="getUBL" bindingOperationName="getUBL" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="818ff38a-1237-4856-b88a-3833976fb230" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getUBLRequest>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <!--1 or more repetitions:-->
+         <ein:UUID>?</ein:UUID>
+         <ein:DocType>?</ein:DocType>
+         <ein:Type>?</ein:Type>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+      </ein:getUBLRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getUBL"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="36f83913-bb9c-4b2b-af80-44c4a1e58526" isOneWay="false" action="getUBLList" name="getUBLList" bindingOperationName="getUBLList" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="86b8ecd5-defb-476d-bad4-0839c65c90cb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:getUBLListRequest>
+         <ein:Identifier>?</ein:Identifier>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <!--Zero or more repetitions:-->
+         <ein:UUID>?</ein:UUID>
+         <ein:DocType>?</ein:DocType>
+         <ein:Type>?</ein:Type>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+         <!--Optional:-->
+         <ein:FromDate>?</ein:FromDate>
+         <!--Optional:-->
+         <ein:ToDate>?</ein:ToDate>
+      </ein:getUBLListRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="getUBLList"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="64ef2c09-5010-4387-8aa0-464fccccfca3" isOneWay="false" action="sendUBL" name="sendUBL" bindingOperationName="sendUBL" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="062f564a-b356-41e5-89ab-1b08b157fe06" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://fitcons.com/eInvoice/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ein="http:/fitcons.com/eInvoice/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ein:sendUBLRequest>
+         <ein:VKN_TCKN>?</ein:VKN_TCKN>
+         <!--Optional:-->
+         <ein:SenderIdentifier>?</ein:SenderIdentifier>
+         <!--Optional:-->
+         <ein:ReceiverIdentifier>?</ein:ReceiverIdentifier>
+         <ein:DocType>?</ein:DocType>
+         <!--Zero or more repetitions:-->
+         <ein:Parameters>?</ein:Parameters>
+         <ein:DocData>cid:305735571137</ein:DocData>
+      </ein:sendUBLRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="sendUBL"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

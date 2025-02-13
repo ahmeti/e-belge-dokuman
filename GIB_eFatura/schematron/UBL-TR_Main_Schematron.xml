@@ -157,6 +157,8 @@
 			<sch:extends rule="DeliveryCodeCheck"/>
 			<sch:extends rule="TaxRepresentativePartyCheck"/>
 			<sch:extends rule="HKSInvioceCheck"/>
+			<sch:extends rule="IADEInvioceCheck"/>
+			<sch:extends rule="IlacTibbiCihazInvoiceTypeCodeCheck"/>			
 		</sch:rule>
 		<sch:rule context="inv:Invoice/cbc:UUID">
 			<sch:extends rule="UUIDCheck"/>
@@ -218,7 +220,8 @@
 			<sch:extends rule="PriceAmountCheck"/>
 			<sch:extends rule="LineDeliveryCheck"/>
 			<sch:extends rule="PackageCheck"/>
-			<sch:extends rule="DeliveryCodeCheck"/>
+			<sch:extends rule="DeliveryCodeCheck"/>			
+			<sch:extends rule="IlacTibbiCihazAdditionalItemIdentificationCheck"/>
 		</sch:rule>
 		
 		<!--<sch:rule context="inv:Invoice/cac:InvoiceLine/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory">
@@ -485,6 +488,18 @@
 		</sch:rule>
 		<sch:rule context="desp:DespatchAdvice/cac:Shipment/cac:ShipmentStage/cac:TransportMeans/cac:RoadTransport/cbc:LicensePlateID">
 			<sch:extends rule="LicensePlateIDSchemeIDCheck"/>
+		</sch:rule>		
+		<sch:rule context="desp:DespatchAdvice/cac:DespatchSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID">
+			<sch:extends rule="PartyIdentificationSchemeIDCheck"/>
+		</sch:rule>		
+		<sch:rule context="desp:DespatchAdvice/cac:DespatchSupplierParty/cac:Party">
+			<sch:extends rule="PartyIdentificationPartyNamePersonCheck"/>
+		</sch:rule>		
+		<sch:rule context="desp:DespatchAdvice/cac:DeliveryCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID">
+			<sch:extends rule="PartyIdentificationSchemeIDCheck"/>
+		</sch:rule>		
+		<sch:rule context="desp:DespatchAdvice/cac:DeliveryCustomerParty/cac:Party">
+			<sch:extends rule="PartyIdentificationPartyNamePersonCheck"/>
 		</sch:rule>
 	</sch:pattern>
 	

@@ -173,7 +173,7 @@
 		<!-- Rule to validate InvoiceTypeCode -->
 		<sch:rule abstract="true" id="InvoiceTypeCodeCheck">
 			<sch:assert test="contains($InvoiceTypeCodeList, concat(',',cbc:InvoiceTypeCode,','))">Geçersiz cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:InvoiceTypeCode"/>'. Geçerli cbc:InvoiceTypeCode değerleri için kod listesine bakınız.</sch:assert>
-			<sch:assert test="not(cbc:InvoiceTypeCode='IADE') or cbc:ProfileID='TEMELFATURA' or cbc:ProfileID='EARSIVFATURA' ">Fatura tipi IADE iken fatura profili sadece TEMELFATURA veya EARSIVFATURA olabilir</sch:assert>
+			<sch:assert test="not(cbc:InvoiceTypeCode='IADE') or cbc:ProfileID='TEMELFATURA' or cbc:ProfileID='EARSIVFATURA' or cbc:ProfileID='ILAC_TIBBICIHAZ' ">Fatura tipi IADE iken fatura profili sadece TEMELFATURA , EARSIVFATURA veya ILAC_TIBBICIHAZ olabilir</sch:assert>
 			<sch:assert test="(not($type = 'efatura' or $type = '' or not($type)) or (cbc:ProfileID = 'ENERJI' and (cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK'))) or (not($type = 'efatura' or $type = '' or not($type)) or (not(cbc:ProfileID = 'ENERJI') and not(cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK')))">Geçersiz cbc:ProfileID ve cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:ProfileID"/> ve <sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:ProfileID değeri ENERJI olduğu durumda cbc:InvoiceTypeCode değeri SARJ veya SARJANLIK olmalıdır.</sch:assert>
 		</sch:rule>
 
@@ -312,6 +312,8 @@
 			<sch:assert test="not(../../../cbc:UBLVersionID ='2.1') or not(contains($ozelMatrahTaxExemptionReasonCodeType, concat(',',cbc:TaxExemptionReasonCode,','))) or ../../../cbc:InvoiceTypeCode = 'OZELMATRAH' or ../../../cbc:InvoiceTypeCode = 'IADE' or ../../../cbc:InvoiceTypeCode = 'SGK'">Uyumsuz fatura tipi: '<sch:value-of select="../../../cbc:InvoiceTypeCode"/>'.  Vergi istisna muhafiyet kodu : '<sch:value-of select="cbc:TaxExemptionReasonCode"/>' için fatura tipi OZELMATRAH,IADE veya SGK olabilir.</sch:assert>
 			
 			<sch:assert test="not(../../../cbc:UBLVersionID ='2.1') or not(contains($ihracExemptionReasonCodeType, concat(',',cbc:TaxExemptionReasonCode,','))) or ../../../cbc:InvoiceTypeCode = 'IHRACKAYITLI' or ../../../cbc:InvoiceTypeCode = 'IADE' or ../../../cbc:InvoiceTypeCode = 'SGK' ">Uyumsuz fatura tipi: '<sch:value-of select="../../../cbc:InvoiceTypeCode"/>'.  Vergi istisna muhafiyet kodu : '<sch:value-of select="cbc:TaxExemptionReasonCode"/>' için fatura tipi IHRACKAYITLI,IADE veya SGK olabilir.</sch:assert>
+			
+			<sch:assert test="not(../../../cbc:InvoiceTypeCode = 'IHRACKAYITLI' and cbc:TaxExemptionReasonCode = '702') or count(../../../cac:InvoiceLine/cac:Delivery/cac:Shipment[cac:GoodsItem/cbc:RequiredCustomsID[string-length(normalize-space(string(text()))) = 12] and cac:TransportHandlingUnit/cac:CustomsDeclaration/cac:IssuerParty/cac:PartyIdentification/cbc:ID[@schemeID='DIBSATIRKOD' and string-length(normalize-space(string(text()))) = 11]]) = count(../../../cac:InvoiceLine)"> 702 Muafiyet sebeli IHRACKAYITLI fatura tipi için GTİP ve Satır Kodu bilgisi girilmelidir</sch:assert>
 		</sch:rule>
 
 		<sch:rule abstract="true" id="BillingReferenceCheck">
@@ -346,6 +348,13 @@
 			<sch:assert test="not(cbc:ProfileID='HKS') or (count(cac:InvoiceLine/cac:Item/cac:AdditionalItemIdentification/cbc:ID[@schemeID='KUNYENO' and string-length(normalize-space(string(text()))) = 19 ]) = count(cac:InvoiceLine))">ProfileID='HKS' iken, her cac:InvoiceLine elemanı 19 karakterli 'KUNYENO' içermelidir.</sch:assert>
 		</sch:rule>
 		
+		<sch:rule abstract="true" id="IADEInvioceCheck">
+			<sch:assert test="not(cbc:InvoiceTypeCode = 'TEVKIFATIADE' or cbc:InvoiceTypeCode = 'IADE') or (exists(cac:BillingReference) and count(cac:BillingReference/cac:InvoiceDocumentReference/cbc:DocumentTypeCode[text()='İADE' or text()='IADE']) &gt; 0)">IADE ve TEVKIFATIADE fatura tiplerinde iade fatura bilgilerini içeren cbc:DocumentTypeCode değeri İADE olan en az bir cac:BillingReference/cac:InvoiceDocumentReference elemanı içermelidir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="IlacTibbiCihazInvoiceTypeCodeCheck">
+			<sch:assert test="not(cbc:ProfileID='ILAC_TIBBICIHAZ') or (cbc:InvoiceTypeCode = 'SATIS' or cbc:InvoiceTypeCode = 'ISTISNA' or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'TEVKIFATIADE' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'IHRACKAYITLI')">ILAC_TIBBICIHAZ Fatura senaryosunda fatura tipi “SATIS”, “ISTISNA” “TEVKIFAT”, “TEVKIFATIADE”, “IADE” ve “IHRACKAYITLI” tiplerinden biri olmalıdır.</sch:assert>
+		</sch:rule>
 		
 		<sch:rule abstract="true" id="TaxFreeNationalityIDCheck">
 			<sch:assert test="not(cac:Party/cac:PartyIdentification/cbc:ID = 'TAXFREE') or not(cac:Party/cac:PartyIdentification/cbc:ID/@schemeID='PARTYTYPE') or contains($CountryCodeList, concat(',',cac:Party/cac:Person/cbc:NationalityID,','))">Invoice/BuyerCustomerParty/Party/PartyIdentification/cbc:ID elemanının değeri TAXFREE ve schemeID özelliği PARTYTYPE iken cac:Party/cac:Person/cbc:NationalityID elamanı dolu ve geçerli bir değer olmalıdır. Geçerli değerler için kod listesine bakınız.</sch:assert>		
@@ -408,6 +417,9 @@
 			<sch:assert test="not(../cbc:ProfileID='IHRACAT') or string-length(normalize-space(string(cac:Party/cac:PartyLegalEntity/cbc:RegistrationName))) != 0">cbc:ProfileID elemanının değeri IHRACAT iken, cac:BuyerCustomerParty/cac:Party/cac:PartyLegalEntity/cbc:RegistrationName elamanı dolu olmalıdır.</sch:assert>
 		</sch:rule>
 		
+		<sch:rule abstract="true" id="IlacTibbiCihazAdditionalItemIdentificationCheck">
+			<sch:assert test="not(../cbc:ProfileID='ILAC_TIBBICIHAZ') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[contains($AdditionalItemIdentificationIDType, concat(',',@schemeID,','))]) = cbc:InvoicedQuantity">cbc:ProfileID elemanının değeri ILAC_TIBBICIHAZ iken, satır bazında mal hizmet adedi kadar geçerli kod listesinde yer alan AdditionalItemIdentification elementi içermelidir</sch:assert>
+		</sch:rule>
 		
 		<!--Gümrük ile ilgili kurallar.-->
 		<sch:rule abstract="true" id="ARPartyIdentificationGTBCheck">
