@@ -21,14 +21,16 @@ https://portal.efatura.gov.tr/efatura/js/core-main.js
 https://api.fitbulut.com/servis/#/servis
 
 #### Sovos Api Download Url
-https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Fatura%20WS%20API%20v2.2.zip
-https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Fatura%20WS%20API%20v2.3.zip
+```
+https://api.fitbulut.com/servis/assets/docs/Sovos Bulut e-Fatura WS API v2.2.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos Bulut e-Fatura WS API v2.3.zip
 
-https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Ar%C5%9Fiv%20Fatura%20WS%20API%202.2.zip
-https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-Ar%C5%9Fiv%20Fatura%20WS%20API%20v2.3.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos Bulut e-Arşiv Fatura WS API 2.2.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos Bulut e-Arşiv Fatura WS API v2.3.zip
 
-https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-%C4%B0rsaliye%20WS%20API.zip
-https://api.fitbulut.com/servis/assets/docs/Sovos%20Bulut%20e-%C4%B0rsaliye%20WS%20API%20v1.3.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos Bulut e-İrsaliye WS API.zip
+https://api.fitbulut.com/servis/assets/docs/Sovos Bulut e-İrsaliye WS API v1.3.zip
 
-https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-%20UBL-TR%20Catalogue.xlsx
-https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-S%C4%B1k%20Sorulan%20Sorular.xlsx
+https://api.fitbulut.com/servis/assets/docs/Sovos R&D - UBL-TR Catalogue.xlsx
+https://api.fitbulut.com/servis/assets/docs/Sovos R&D -Sık Sorulan Sorular.xlsx
+```
