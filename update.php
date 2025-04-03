@@ -145,6 +145,7 @@ class Update
         $this->clear();
 
         $this->downloadFile('https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi.zip', 'e-FaturaPaketi.zip', true);
+        $this->downloadFile('https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBL-TR1.2.1_Paketi.zip', 'UBL-TR1.2.1_Paketi.zip', true);
 
         $this->downloadFile('https://portal.efatura.gov.tr/efatura/extjs/adapter/ext/ext-base.js', 'E_Fatura_Canli_Ext_Base.js');
         $this->downloadFile('https://portal.efatura.gov.tr/efatura/extjs/ext-all.js', 'E_Fatura_Canli_Ext_All.js');
@@ -158,6 +159,7 @@ class Update
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-S%C4%B1k%20Sorulan%20Sorular.xlsx', 'Sovos_Sorulan_Sorular.xlsx');
 
         rename(dirname(__FILE__).'/e-FaturaPaketi', 'GIB_eFatura');
+        rename(dirname(__FILE__).'/UBLTR_1.2.1_Paketi', 'GIB_UBL_eFatura');
         rename(dirname(__FILE__).'/Sovos Bulut e-Arşiv Fatura WS API 2.3', 'Sovos_eArsiv');
         rename(dirname(__FILE__).'/Sovos Bulut e-Fatura WS API v2.3', 'Sovos_eFatura');
         rename(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API v1.3', 'Sovos_eIrsaliye');
