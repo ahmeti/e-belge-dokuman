@@ -5,20 +5,26 @@ php update.php
 ```
 
 ## e-Fatura Dokümantasyon
+```
 https://ebelge.gib.gov.tr/efaturamevzuat.html
+```
 
-#### e-Fatura Paketi Download Url
+#### e-Fatura ve UBL TR Paketi Download Url
+```
 https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi.zip
+https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBL-TR1.2.1_Paketi.zip
+```
 
 #### e-Fatura Canlı Ortam Dummy Files
+```
 https://portal.efatura.gov.tr/efatura/extjs/adapter/ext/ext-base.js
-
 https://portal.efatura.gov.tr/efatura/extjs/ext-all.js
-
 https://portal.efatura.gov.tr/efatura/js/core-main.js
-
+```
 ## Sovos Api Dokümantasyon
+```
 https://api.fitbulut.com/servis/#/servis
+```
 
 #### Sovos Api Download Url
 ```
