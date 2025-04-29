@@ -188,6 +188,7 @@
 		</sch:rule>
 		<sch:rule context="inv:Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyIdentification">
 			<sch:extends rule="PartyIdentificationTCKNVKNCheck"/>
+			<sch:extends rule="PartyIdentificationTEKNOLOJIDESTEKCheck"/>
 			<sch:extends rule="DocumentReceiverCheck"/>
 			<sch:extends rule="TaxFreeInvoiceCheck"/>
 		</sch:rule>		
@@ -221,7 +222,8 @@
 			<sch:extends rule="LineDeliveryCheck"/>
 			<sch:extends rule="PackageCheck"/>
 			<sch:extends rule="DeliveryCodeCheck"/>			
-			<sch:extends rule="IlacTibbiCihazAdditionalItemIdentificationCheck"/>
+			<sch:extends rule="IlacTibbiCihazAdditionalItemIdentificationCheck"/>			
+			<sch:extends rule="TeknolojiDestekAdditionalItemIdentificationCheck"/>
 		</sch:rule>
 		
 		<!--<sch:rule context="inv:Invoice/cac:InvoiceLine/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory">
@@ -525,6 +527,18 @@
 		</sch:rule>
 		<sch:rule context="recp:ReceiptAdvice/cac:BuyerCustomerParty/cac:Party/cac:PartyIdentification">
 			<sch:extends rule="PartyIdentificationTCKNVKNCheck"/>
+		</sch:rule>
+		<sch:rule context="recp:ReceiptAdvice/cac:DespatchSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID">
+			<sch:extends rule="PartyIdentificationSchemeIDCheck"/>
+		</sch:rule>		
+		<sch:rule context="recp:ReceiptAdvice/cac:DespatchSupplierParty/cac:Party">
+			<sch:extends rule="PartyIdentificationPartyNamePersonCheck"/>
+		</sch:rule>		
+		<sch:rule context="recp:ReceiptAdvice/cac:DeliveryCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID">
+			<sch:extends rule="PartyIdentificationSchemeIDCheck"/>
+		</sch:rule>		
+		<sch:rule context="recp:ReceiptAdvice/cac:DeliveryCustomerParty/cac:Party">
+			<sch:extends rule="PartyIdentificationPartyNamePersonCheck"/>
 		</sch:rule>
 	</sch:pattern>
 	

@@ -206,6 +206,19 @@
 11) InvoiceTypeCodeList güncellendi.
 12) ProfileIDType güncellendi.
 
+20250428
+----------
+ 1) InvoiceTypeCodeList güncellendi.
+ 2) InvoiceTypeCodeCheck güncellendi.
+ 3) AdditionalItemIdentificationIDType güncellendi.
+ 4) IlacTibbiCihazAdditionalItemIdentificationCheck güncellendi.
+ 5) TeknolojiDestekAdditionalItemIdentificationCheck eklendi.
+ 6) PartyIdentificationTEKNOLOJIDESTEKCheck eklendi.
+ 7) ReceiptAdvice/cac:DespatchSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID - PartyIdentificationSchemeIDCheck eklendi.
+ 8) ReceiptAdvice/cac:DespatchSupplierParty/cac:Party - PartyIdentificationPartyNamePersonCheck eklendi.
+ 9) ReceiptAdvice/cac:DeliveryCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID - PartyIdentificationSchemeIDCheck eklendi.
+10) ReceiptAdvice/cac:DeliveryCustomerParty/cac:Party - PartyIdentificationPartyNamePersonCheck eklendi.
+
 
 
 

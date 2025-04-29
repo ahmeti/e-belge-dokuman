@@ -175,6 +175,7 @@
 			<sch:assert test="contains($InvoiceTypeCodeList, concat(',',cbc:InvoiceTypeCode,','))">Geçersiz cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:InvoiceTypeCode"/>'. Geçerli cbc:InvoiceTypeCode değerleri için kod listesine bakınız.</sch:assert>
 			<sch:assert test="not(cbc:InvoiceTypeCode='IADE') or cbc:ProfileID='TEMELFATURA' or cbc:ProfileID='EARSIVFATURA' or cbc:ProfileID='ILAC_TIBBICIHAZ' ">Fatura tipi IADE iken fatura profili sadece TEMELFATURA , EARSIVFATURA veya ILAC_TIBBICIHAZ olabilir</sch:assert>
 			<sch:assert test="(not($type = 'efatura' or $type = '' or not($type)) or (cbc:ProfileID = 'ENERJI' and (cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK'))) or (not($type = 'efatura' or $type = '' or not($type)) or (not(cbc:ProfileID = 'ENERJI') and not(cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK')))">Geçersiz cbc:ProfileID ve cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:ProfileID"/> ve <sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:ProfileID değeri ENERJI olduğu durumda cbc:InvoiceTypeCode değeri SARJ veya SARJANLIK olmalıdır.</sch:assert>
+			<sch:assert test="$type = 'earchive' or not(cbc:InvoiceTypeCode = 'TEKNOLOJIDESTEK')">Geçersiz cbc:ProfileID ve cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:ProfileID"/> ve <sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:InvoiceTypeCode değeri <sch:value-of select="cbc:InvoiceTypeCode"/> olduğu durumda cbc:ProfileID değeri EARSIVFATURA olmalıdır.<sch:value-of select="string('&#xA;')"/></sch:assert>
 		</sch:rule>
 
 		
@@ -254,6 +255,11 @@
 		<sch:rule abstract="true" id="PartyIdentificationTCKNVKNCheck">
 			<sch:assert test="not(cbc:ID/@schemeID='VKN') or string-length(cbc:ID)=10">cbc:ID elemanının schemeID niteliği değeri 'VKN' olması durumunda cbc:ID elemanına 10 haneli vergi kimlik numarası yazılmalıdır.</sch:assert>
 			<sch:assert test="not(cbc:ID/@schemeID='TCKN') or string-length(cbc:ID)=11">cbc:ID elemanının schemeID niteliği değeri 'TCKN' olması durumunda cbc:ID elemanına 11 haneli TC kimlik numarası yazılmalıdır.</sch:assert>
+		</sch:rule>
+		
+		<!-- Rule to validate PartyIdentification for TEKNOLOJIDESTEK-->
+		<sch:rule abstract="true" id="PartyIdentificationTEKNOLOJIDESTEKCheck">
+			<sch:assert test="not(../../../cbc:InvoiceTypeCode='TEKNOLOJIDESTEK') or cbc:ID/@schemeID='TCKN'">TEKNOLOJIDESTEK fatura tipinde alıcı kimlik numarası TCKN olmalıdır.</sch:assert>
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="DocumentSenderCheck">
@@ -418,7 +424,11 @@
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="IlacTibbiCihazAdditionalItemIdentificationCheck">
-			<sch:assert test="not(../cbc:ProfileID='ILAC_TIBBICIHAZ') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[contains($AdditionalItemIdentificationIDType, concat(',',@schemeID,','))]) = cbc:InvoicedQuantity">cbc:ProfileID elemanının değeri ILAC_TIBBICIHAZ iken, satır bazında mal hizmet adedi kadar geçerli kod listesinde yer alan AdditionalItemIdentification elementi içermelidir</sch:assert>
+			<sch:assert test="not(../cbc:ProfileID='ILAC_TIBBICIHAZ') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[@schemeID = 'ILAC' or @schemeID = 'TIBBICIHAZ']) = cbc:InvoicedQuantity">cbc:ProfileID elemanının değeri ILAC_TIBBICIHAZ iken, satır bazında mal hizmet adedi kadar geçerli kod listesinde yer alan AdditionalItemIdentification elementi içermelidir</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="TeknolojiDestekAdditionalItemIdentificationCheck">
+			<sch:assert test="not(../cbc:InvoiceTypeCode = 'TEKNOLOJIDESTEK') or cac:Item/cac:AdditionalItemIdentification/cbc:ID[@schemeID = 'TELEFON' or @schemeID = 'TABLET_PC']">TEKNOLOJIDESTEK fatura tipinde yer alan tüm kalemler TELEFON, TABLET_PC schemeID li cac:AdditionalItemIdentification bulunmalıdır.</sch:assert>
 		</sch:rule>
 		
 		<!--Gümrük ile ilgili kurallar.-->

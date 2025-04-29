@@ -15,8 +15,9 @@ use ZipArchive;
 class Update
 {
     private array $removeFiles = [
-        'GIB_eFatura', 'Sovos_eArsiv', 'Sovos_eFatura',
-        'Sovos_eIrsaliye', 'build',
+        'GIB_eFatura', 'GIB_UBL_eFatura',
+        'Sovos_eArsiv', 'Sovos_eFatura', 'Sovos_eIrsaliye',
+        'build',
         'E_Fatura_Canli_Core_Main.js', 'E_Fatura_Canli_Ext_All.js',
         'E_Fatura_Canli_Ext_Base.js', 'Sovos_Sorulan_Sorular.xlsx',
         'Sovos_UBL_TR_Catalogue.xlsx', 'dummy-debug.html',
