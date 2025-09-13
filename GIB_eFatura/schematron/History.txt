@@ -219,6 +219,18 @@
  9) ReceiptAdvice/cac:DeliveryCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID - PartyIdentificationSchemeIDCheck eklendi.
 10) ReceiptAdvice/cac:DeliveryCustomerParty/cac:Party - PartyIdentificationPartyNamePersonCheck eklendi.
 
+20250905
+----------
+1) AdditionalItemIdentificationIDType güncellendi.
+2) IlacTibbiCihazAdditionalItemIdentificationCheck güncellendi.
+3) IhracKayitliPartyIdentificationIDType eklendi.
+4) IhracKayitliPartyIdentificationIDTypeheck güncellendi.
+5) IADEInvioceCheck güncellendi.
+
+20250911
+----------
+1) TaxExemptionReasonCodeType güncellendi.
+
 
 
 
