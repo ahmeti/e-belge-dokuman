@@ -13,6 +13,7 @@ https://ebelge.gib.gov.tr/efaturamevzuat.html
 ```
 https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi.zip
 https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBL-TR1.2.1_Paketi.zip
+https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip
 ```
 
 #### e-Fatura Canlı Ortam Dummy Files

@@ -15,7 +15,7 @@ use ZipArchive;
 class Update
 {
     private array $removeFiles = [
-        'GIB_eFatura', 'GIB_UBL_eFatura',
+        'GIB_eFatura', 'GIB_UBL_eFatura', 'GIB_Kilavuz',
         'Sovos_eArsiv', 'Sovos_eFatura', 'Sovos_eIrsaliye',
         'build',
         'E_Fatura_Canli_Core_Main.js', 'E_Fatura_Canli_Ext_All.js',
@@ -147,6 +147,7 @@ class Update
 
         $this->downloadFile('https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi.zip', 'e-FaturaPaketi.zip', true);
         $this->downloadFile('https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBL-TR1.2.1_Paketi.zip', 'UBL-TR1.2.1_Paketi.zip', true);
+        $this->downloadFile('https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip', 'GIB_Kilavuz.zip', true);
 
         $this->downloadFile('https://portal.efatura.gov.tr/efatura/extjs/adapter/ext/ext-base.js', 'E_Fatura_Canli_Ext_Base.js');
         $this->downloadFile('https://portal.efatura.gov.tr/efatura/extjs/ext-all.js', 'E_Fatura_Canli_Ext_All.js');
@@ -159,11 +160,21 @@ class Update
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-%20UBL-TR%20Catalogue.xlsx', 'Sovos_UBL_TR_Catalogue.xlsx');
         $this->downloadFile('https://api.fitbulut.com/servis/assets/docs/Sovos%20R&D%20-S%C4%B1k%20Sorulan%20Sorular.xlsx', 'Sovos_Sorulan_Sorular.xlsx');
 
-        rename(dirname(__FILE__).'/e-FaturaPaketi', 'GIB_eFatura');
-        rename(dirname(__FILE__).'/UBLTR_1.2.1_Paketi', 'GIB_UBL_eFatura');
-        rename(dirname(__FILE__).'/Sovos Bulut e-Arşiv Fatura WS API 2.3', 'Sovos_eArsiv');
-        rename(dirname(__FILE__).'/Sovos Bulut e-Fatura WS API v2.3', 'Sovos_eFatura');
-        rename(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API v1.3', 'Sovos_eIrsaliye');
+        $this->filesystem->rename(dirname(__FILE__).'/e-FaturaPaketi', 'GIB_eFatura');
+        $this->filesystem->rename(dirname(__FILE__).'/UBLTR_1.2.1_Paketi', 'GIB_UBL_eFatura');
+        $this->filesystem->rename(dirname(__FILE__).'/Sovos Bulut e-Arşiv Fatura WS API 2.3', 'Sovos_eArsiv');
+        $this->filesystem->rename(dirname(__FILE__).'/Sovos Bulut e-Fatura WS API v2.3', 'Sovos_eFatura');
+        $this->filesystem->rename(dirname(__FILE__).'/Sovos Bulut e-İrsaliye WS API v1.3', 'Sovos_eIrsaliye');
+
+        $this->filesystem->rename(dirname(__FILE__).'/UBLTR_1.2.1_Kilavuzlar', 'GIB_Kilavuz');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/GENEL AÇIKLAMALAR', dirname(__FILE__).'/GIB_Kilavuz/GENEL AÇIKLAMALAR');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/KOD LİSTELERİ', dirname(__FILE__).'/GIB_Kilavuz/KOD LİSTELERİ');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar/BELGELER', dirname(__FILE__).'/GIB_Kilavuz/BELGELER');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar/ORTAK ELEMANLAR', dirname(__FILE__).'/GIB_Kilavuz/ORTAK ELEMANLAR');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar/SENARYOLAR', dirname(__FILE__).'/GIB_Kilavuz/SENARYOLAR');
+
+        $this->filesystem->remove(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar');
+        $this->filesystem->remove(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar');
 
         $this->crawler();
 
