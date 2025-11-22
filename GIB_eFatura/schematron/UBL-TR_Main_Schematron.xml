@@ -224,7 +224,7 @@
 			<sch:extends rule="DeliveryCodeCheck"/>			
 			<sch:extends rule="IlacTibbiCihazAdditionalItemIdentificationCheck"/>			
 			<sch:extends rule="TeknolojiDestekAdditionalItemIdentificationCheck"/>		
-			<sch:extends rule="IhracKayitliPartyIdentificationIDTypeheck"/>
+			<sch:extends rule="IhracKayitliPartyIdentificationIDTypeCheck"/>
 		</sch:rule>
 		
 		<!--<sch:rule context="inv:Invoice/cac:InvoiceLine/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory">

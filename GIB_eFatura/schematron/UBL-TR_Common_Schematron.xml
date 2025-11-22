@@ -424,14 +424,14 @@
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="IlacTibbiCihazAdditionalItemIdentificationCheck">
-			<sch:assert test="not(../cbc:ProfileID='ILAC_TIBBICIHAZ') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[(@schemeID = 'ILAC' or @schemeID = 'TIBBICIHAZ' or @schemeID = 'DIGER') and (string-length(normalize-space())) != 0]) = cbc:InvoicedQuantity">cbc:ProfileID elemanının değeri ILAC_TIBBICIHAZ iken, satır bazında mal hizmet adedi kadar geçerli kod listesinde yer alan AdditionalItemIdentification elementi içermelidir</sch:assert>
+			<sch:assert test="not(../cbc:ProfileID='ILAC_TIBBICIHAZ') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[(@schemeID = 'ILAC' or @schemeID = 'TIBBICIHAZ' or @schemeID = 'DIGER') and (string-length(normalize-space())) != 0]) &gt; 0">cbc:ProfileID elemanının değeri ILAC_TIBBICIHAZ iken, satır bazında geçerli kod listesinde yer alan en az 1 tane AdditionalItemIdentification elementi içermelidir</sch:assert>
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="TeknolojiDestekAdditionalItemIdentificationCheck">
 			<sch:assert test="not(../cbc:InvoiceTypeCode = 'TEKNOLOJIDESTEK') or cac:Item/cac:AdditionalItemIdentification/cbc:ID[@schemeID = 'TELEFON' or @schemeID = 'TABLET_PC']">TEKNOLOJIDESTEK fatura tipinde yer alan tüm kalemler TELEFON, TABLET_PC schemeID li cac:AdditionalItemIdentification bulunmalıdır.</sch:assert>
 		</sch:rule>
 		
-		<sch:rule abstract="true" id="IhracKayitliPartyIdentificationIDTypeheck">
+		<sch:rule abstract="true" id="IhracKayitliPartyIdentificationIDTypeCheck">
 			<sch:assert test="not(../cbc:InvoiceTypeCode = 'IHRACKAYITLI' and ../cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode = '702') or count(cac:Delivery/cac:Shipment/cac:TransportHandlingUnit/cac:CustomsDeclaration/cac:IssuerParty/cac:PartyIdentification/cbc:ID[@schemeID and not(contains(concat(',', $IhracKayitliPartyIdentificationIDType, ','), concat(',', @schemeID, ',')))]) = 0">Geçersiz Ihraç Kayıtlı schemeID niteliği. Geçerli değerler için kod listesine bakınız."</sch:assert>
 		</sch:rule>
 		

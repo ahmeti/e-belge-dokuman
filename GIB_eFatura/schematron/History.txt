@@ -231,7 +231,11 @@
 ----------
 1) TaxExemptionReasonCodeType güncellendi.
 
-
+20251104
+----------
+1) IlacTibbiCihazAdditionalItemIdentificationCheck güncellendi.
+2) CurrencyCodeList güncellendi.
+3) IhracKayitliPartyIdentificationIDTypeheck, IhracKayitliPartyIdentificationIDTypeCheck olarak güncellendi.
 
 
 
