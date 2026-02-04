@@ -173,7 +173,7 @@
 		<!-- Rule to validate InvoiceTypeCode -->
 		<sch:rule abstract="true" id="InvoiceTypeCodeCheck">
 			<sch:assert test="contains($InvoiceTypeCodeList, concat(',',cbc:InvoiceTypeCode,','))">Geçersiz cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:InvoiceTypeCode"/>'. Geçerli cbc:InvoiceTypeCode değerleri için kod listesine bakınız.</sch:assert>
-			<sch:assert test="not(cbc:InvoiceTypeCode='IADE') or cbc:ProfileID='TEMELFATURA' or cbc:ProfileID='EARSIVFATURA' or cbc:ProfileID='ILAC_TIBBICIHAZ' ">Fatura tipi IADE iken fatura profili sadece TEMELFATURA , EARSIVFATURA veya ILAC_TIBBICIHAZ olabilir</sch:assert>
+			<sch:assert test="not(cbc:InvoiceTypeCode='IADE') or cbc:ProfileID='TEMELFATURA' or cbc:ProfileID='EARSIVFATURA' or cbc:ProfileID='ILAC_TIBBICIHAZ' or cbc:ProfileID='YATIRIMTESVIK' or cbc:ProfileID='IDIS'">Fatura tipi IADE iken fatura profili sadece TEMELFATURA , EARSIVFATURA, ILAC_TIBBICIHAZ, YATIRIMTESVIK veya IDIS olabilir</sch:assert>
 			<sch:assert test="(not($type = 'efatura' or $type = '' or not($type)) or (cbc:ProfileID = 'ENERJI' and (cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK'))) or (not($type = 'efatura' or $type = '' or not($type)) or (not(cbc:ProfileID = 'ENERJI') and not(cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK')))">Geçersiz cbc:ProfileID ve cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:ProfileID"/> ve <sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:ProfileID değeri ENERJI olduğu durumda cbc:InvoiceTypeCode değeri SARJ veya SARJANLIK olmalıdır.</sch:assert>
 			<sch:assert test="$type = 'earchive' or not(cbc:InvoiceTypeCode = 'TEKNOLOJIDESTEK')">Geçersiz cbc:ProfileID ve cbc:InvoiceTypeCode elemanı değeri : '<sch:value-of select="cbc:ProfileID"/> ve <sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:InvoiceTypeCode değeri <sch:value-of select="cbc:InvoiceTypeCode"/> olduğu durumda cbc:ProfileID değeri EARSIVFATURA olmalıdır.<sch:value-of select="string('&#xA;')"/></sch:assert>
 		</sch:rule>
@@ -286,9 +286,9 @@
 		</sch:rule>			
 		
 		<sch:rule abstract="true" id="GeneralWithholdingTaxTotalCheck">
-			<sch:assert test="not(cbc:UBLVersionID ='2.1') or not(exists(cac:WithholdingTaxTotal)) or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'SGK' or cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK'">Uyumsuz fatura tipi: '<sch:value-of select="cbc:InvoiceTypeCode"/>'. cac:WithholdingTaxTotal elamanı varken fatura tipi TEVKIFAT,IADE,SGK,SARJ ve SARJANLIK olabilir.</sch:assert>
+			<sch:assert test="not(cbc:UBLVersionID ='2.1') or not(exists(cac:WithholdingTaxTotal)) or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'YTBTEVKIFAT' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'YTBIADE' or cbc:InvoiceTypeCode = 'SGK' or cbc:InvoiceTypeCode = 'SARJ' or cbc:InvoiceTypeCode = 'SARJANLIK'">Uyumsuz fatura tipi: '<sch:value-of select="cbc:InvoiceTypeCode"/>'. cac:WithholdingTaxTotal elamanı varken fatura tipi TEVKIFAT,YTBTEVKIFAT,IADE,YTBIADE,SGK,SARJ ve SARJANLIK olabilir.</sch:assert>
 			
-			<sch:assert test="not(cbc:UBLVersionID ='2.1') or not(exists(cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode[text() = '4171'])) or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'SGK'">Uyumsuz fatura tipi: '<sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:TaxTypeCode değeri 4171 ise fatura tipi TEVKIFAT,IADE veya SGK olabilir</sch:assert>
+			<sch:assert test="not(cbc:UBLVersionID ='2.1') or not(exists(cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode[text() = '4171'])) or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'SGK' or cbc:InvoiceTypeCode = 'YTBIADE'">Uyumsuz fatura tipi: '<sch:value-of select="cbc:InvoiceTypeCode"/>'. cbc:TaxTypeCode değeri 4171 ise fatura tipi TEVKIFAT,IADE, YTBIADE veya SGK olabilir</sch:assert>
 			
 			<!--<sch:assert test="not(cbc:UBLVersionID ='2.1') or not(exists(cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode[text() = '4171'])) or
 				exists(cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode[text() = '0071'])">cbc:TaxTypeCode değeri 4171 olan cac:TaxSubtotal alanı varken cbc:TaxTypeCode değeri 0071 olan cac:TaxSubtotal alanı da olmalıdır.</sch:assert>-->
@@ -313,7 +313,7 @@
 			
 			<sch:assert test="not(cbc:TaxExemptionReason) or not(../../../cbc:UBLVersionID ='2.1') or (string-length(normalize-space(string(cbc:TaxExemptionReasonCode)))) != 0 and contains($TaxExemptionReasonCodeType, concat(',',cbc:TaxExemptionReasonCode,','))">Geçersiz cbc:TaxExemptionReasonCode niteliği : '<sch:value-of select="cbc:TaxExemptionReasonCode"/>' cbc:TaxExemptionReason(vergi istisna muhafiyet sebebi) elemanı varken cbc:TaxExemptionReasonCode elamanı dolu ve geçerli bir değer olmalıdır. Geçerli değerler için kod listesine bakınız.</sch:assert>
 			
-			<sch:assert test="not(../../../cbc:UBLVersionID ='2.1') or not(contains($istisnaTaxExemptionReasonCodeType, concat(',',cbc:TaxExemptionReasonCode,','))) or ../../../cbc:InvoiceTypeCode = 'ISTISNA' or ../../../cbc:InvoiceTypeCode = 'IADE' or ../../../cbc:InvoiceTypeCode = 'IHRACKAYITLI' or ../../../cbc:InvoiceTypeCode = 'SGK'">Uyumsuz fatura tipi: '<sch:value-of select="../../../cbc:InvoiceTypeCode"/>'. Vergi istisna muhafiyet kodu : '<sch:value-of select="cbc:TaxExemptionReasonCode"/>' için fatura tipi ISTISNA,IADE,IHRACKAYITLI veya  SGK olabilir.</sch:assert>
+			<sch:assert test="not(../../../cbc:UBLVersionID ='2.1') or not(contains($istisnaTaxExemptionReasonCodeType, concat(',',cbc:TaxExemptionReasonCode,','))) or ../../../cbc:InvoiceTypeCode = 'ISTISNA' or ../../../cbc:InvoiceTypeCode = 'IADE' or ../../../cbc:InvoiceTypeCode = 'IHRACKAYITLI' or ../../../cbc:InvoiceTypeCode = 'SGK' or ../../../cbc:InvoiceTypeCode = 'YTBISTISNA' or ../../../cbc:InvoiceTypeCode = 'YTBIADE'">Uyumsuz fatura tipi: '<sch:value-of select="../../../cbc:InvoiceTypeCode"/>'. Vergi istisna muhafiyet kodu : '<sch:value-of select="cbc:TaxExemptionReasonCode"/>' için fatura tipi ISTISNA,IADE,IHRACKAYITLI,SGK,YTBIADE veya YTBISTISNA olabilir.</sch:assert>
 			
 			<sch:assert test="not(../../../cbc:UBLVersionID ='2.1') or not(contains($ozelMatrahTaxExemptionReasonCodeType, concat(',',cbc:TaxExemptionReasonCode,','))) or ../../../cbc:InvoiceTypeCode = 'OZELMATRAH' or ../../../cbc:InvoiceTypeCode = 'IADE' or ../../../cbc:InvoiceTypeCode = 'SGK'">Uyumsuz fatura tipi: '<sch:value-of select="../../../cbc:InvoiceTypeCode"/>'.  Vergi istisna muhafiyet kodu : '<sch:value-of select="cbc:TaxExemptionReasonCode"/>' için fatura tipi OZELMATRAH,IADE veya SGK olabilir.</sch:assert>
 			
@@ -355,11 +355,23 @@
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="IADEInvioceCheck">
-			<sch:assert test="not(cbc:InvoiceTypeCode = 'TEVKIFATIADE' or cbc:InvoiceTypeCode = 'IADE') or (count(cac:BillingReference/cac:InvoiceDocumentReference) > 0 and count(cac:BillingReference/cac:InvoiceDocumentReference[(cbc:DocumentTypeCode='İADE' or cbc:DocumentTypeCode='IADE') and string-length(normalize-space(cbc:ID)) = 16 ]) = count(cac:BillingReference/cac:InvoiceDocumentReference))">IADE ve TEVKIFATIADE fatura tiplerinde iade bilgilerini içeren cbc:DocumentTypeCode değeri IADE ve 16 haneli ID değeri olan iade fatura sayısı kadar cac:BillingReference/cac:InvoiceDocumentReference elemanı içermelidir.</sch:assert>
+			<sch:assert test="not(cbc:InvoiceTypeCode = 'TEVKIFATIADE' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'YTBIADE' or cbc:InvoiceTypeCode = 'YTBTEVKIFATIADE') or (count(cac:BillingReference/cac:InvoiceDocumentReference) > 0 and count(cac:BillingReference/cac:InvoiceDocumentReference[(cbc:DocumentTypeCode='İADE' or cbc:DocumentTypeCode='IADE') and string-length(normalize-space(cbc:ID)) = 16 ]) = count(cac:BillingReference/cac:InvoiceDocumentReference))">IADE, TEVKIFATIADE ve YTBIADE fatura tiplerinde iade bilgilerini içeren cbc:DocumentTypeCode değeri IADE ve 16 haneli ID değeri olan iade fatura sayısı kadar cac:BillingReference/cac:InvoiceDocumentReference elemanı içermelidir.</sch:assert>
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="IlacTibbiCihazInvoiceTypeCodeCheck">
 			<sch:assert test="not(cbc:ProfileID='ILAC_TIBBICIHAZ') or (cbc:InvoiceTypeCode = 'SATIS' or cbc:InvoiceTypeCode = 'ISTISNA' or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'TEVKIFATIADE' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'IHRACKAYITLI')">ILAC_TIBBICIHAZ Fatura senaryosunda fatura tipi “SATIS”, “ISTISNA” “TEVKIFAT”, “TEVKIFATIADE”, “IADE” ve “IHRACKAYITLI” tiplerinden biri olmalıdır.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikInvoiceTypeCodeCheck">
+			<sch:assert test="not(cbc:ProfileID='YATIRIMTESVIK') or (cbc:InvoiceTypeCode = 'SATIS' or cbc:InvoiceTypeCode = 'ISTISNA' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'TEVKIFATIADE')">Yatırım Teşvik Faturasında fatura tipi “SATIS”, “ISTISNA” , “IADE” , "TEVKIFAT" ve "TEVKIFATIADE" tiplerinden biri olmalıdır.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="IdisInvoiceTypeCodeCheck">
+			<sch:assert test="not(cbc:ProfileID='IDIS') or (cbc:InvoiceTypeCode = 'SATIS' or cbc:InvoiceTypeCode = 'ISTISNA' or cbc:InvoiceTypeCode = 'IADE' or cbc:InvoiceTypeCode = 'TEVKIFAT' or cbc:InvoiceTypeCode = 'TEVKIFATIADE' or cbc:InvoiceTypeCode = 'IHRACKAYITLI')">IDIS fatura senaryosunda fatura tipi SATIS, ISTISNA, IADE, TEVKIFAT, TEVKIFATIADE ve IHRACKAYITLI tiplerinden biri olmalıdır.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikContractDocumentReferenceIDCheck">
+			<sch:assert test="not(cbc:ProfileID='YATIRIMTESVIK' or (cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',cbc:InvoiceTypeCode,',')))) or (count(cac:ContractDocumentReference) = 1 and count(cac:ContractDocumentReference/cbc:ID[@schemeID = 'YTBNO']) &gt; 0 and string-length(cac:ContractDocumentReference/cbc:ID[@schemeID = 'YTBNO']) = 6 and translate(cac:ContractDocumentReference/cbc:ID[@schemeID = 'YTBNO'], '0123456789', '') = '')">Yatırım Teşvik Faturasında 6 Haneli Yatırım Teşvik Numarası olmalıdır.</sch:assert>
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="TaxFreeNationalityIDCheck">
@@ -376,7 +388,7 @@
 		</sch:rule>
 		
 		<sch:rule abstract="true" id="TaxExemptionReasonCheck">
-			<sch:assert test="../../cbc:InvoiceTypeCode = 'IADE' or ../../cbc:InvoiceTypeCode = 'IHRACKAYITLI' or ../../cbc:InvoiceTypeCode = 'OZELMATRAH' or ../../cbc:InvoiceTypeCode = 'SGK' or ../../cbc:InvoiceTypeCode = 'KONAKLAMAVERGISI' or not(cbc:TaxAmount = 0) or not(cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015') or string-length(normalize-space(cac:TaxCategory/cbc:TaxExemptionReason)) > 0 ">Vergi miktarı 0 olan 0015 vergi kodlu KDV için cbc:TaxExemptionReason(vergi istisna muhafiyet sebebi) elemanı bulunmalıdır ve boş değer içermemelidir.</sch:assert>
+			<sch:assert test="../../cbc:InvoiceTypeCode = 'IADE' or ../../cbc:InvoiceTypeCode = 'YTBIADE' or ../../cbc:InvoiceTypeCode = 'IHRACKAYITLI' or ../../cbc:InvoiceTypeCode = 'OZELMATRAH' or ../../cbc:InvoiceTypeCode = 'SGK' or ../../cbc:InvoiceTypeCode = 'KONAKLAMAVERGISI' or not(cbc:TaxAmount = 0) or not(cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015') or string-length(normalize-space(cac:TaxCategory/cbc:TaxExemptionReason)) > 0 ">Vergi miktarı 0 olan 0015 vergi kodlu KDV için cbc:TaxExemptionReason(vergi istisna muhafiyet sebebi) elemanı bulunmalıdır ve boş değer içermemelidir.</sch:assert>
 		</sch:rule>
 		
 		<!-- Rule to validate PaymentMeansCode -->				
@@ -416,6 +428,10 @@
 			<sch:assert test="not(../../cbc:ProfileID='IHRACAT') or string-length(normalize-space(string(cac:PartyTaxScheme/cac:TaxScheme/cbc:Name))) != 0">cbc:ProfileID elemanının değeri IHRACAT iken, cac:AccountingSupplierParty/cac:Party/cac:PartyTaxScheme/cac:TaxScheme/cbc:Name elamanı dolu olmalıdır.</sch:assert>
 		</sch:rule>
 		
+		<sch:rule abstract="true" id="IdisSevkiyatNoCheck">
+			<sch:assert test="not(//inv:Invoice/cbc:ProfileID = 'IDIS') or count(cac:PartyIdentification/cbc:ID[@schemeID='SEVKIYATNO' and starts-with(., 'SE-') and string-length(.) = 10 and translate(substring(., 4), '0123456789', '') = '']) > 0">Sevkiyat Numarası değeri SE-0000000 formatında girilmelidir.</sch:assert>
+		</sch:rule>
+		
 		<sch:rule abstract="true" id="PackageCheck">
 			<sch:assert test="not(../cbc:ProfileID='IHRACAT') or string-length(normalize-space(string(cbc:InvoicedQuantity))) != 0">cbc:ProfileID elemanının değeri IHRACAT iken, cac:InvoiceLine elemanı geçerli ve boş değer içermeyen cbc:InvoicedQuantity elemanı içermelidir.</sch:assert>
 		</sch:rule>
@@ -433,6 +449,48 @@
 		
 		<sch:rule abstract="true" id="IhracKayitliPartyIdentificationIDTypeCheck">
 			<sch:assert test="not(../cbc:InvoiceTypeCode = 'IHRACKAYITLI' and ../cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode = '702') or count(cac:Delivery/cac:Shipment/cac:TransportHandlingUnit/cac:CustomsDeclaration/cac:IssuerParty/cac:PartyIdentification/cbc:ID[@schemeID and not(contains(concat(',', $IhracKayitliPartyIdentificationIDType, ','), concat(',', @schemeID, ',')))]) = 0">Geçersiz Ihraç Kayıtlı schemeID niteliği. Geçerli değerler için kod listesine bakınız."</sch:assert>
+		</sch:rule>
+		
+		<!--Yatırım Teşvik ile ilgili kurallar.-->		
+		<sch:rule abstract="true" id="YatirimTesvikCommodityClassificationCheck">
+			<sch:assert test="not(../cbc:ProfileID = 'YATIRIMTESVIK' or (../cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',../cbc:InvoiceTypeCode,',')))) or count(cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode) &gt; 0">Yatırım Teşvik Faturasında Harcama Tipi belirtilmelidir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikItemClassificationCodeCheck">
+			<sch:assert test="not(../cbc:ProfileID = 'YATIRIMTESVIK' or (../cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',../cbc:InvoiceTypeCode,',')))) or contains($YatirimTesvikItemClassificationCodeList, concat(',',cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode,','))">Geçersiz cbc:ItemClassificationCode elemanı değeri. Geçerki değer için YatirimTesvikItemClassificationCodeList listesine bakınız.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikItemClassificationCodeIstisnaCheck">
+			<sch:assert test="not((../cbc:ProfileID = 'YATIRIMTESVIK' and ../cbc:InvoiceTypeCode = 'ISTISNA') or (../cbc:ProfileID = 'EARSIVFATURA' and ../cbc:InvoiceTypeCode = 'YTBISTISNA')) or contains(',01,02,', concat(',',cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode,','))">Yatırım Teşvik Faturasında ISTISNA Fatura Tipinde Harcama Tipi 01 veya 02 kodunu alabilir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikItemClassificationCodeIstisnaCalculationSequenceNumericCheck">
+			<sch:assert test="not((../cbc:ProfileID = 'YATIRIMTESVIK' and ../cbc:InvoiceTypeCode = 'ISTISNA') or (../cbc:ProfileID = 'EARSIVFATURA' and ../cbc:InvoiceTypeCode = 'YTBISTISNA')) or count(cac:TaxTotal/cac:TaxSubtotal[cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015' and cbc:CalculationSequenceNumeric = '-1']) &gt; 0">Yatırım Teşvik Faturasında ISTISNA Fatura Tipinde cbc:CalculationSequenceNumeric alanı -1 seçilmelidir. </sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikTaxExemptionReasonCode308Check">
+			<sch:assert test="not(((../cbc:ProfileID = 'YATIRIMTESVIK' and ../cbc:InvoiceTypeCode = 'ISTISNA') or (../cbc:ProfileID = 'EARSIVFATURA' and ../cbc:InvoiceTypeCode = 'YTBISTISNA')) and cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode = '01') or count(cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory[cac:TaxScheme/cbc:TaxTypeCode = '0015' and cbc:TaxExemptionReasonCode = '308']) &gt; 0">Yatırım Teşvik Faturasında ISTISNA Fatura Tipinde Harcama Tipi 01 ise 308 istisna kodu seçilebilir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikTaxExemptionReasonCode339Check">
+			<sch:assert test="not(((../cbc:ProfileID = 'YATIRIMTESVIK' and ../cbc:InvoiceTypeCode = 'ISTISNA') or (../cbc:ProfileID = 'EARSIVFATURA' and ../cbc:InvoiceTypeCode = 'YTBISTISNA')) and cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode = '02') or count(cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory[cac:TaxScheme/cbc:TaxTypeCode = '0015' and cbc:TaxExemptionReasonCode = '339']) &gt; 0">Yatırım Teşvik Faturasında ISTISNA Fatura Tipinde Harcama Tipi 02 ise 339 istisna kodu seçilebilir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikItemInstanceCheck">
+			<sch:assert test="not((../cbc:ProfileID = 'YATIRIMTESVIK' or (../cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',../cbc:InvoiceTypeCode,',')))) and cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode = '01') or (string-length(normalize-space(string(cac:Item/cbc:ModelName))) != 0 and string-length(normalize-space(string(cac:Item/cac:ItemInstance/cbc:ProductTraceID))) != 0 and string-length(normalize-space(string(cac:Item/cac:ItemInstance/cbc:SerialID))) != 0)">Yatırım Teşvik Faturasında Harcama Tipi 01 için Makine Adı, Makine Teçhizat Sıra No ve Makine ID alanları belirtilmelidir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikKDVCheck">
+			<sch:assert test="not((../cbc:ProfileID = 'YATIRIMTESVIK' or (../cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',../cbc:InvoiceTypeCode,',')))) and not(../cbc:InvoiceTypeCode = 'IADE' or ../cbc:InvoiceTypeCode = 'TEVKIFATIADE' or ../cbc:InvoiceTypeCode = 'YTBIADE' or ../cbc:InvoiceTypeCode = 'YTBTEVKIFATIADE')) or (count(cac:TaxSubtotal[cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015' and number(cbc:TaxAmount) &gt; 0 and number(cbc:Percent) &gt; 0]) = count(cac:TaxSubtotal[cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015']) and count(cac:TaxSubtotal[cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015' and number(cbc:TaxAmount) &gt; 0 and number(cbc:Percent) &gt; 0]) &gt; 0)">Yatırım Teşvik Faturasında KDV Oranı ve Değeri girilmelidir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="YatirimTesvikLineKDVCheck">
+			<sch:assert test="not((../cbc:ProfileID = 'YATIRIMTESVIK' or (../cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',../cbc:InvoiceTypeCode,',')))) and not(../cbc:InvoiceTypeCode = 'IADE' or ../cbc:InvoiceTypeCode = 'TEVKIFATIADE' or ../cbc:InvoiceTypeCode = 'YTBIADE' or ../cbc:InvoiceTypeCode = 'YTBTEVKIFATIADE')) or count(cac:TaxTotal/cac:TaxSubtotal[cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015' and number(cbc:TaxAmount) &gt; 0 and number(cbc:Percent) &gt; 0]) &gt; 0">Yatırım Teşvik Faturasında Kalem Bazında KDV Oranı ve Değeri girilmelidir.</sch:assert>
+			<sch:assert test="not((../cbc:ProfileID = 'YATIRIMTESVIK' or (../cbc:ProfileID='EARSIVFATURA' and contains($YatirimTesvikEArsivInvoiceTypeCodeList,  concat(',',../cbc:InvoiceTypeCode,',')))) and (../cbc:InvoiceTypeCode = 'IADE' or ../cbc:InvoiceTypeCode = 'TEVKIFATIADE' or ../cbc:InvoiceTypeCode = 'YTBIADE' or ../cbc:InvoiceTypeCode = 'YTBTEVKIFATIADE')) or not(cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode = '03' or cac:Item/cac:CommodityClassification/cbc:ItemClassificationCode = '04') or count(cac:TaxTotal/cac:TaxSubtotal[cac:TaxCategory/cac:TaxScheme/cbc:TaxTypeCode = '0015' and number(cbc:TaxAmount) &gt; 0]) &gt; 0">Yatırım Teşvik Faturasında Harcama Tipi 03 ve 04 için KDV değeri girilmelidir.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="IdisEtiketNoCheck">
+			<sch:assert test="not(../cbc:ProfileID = 'IDIS') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[@schemeID='ETIKETNO' and string-length(.) = 9 and translate(substring(., 1, 2), 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', '') = '' and translate(substring(., 3), '0123456789', '') = '']) &gt; 0">İlk iki hanesi karakter ve sonraki 7 hanesi rakam olan 9 karakterli en az bir Etiket Numarası bulunmalıdır.</sch:assert>
 		</sch:rule>
 		
 		<!--Gümrük ile ilgili kurallar.-->
@@ -653,6 +711,14 @@
 		
 		<sch:rule abstract="true" id="DespatchLineIdCheck">
 			<sch:assert test="string-length(normalize-space(string(cbc:ID))) != 0 and string(number(cbc:ID)) != 'NaN'">Geçersiz cbc:ID elemanı değeri. cbc:ID elemanı dolu ve gerçek sayı olmalıdır.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="DespatchIdisEtiketNoCheck">
+			<sch:assert test="not(../cbc:ProfileID = 'IDISIRSALIYE') or count(cac:Item/cac:AdditionalItemIdentification/cbc:ID[@schemeID='ETIKETNO' and string-length(.) = 9 and translate(substring(., 1, 2), 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', '') = '' and translate(substring(., 3), '0123456789', '') = '']) &gt; 0">İlk iki hanesi karakter ve sonraki 7 hanesi rakam olan 9 karakterli en az bir Etiket Numarası bulunmalıdır.</sch:assert>
+		</sch:rule>
+		
+		<sch:rule abstract="true" id="DespatchIdisSevkiyatNoCheck">
+			<sch:assert test="not(//desp:DespatchAdvice/cbc:ProfileID = 'IDISIRSALIYE') or count(cac:PartyIdentification/cbc:ID[@schemeID='SEVKIYATNO' and starts-with(., 'SE-') and string-length(.) = 10 and translate(substring(., 4), '0123456789', '') = '']) > 0">Sevkiyat Numarası değeri SE-0000000 formatında girilmelidir.</sch:assert>
 		</sch:rule>
 		
 		<!-- Validate DespatchDate -->

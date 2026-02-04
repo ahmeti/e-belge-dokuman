@@ -237,5 +237,45 @@
 2) CurrencyCodeList güncellendi.
 3) IhracKayitliPartyIdentificationIDTypeheck, IhracKayitliPartyIdentificationIDTypeCheck olarak güncellendi.
 
+20251209
+----------
+1) YatirimTesvikInvoiceTypeCodeCheck eklendi.
+2) YatirimTesvikContractDocumentReferenceIDCheck eklendi.
+3) YatirimTesvikCommodityClassificationCheck eklendi.
+3) YatirimTesvikItemClassificationCodeCheck eklendi.
+4) YatirimTesvikItemClassificationCodeIstisnaCheck eklendi.
+5) YatirimTesvikItemClassificationCodeIstisnaCalculationSequenceNumericCheck eklendi.
+6) YatirimTesvikTaxExemptionReasonCode308Check eklendi.
+7) YatirimTesvikTaxExemptionReasonCode339Check eklendi.
+8) YatirimTesvikItemInstanceCheck eklendi.
+9) YatirimTesvikKDVCheck eklendi.
+10) YatirimTesvikEArsivInvoiceTypeCodeList eklendi.
+11) YatirimTesvikItemClassificationCodeList eklendi.
+12) ProfileIDType güncellendi.
+13) InvoiceTypeCodeList güncellendi.
+14) InvoiceTypeCodeCheck güncellendi.
+15) TaxExemptionReasonCodeCheck güncellendi.
+16) IADEInvioceCheck güncellendi.
+
+20260109
+----------
+1) ProfileIDType güncellendi.
+2) ProfileIDTypeDespatchAdvice güncellendi.
+3) InvoiceTypeCodeList güncellendi.
+4) PartyIdentificationIDType güncellendi.
+5) YatirimTesvikEArsivInvoiceTypeCodeList güncellendi.
+6) InvoiceTypeCodeCheck güncellendi.
+7) GeneralWithholdingTaxTotalCheck güncellendi.
+8) IADEInvioceCheck güncellendi.
+9) YatirimTesvikInvoiceTypeCodeCheck güncellendi.
+10) IdisInvoiceTypeCodeCheck eklendi.
+11) TaxExemptionReasonCheck güncellendi.
+12) IdisSevkiyatNoCheck eklendi.
+13) YatirimTesvikItemInstanceCheck güncellendi.
+14) YatirimTesvikKDVCheck güncellendi.
+15) YatirimTesvikLineKDVCheck eklendi.
+16) IdisEtiketNoCheck eklendi.
+17) DespatchIdisEtiketNoCheck eklendi.
+18) DespatchIdisSevkiyatNoCheck eklendi.
 
 

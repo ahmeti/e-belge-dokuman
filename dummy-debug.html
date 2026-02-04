@@ -1988,6 +1988,11 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 
 ]; 
  
+ var yatirimTesvikVergiIstisnaMuafListesi = [
+		['308','308 - 13/d Teşvikli yatırım mal tes.'],
+	  	['339','339 - İmalat Sanayii ile Turizme Yönelik Yatırım Teşvik Belgesi Kapsamındaki İnşaat İşlerine İlişkin Teslim ve Hizmetler']
+]; 
+ 
  var vergiIstisnaListesi = [
 		['301','301 - 11/1-a Mal ihracatı'],
 	  	['338','338 - İmalatçıların Mal İhracatları']
@@ -2211,6 +2216,17 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 	['FATURA_TAHSILAT_KOMISYONLU','KOMİSYONLU FATURA TAHSILATI İŞLEMLERİ']
 ];
  
+ var yatirimTesvikHarcamaTipAciklamaListesi = [
+	  	['01','01 - Makine ve teçhizat teslimleri ile yazılım ve gayrimaddi hak satış ve kiralamaları'],
+	  	['02','02 - İnşaat işlerine ilişkin mal teslimleri ve hizmet ifaları'],
+	  	['03','03 - Arsa /Arazi Satışları'],
+	  	['04','04 - Diğer harcamalar']
+	  ];
+ 
+ var yatirimTesvikHarcamaTipIstisnaAciklamaListesi = [
+	  	['01','01 - Makine ve teçhizat teslimleri ile yazılım ve gayrimaddi hak satış ve kiralamaları'],
+	  	['02','02 - İnşaat işlerine ilişkin mal teslimleri ve hizmet ifaları']
+	  ];
  
  
 	var ortam = document.getElementById('ORTAM').value;
@@ -2227,8 +2243,7 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 			['İHRAÇ KAYITLI', 'IHRACKAYITLI'],
 			['SGK', 'SGK'],
 			['KONAKLAMA VERGİSİ','KONAKLAMAVERGISI']
-		];
-		
+		];		
 	} else {
 		var faturaTipiListesi = [
 			['SATIŞ', 'SATIS'],
@@ -2268,6 +2283,14 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 		['VERGİ', 'KONAKVERGI']
 	];
  
+	var yatirimTesvikFaturaTipiListesi = [
+		['SATIŞ', 'SATIS'],
+		['İADE', 'IADE'],
+		['TEVKİFAT', 'TEVKIFAT'],
+		['TEVKİFAT İADE', 'TEVKIFATIADE'],
+		['İSTİSNA', 'ISTISNA']
+	];
+	
 	var paraBirimleriListesi = [
 		['Dirham','AED','AED'],
 		['Afghani','AFN','AFN'],
@@ -2397,10 +2420,8 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 		['St. Helena Pound','SHP','SHP'],
 		['Tolar','SIT','SIT'],
 		['Slovak Koruna','SKK','SKK'],
-		['Leone','SLL','SLL'],
 		['Somali Shilling','SOS','SOS'],
 		['Suriname Guilder','SRG','SRG'],
-		['Dobra','STD','STD'],
 		['El Salvador Colon','SVC','SVC'],
 		['Syrian Pound','SYP','SYP'],
 		['Lilangeni','SZL','SZL'],
@@ -2418,16 +2439,15 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 		['US Dollar','USD','$'],
 		['Peso Uruguayo','UYU','UYU'],
 		['Uzbekistan Sum','UZS','UZS'],
-		['Bolivar','VEB','VEB'],
 		['Dong','VND','VND'],
 		['Vatu','VUV','VUV'],
 		['Tala','WST','WST'],
-		['CFA Franc','XAF','XAF'],
+		['CFA Franc XAF','XAF','XAF'],
 		['Silver','XAG','XAG'],
 		['Gold','XAU','XAU'],
 		['East Carribean Dollar','XCD','XCD'],
 		['SDR','XDR','XDR'],
-		['CFA Franc','XOF','XOF'],
+		['CFA Franc XOF','XOF','XOF'],
 		['Palladium','XPD','XPD'],
 		['CFP Franc','XPF','XPF'],
 		['Platinum','XPT','XPT'],
@@ -2436,7 +2456,19 @@ var digerVergiKodlari = ["V0021","V0061","V0071","V0073","V0074","V0075","V0076"
 		['Rand','ZAR','ZAR'],
 		['Rumen Leyi','RON','RON'],
 		['Kwacha','ZMK','ZMK'],
-		['Zimbabwe Dollar','ZWD','ZWD']
+		['Zimbabwe Dollar','ZWD','ZWD'],
+		['Arab Accounting Dinar','XAD','XAD'],
+		['Caribbean Guilder','XCG','XCG'],
+		['ADB Unit of Account','XUA','XUA'],
+		['Dobra','STN','STN'],
+		['Leone','SLE','SLE'],
+		['Sucre','XSU','XSU'],
+		['South Sudanese Pound','SSP','SSP'],
+		['Unidad Previsional','UYW','UYW'],
+		['Bolivar Soberano','VES','VES'],
+		['Bolivar Soberano','VED','VED'],
+		['Zambian Kwacha','ZMW','ZMW'],
+		['Zimbabwe Gold','ZWG','ZWG']		
 	];
 	
 	

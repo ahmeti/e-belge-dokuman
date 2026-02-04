@@ -22,3 +22,5 @@
 28.04.2025 - UBL-TR Kod Listeleri - V 1.37 yayýnlandý.
 05.09.2025 - UBL-TR Kod Listeleri - V 1.38 yayýnlandý.
 11.09.2025 - UBL-TR Kod Listeleri - V 1.39 yayýnlandý.
+09.12.2025 - UBL-TR Kod Listeleri - V 1.40 yayýnlandý.
+09.01.2026 - UBL-TR Kod Listeleri - V 1.41 yayýnlandý.

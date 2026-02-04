@@ -158,7 +158,10 @@
 			<sch:extends rule="TaxRepresentativePartyCheck"/>
 			<sch:extends rule="HKSInvioceCheck"/>
 			<sch:extends rule="IADEInvioceCheck"/>
-			<sch:extends rule="IlacTibbiCihazInvoiceTypeCodeCheck"/>			
+			<sch:extends rule="IlacTibbiCihazInvoiceTypeCodeCheck"/>	
+			<sch:extends rule="YatirimTesvikInvoiceTypeCodeCheck"/>	
+			<sch:extends rule="YatirimTesvikContractDocumentReferenceIDCheck"/>			
+			<sch:extends rule="IdisInvoiceTypeCodeCheck"/>	
 		</sch:rule>
 		<sch:rule context="inv:Invoice/cbc:UUID">
 			<sch:extends rule="UUIDCheck"/>
@@ -181,6 +184,7 @@
 		<sch:rule context="inv:Invoice/cac:AccountingSupplierParty/cac:Party">
 			<sch:extends rule="PartyIdentificationPartyNamePersonCheck"/>
 			<sch:extends rule="PartyVDCheck"/>
+			<sch:extends rule="IdisSevkiyatNoCheck"/>
 		</sch:rule>
 		
 		<sch:rule context="inv:Invoice/cac:AccountingCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID">
@@ -208,6 +212,10 @@
 			<sch:extends rule="TaxExemptionReasonCheck"/>
 		</sch:rule>
 		
+		<sch:rule context="inv:Invoice/cac:TaxTotal">
+			<sch:extends rule="YatirimTesvikKDVCheck"/>
+		</sch:rule>
+		
 		<!--<sch:rule context="inv:Invoice/cac:InvoiceLine/cac:TaxTotal/cac:TaxSubtotal">
 			<sch:extends rule="TaxExemptionReasonCheck"/>
 		</sch:rule>
@@ -224,7 +232,16 @@
 			<sch:extends rule="DeliveryCodeCheck"/>			
 			<sch:extends rule="IlacTibbiCihazAdditionalItemIdentificationCheck"/>			
 			<sch:extends rule="TeknolojiDestekAdditionalItemIdentificationCheck"/>		
-			<sch:extends rule="IhracKayitliPartyIdentificationIDTypeCheck"/>
+			<sch:extends rule="IhracKayitliPartyIdentificationIDTypeCheck"/>		
+			<sch:extends rule="YatirimTesvikCommodityClassificationCheck"/>		
+			<sch:extends rule="YatirimTesvikItemClassificationCodeCheck"/>		
+			<sch:extends rule="YatirimTesvikItemClassificationCodeIstisnaCheck"/>		
+			<sch:extends rule="YatirimTesvikItemClassificationCodeIstisnaCalculationSequenceNumericCheck"/>		
+			<sch:extends rule="YatirimTesvikTaxExemptionReasonCode308Check"/>		
+			<sch:extends rule="YatirimTesvikTaxExemptionReasonCode339Check"/>		
+			<sch:extends rule="YatirimTesvikItemInstanceCheck"/>		
+			<sch:extends rule="YatirimTesvikLineKDVCheck"/>
+			<sch:extends rule="IdisEtiketNoCheck"/>
 		</sch:rule>
 		
 		<!--<sch:rule context="inv:Invoice/cac:InvoiceLine/cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory">
@@ -470,7 +487,8 @@
 		<sch:rule context="desp:DespatchAdvice/cac:DespatchLine">
 			<sch:extends rule="DeliveredQuantityCheck"/>
 			<sch:extends rule="ItemNameCheck"/>
-			<sch:extends rule="DespatchLineIdCheck"/>
+			<sch:extends rule="DespatchLineIdCheck"/>			
+			<sch:extends rule="DespatchIdisEtiketNoCheck"/>
 		</sch:rule>
 		<sch:rule context="desp:DespatchAdvice/cac:DespatchSupplierParty/cac:Party/cac:PartyIdentification">
 			<sch:extends rule="PartyIdentificationTCKNVKNCheck"/>
@@ -497,6 +515,7 @@
 		</sch:rule>		
 		<sch:rule context="desp:DespatchAdvice/cac:DespatchSupplierParty/cac:Party">
 			<sch:extends rule="PartyIdentificationPartyNamePersonCheck"/>
+			<sch:extends rule="DespatchIdisSevkiyatNoCheck"/>
 		</sch:rule>		
 		<sch:rule context="desp:DespatchAdvice/cac:DeliveryCustomerParty/cac:Party/cac:PartyIdentification/cbc:ID">
 			<sch:extends rule="PartyIdentificationSchemeIDCheck"/>
