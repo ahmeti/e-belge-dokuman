@@ -169,12 +169,16 @@ class Update
         $this->filesystem->rename(dirname(__FILE__).'/UBLTR_1.2.1_Kilavuzlar', 'GIB_Kilavuz');
         $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/GENEL AÇIKLAMALAR', dirname(__FILE__).'/GIB_Kilavuz/GENEL AÇIKLAMALAR');
         $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/KOD LİSTELERİ', dirname(__FILE__).'/GIB_Kilavuz/KOD LİSTELERİ');
-        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar/BELGELER', dirname(__FILE__).'/GIB_Kilavuz/BELGELER');
-        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar/ORTAK ELEMANLAR', dirname(__FILE__).'/GIB_Kilavuz/ORTAK ELEMANLAR');
-        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar/SENARYOLAR', dirname(__FILE__).'/GIB_Kilavuz/SENARYOLAR');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/BELGELER', dirname(__FILE__).'/GIB_Kilavuz/BELGELER');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/ORTAK ELEMANLAR', dirname(__FILE__).'/GIB_Kilavuz/ORTAK ELEMANLAR');
+        $this->filesystem->rename(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar/SENARYOLAR', dirname(__FILE__).'/GIB_Kilavuz/SENARYOLAR');
 
         $this->filesystem->remove(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ılavuzlar');
-        $this->filesystem->remove(dirname(__FILE__).'/GIB_Kilavuz/UBLTR_1.2.1_K_ìlavuzlar');
+
+        // Rename Files
+        $GIBKilavuzPath = dirname(__FILE__).'/GIB_Kilavuz';
+        $this->filesystem->rename($GIBKilavuzPath.'/BELGELER/UBL-TR Uygulama Yan_ıtı_ - V 0.2.pdf', $GIBKilavuzPath.'/BELGELER/UBL-TR Uygulama Yanıtı - V 0.2.pdf');
+        $this->filesystem->rename($GIBKilavuzPath.'/GENEL AÇIKLAMALAR/UBL-TR Genel Af_çıklamalar - V 0.4.pdf', $GIBKilavuzPath.'/GENEL AÇIKLAMALAR/UBL-TR Genel Açıklamalar - V 0.4.pdf');
 
         $this->crawler();
 
