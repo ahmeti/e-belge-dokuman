@@ -214,6 +214,7 @@
 		
 		<sch:rule context="inv:Invoice/cac:TaxTotal">
 			<sch:extends rule="YatirimTesvikKDVCheck"/>
+			<sch:extends rule="DemirbasKDVTaxExemptionCheck"/>
 		</sch:rule>
 		
 		<!--<sch:rule context="inv:Invoice/cac:InvoiceLine/cac:TaxTotal/cac:TaxSubtotal">

@@ -278,4 +278,12 @@
 17) DespatchIdisEtiketNoCheck eklendi.
 18) DespatchIdisSevkiyatNoCheck eklendi.
 
+20260312
+----------
+1) InvoiceTypeCodeCheck güncellendi.
+2) TaxExemptionReasonCodeType güncellendi.
+3) TaxExemptionReasonCodeCheck güncellendi.
+4) DemirbasKDVTaxExemptionCheck eklendi.
+
+
 
