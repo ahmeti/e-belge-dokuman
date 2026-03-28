@@ -1,0 +1,4757 @@
+[
+    {
+        "code": "001201",
+        "name": "CEYHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001203",
+        "name": "KOZAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001205",
+        "name": "KARATAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001250",
+        "name": "ADANA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001251",
+        "name": "5 OCAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001252",
+        "name": "YÜREĞİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001253",
+        "name": "SEYHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001254",
+        "name": "ZİYAPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001255",
+        "name": "ÇUKUROVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001256",
+        "name": "POZANTI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001257",
+        "name": "İMAMOĞLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001258",
+        "name": "KARAİSALI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001259",
+        "name": "YUMURTALIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001260",
+        "name": "TUFANBEYLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001261",
+        "name": "FEKE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001262",
+        "name": "SAİMBEYLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "001263",
+        "name": "ALADAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "001"
+    },
+    {
+        "code": "002260",
+        "name": "ADIYAMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "002261",
+        "name": "KAHTA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "002262",
+        "name": "BESNİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "002263",
+        "name": "GÖLBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "002264",
+        "name": "ÇELİKHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "002265",
+        "name": "SİNCİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "002266",
+        "name": "KARAKUŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "002"
+    },
+    {
+        "code": "003201",
+        "name": "TINAZTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003202",
+        "name": "ÇAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003260",
+        "name": "DİNAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003261",
+        "name": "BOLVADİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003262",
+        "name": "EMİRDAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003263",
+        "name": "SANDIKLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003264",
+        "name": "İSCEHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003265",
+        "name": "SİNANPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003266",
+        "name": "ŞUHUT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003267",
+        "name": "İHSANİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003268",
+        "name": "SULTANDAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003269",
+        "name": "ÇOBANLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003270",
+        "name": "DAZKIRI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003271",
+        "name": "BAŞMAKÇI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003272",
+        "name": "EVCİLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003273",
+        "name": "ÇİĞİLTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "003280",
+        "name": "KOCATEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "003"
+    },
+    {
+        "code": "004104",
+        "name": "HAMUR MAL MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004106",
+        "name": "TAŞLIÇAY MAL MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004260",
+        "name": "AĞRI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004261",
+        "name": "DOĞUBEYAZIT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004262",
+        "name": "PATNOS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004263",
+        "name": "DİYADİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004264",
+        "name": "ELEŞKİRT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "004265",
+        "name": "TUTAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004"
+    },
+    {
+        "code": "005106",
+        "name": "HAMAMÖZÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "005260",
+        "name": "AMASYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "005261",
+        "name": "MERZİFON VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "005262",
+        "name": "GÜMÜŞHACIKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "005263",
+        "name": "TAŞOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "005264",
+        "name": "SULUOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "005265",
+        "name": "GÖYNÜCEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "005"
+    },
+    {
+        "code": "006106",
+        "name": "ÇAMLIDERE MAL MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006110",
+        "name": "GÜDÜL MAL MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006127",
+        "name": "EVREN MAL MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006205",
+        "name": "POLATLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006207",
+        "name": "ŞEREFLİKOÇHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006209",
+        "name": "BEYPAZARI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006211",
+        "name": "ÇUBUK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006213",
+        "name": "HAYMANA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006215",
+        "name": "ELMADAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006252",
+        "name": "VERASET VE İNTİKAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006253",
+        "name": "KAVAKLIDERE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006254",
+        "name": "MALTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006255",
+        "name": "YENİMAHALLE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006257",
+        "name": "ÇANKAYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006258",
+        "name": "KIZILBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006259",
+        "name": "MİTHATPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006260",
+        "name": "ULUS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006261",
+        "name": "YILDIRIMBEYAZIT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006262",
+        "name": "SEĞMENLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006264",
+        "name": "DİKİMEVİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006265",
+        "name": "DOĞANBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006266",
+        "name": "YEĞENBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006268",
+        "name": "HİTİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006269",
+        "name": "Y.GALİP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006270",
+        "name": "M.KARAGÜZEL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006271",
+        "name": "OSTİM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006272",
+        "name": "GÖLBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006273",
+        "name": "SİNCAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006274",
+        "name": "DIŞKAPI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006275",
+        "name": "ETİMESGUT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006276",
+        "name": "BAŞKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006277",
+        "name": "CUMHURİYET VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006278",
+        "name": "KEÇİÖREN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006279",
+        "name": "KAHRAMANKAZAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006280",
+        "name": "ANADOLU İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006281",
+        "name": "ANKARA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006282",
+        "name": "HARÇLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006283",
+        "name": "ANKARA KURUMLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006284",
+        "name": "İVEDİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006285",
+        "name": "100. YIL İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006286",
+        "name": "AKYURT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006287",
+        "name": "KIZILCAHAMAM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006288",
+        "name": "NALLIHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006289",
+        "name": "AYAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006290",
+        "name": "BALA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "006291",
+        "name": "KALECİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006"
+    },
+    {
+        "code": "007106",
+        "name": "GÜNDOĞMUŞ MAL MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007113",
+        "name": "İBRADI MAL MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007201",
+        "name": "ALANYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007202",
+        "name": "SERİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007203",
+        "name": "MANAVGAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007204",
+        "name": "ELMALI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007205",
+        "name": "KEMER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007206",
+        "name": "KUMLUCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007251",
+        "name": "ÜÇKAPILAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007252",
+        "name": "KALEKAPI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007253",
+        "name": "MURATPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007254",
+        "name": "DÜDEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007255",
+        "name": "ANTALYA KURUMLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007256",
+        "name": "ANTALYA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007257",
+        "name": "KORKUTELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007258",
+        "name": "KAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007259",
+        "name": "FİNİKE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007260",
+        "name": "GAZİPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007261",
+        "name": "DEMRE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "007262",
+        "name": "AKSEKİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007"
+    },
+    {
+        "code": "008107",
+        "name": "MURGUL MAL MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008260",
+        "name": "ARTVİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008261",
+        "name": "HOPA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008262",
+        "name": "ARHAVİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008263",
+        "name": "BORÇKA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008264",
+        "name": "YUSUFELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008265",
+        "name": "ŞAVŞAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "008266",
+        "name": "ARDANUÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "008"
+    },
+    {
+        "code": "009201",
+        "name": "EFELER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009260",
+        "name": "NAZİLLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009261",
+        "name": "SÖKE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009262",
+        "name": "ÇİNE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009263",
+        "name": "GERMENCİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009265",
+        "name": "KUŞADASI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009280",
+        "name": "GÜZELHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009281",
+        "name": "DİDİM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009282",
+        "name": "İNCİRLİOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009283",
+        "name": "KUYUCAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009284",
+        "name": "BOZDOĞAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009285",
+        "name": "SULTANHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009286",
+        "name": "KARACASU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009287",
+        "name": "KOÇARLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009288",
+        "name": "BUHARKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009289",
+        "name": "KÖŞK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009290",
+        "name": "YENİPAZAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "009291",
+        "name": "KARPUZLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "009"
+    },
+    {
+        "code": "010201",
+        "name": "KARESİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010260",
+        "name": "AYVALIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010261",
+        "name": "BANDIRMA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010262",
+        "name": "BURHANİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010263",
+        "name": "EDREMİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010264",
+        "name": "GÖNEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010265",
+        "name": "SUSURLUK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010266",
+        "name": "ERDEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010267",
+        "name": "BİGADİÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010268",
+        "name": "SINDIRGI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010269",
+        "name": "DURSUNBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010270",
+        "name": "GÖMEÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010271",
+        "name": "HAVRAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010272",
+        "name": "İVRİNDİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010273",
+        "name": "MANYAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010274",
+        "name": "KEPSUT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010275",
+        "name": "MARMARA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010276",
+        "name": "SAVAŞTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010277",
+        "name": "KOCA SEYİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "010280",
+        "name": "KURTDERELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "010"
+    },
+    {
+        "code": "011260",
+        "name": "BİLECİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "011"
+    },
+    {
+        "code": "011261",
+        "name": "BOZÜYÜK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "011"
+    },
+    {
+        "code": "011262",
+        "name": "OSMANELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "011"
+    },
+    {
+        "code": "011263",
+        "name": "SÖĞÜT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "011"
+    },
+    {
+        "code": "011264",
+        "name": "GÖLPAZARI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "011"
+    },
+    {
+        "code": "011265",
+        "name": "KAYI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "011"
+    },
+    {
+        "code": "012260",
+        "name": "BİNGÖL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "012"
+    },
+    {
+        "code": "012261",
+        "name": "SOLHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "012"
+    },
+    {
+        "code": "012262",
+        "name": "GENÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "012"
+    },
+    {
+        "code": "012263",
+        "name": "KARLIOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "012"
+    },
+    {
+        "code": "012264",
+        "name": "YÜZEN ADA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "012"
+    },
+    {
+        "code": "013104",
+        "name": "MUTKİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "013260",
+        "name": "BİTLİS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "013261",
+        "name": "TATVAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "013262",
+        "name": "AHLAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "013263",
+        "name": "GÜROYMAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "013264",
+        "name": "HİZAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "013265",
+        "name": "ADİLCEVAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "013"
+    },
+    {
+        "code": "014105",
+        "name": "KIBRISCIK MAL MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014108",
+        "name": "SEBEN MAL MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014113",
+        "name": "DÖRTDİVAN MAL MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014260",
+        "name": "BOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014262",
+        "name": "GEREDE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014263",
+        "name": "GÖYNÜK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014264",
+        "name": "MUDURNU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014265",
+        "name": "MENGEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "014266",
+        "name": "YENİÇAĞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014"
+    },
+    {
+        "code": "015260",
+        "name": "BURDUR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015261",
+        "name": "BUCAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015262",
+        "name": "GÖLHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015263",
+        "name": "ÇAVDIR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015264",
+        "name": "YEŞİLOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015265",
+        "name": "TEFENNİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015266",
+        "name": "KARAMANLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "015267",
+        "name": "SALDA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "015"
+    },
+    {
+        "code": "016201",
+        "name": "GEMLİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016202",
+        "name": "İNEGÖL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016203",
+        "name": "KARACABEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016204",
+        "name": "MUSTAFAKEMALPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016205",
+        "name": "MUDANYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016206",
+        "name": "ORHANGAZİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016207",
+        "name": "İZNİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016208",
+        "name": "YENİŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016250",
+        "name": "BURSA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016251",
+        "name": "OSMANGAZİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016252",
+        "name": "YILDIRIM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016253",
+        "name": "ÇEKİRGE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016254",
+        "name": "SETBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016255",
+        "name": "ULUDAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016256",
+        "name": "YEŞİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016257",
+        "name": "NİLÜFER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016258",
+        "name": "ERTUĞRULGAZİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016259",
+        "name": "GÖKDERE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016260",
+        "name": "BURSA VERASET VE HARÇLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016261",
+        "name": "ORHANELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "016262",
+        "name": "KOZAHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "016"
+    },
+    {
+        "code": "017260",
+        "name": "ÇANAKKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017261",
+        "name": "BİGA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017262",
+        "name": "ÇAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017263",
+        "name": "GELİBOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017264",
+        "name": "AYVACIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017265",
+        "name": "EZİNE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017266",
+        "name": "LAPSEKİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017267",
+        "name": "GÖKÇEADA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017268",
+        "name": "BAYRAMİÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017269",
+        "name": "YENİCE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017270",
+        "name": "ECEABAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "017271",
+        "name": "BOZCAADA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "017"
+    },
+    {
+        "code": "018260",
+        "name": "ÇANKIRI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "018"
+    },
+    {
+        "code": "018261",
+        "name": "ÇERKEŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "018"
+    },
+    {
+        "code": "018262",
+        "name": "ILGAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "018"
+    },
+    {
+        "code": "018263",
+        "name": "ORTA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "018"
+    },
+    {
+        "code": "018264",
+        "name": "ŞABANÖZÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "018"
+    },
+    {
+        "code": "018265",
+        "name": "KARATEKİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "018"
+    },
+    {
+        "code": "019260",
+        "name": "ÇORUM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019261",
+        "name": "SUNGURLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019262",
+        "name": "HASANPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019263",
+        "name": "OSMANCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019264",
+        "name": "İSKİLİP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019265",
+        "name": "ALACA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019266",
+        "name": "KARGI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019267",
+        "name": "MECİTÖZÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019268",
+        "name": "BAYAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "019269",
+        "name": "AKŞEMSEDDİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "019"
+    },
+    {
+        "code": "020201",
+        "name": "SARAYLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020202",
+        "name": "ÇINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020203",
+        "name": "GÖKPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020250",
+        "name": "DENİZLİ İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020260",
+        "name": "SARAYKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020261",
+        "name": "ACIPAYAM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020262",
+        "name": "TAVAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020263",
+        "name": "BULDAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020264",
+        "name": "ÇAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020265",
+        "name": "ÇİVRİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020266",
+        "name": "HONAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020267",
+        "name": "KALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020268",
+        "name": "SERİNHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020269",
+        "name": "ÇAMELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020270",
+        "name": "BABADAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020271",
+        "name": "BOZKURT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020272",
+        "name": "ÇARDAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020273",
+        "name": "GÜNEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020274",
+        "name": "BEKİLLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020275",
+        "name": "BAYRAMYERİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "020280",
+        "name": "PAMUKKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "020"
+    },
+    {
+        "code": "021104",
+        "name": "ÇÜNGÜŞ MAL MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021105",
+        "name": "DİCLE MAL MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021108",
+        "name": "HAZRO MAL MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021109",
+        "name": "KULP MAL MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021112",
+        "name": "EĞİL MAL MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021113",
+        "name": "KOCAKÖY MAL MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021251",
+        "name": "GÖKALP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021281",
+        "name": "SÜLEYMANNAZİF VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021282",
+        "name": "C.SITKI TARANCI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021283",
+        "name": "ERGANİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021284",
+        "name": "BİSMİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021285",
+        "name": "SİLVAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021286",
+        "name": "ÇINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021287",
+        "name": "ÇERMİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021288",
+        "name": "HANİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "021289",
+        "name": "LİCE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021"
+    },
+    {
+        "code": "022105",
+        "name": "LALAPAŞA MAL MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022108",
+        "name": "SÜLOĞLU MAL MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022201",
+        "name": "ARDA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022260",
+        "name": "KIRKPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022261",
+        "name": "KEŞAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022262",
+        "name": "UZUNKÖPRÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022263",
+        "name": "HAVSA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022264",
+        "name": "İPSALA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022265",
+        "name": "ENEZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "022266",
+        "name": "MERİÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022"
+    },
+    {
+        "code": "023101",
+        "name": "AĞIN MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023102",
+        "name": "BASKİL MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023104",
+        "name": "KEBAN MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023105",
+        "name": "MADEN MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023107",
+        "name": "SİVRİCE MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023108",
+        "name": "ARICAK MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023110",
+        "name": "ALACAKAYA MAL MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023201",
+        "name": "HARPUT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023280",
+        "name": "HAZAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023281",
+        "name": "KARAKOÇAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023282",
+        "name": "KOVANCILAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "023283",
+        "name": "PALU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "023"
+    },
+    {
+        "code": "024260",
+        "name": "FEVZİPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "024"
+    },
+    {
+        "code": "024261",
+        "name": "TERCAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "024"
+    },
+    {
+        "code": "024262",
+        "name": "ERGAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "024"
+    },
+    {
+        "code": "025117",
+        "name": "AZİZİYE (ILICA) MAL MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025251",
+        "name": "AZİZİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025252",
+        "name": "OLTU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025280",
+        "name": "KAZIMKARABEKİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025281",
+        "name": "HORASAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025282",
+        "name": "PASİNLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025283",
+        "name": "AŞKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025284",
+        "name": "HINIS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025285",
+        "name": "İSPİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025286",
+        "name": "KARAYAZI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "025287",
+        "name": "PALANDÖKEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "025"
+    },
+    {
+        "code": "026102",
+        "name": "MAHMUDİYE MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026103",
+        "name": "MİHALIÇÇIK MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026104",
+        "name": "SARICAKAYA MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026105",
+        "name": "SEYİTGAZİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026107",
+        "name": "ALPU MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026108",
+        "name": "BEYLİKOVA MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026109",
+        "name": "İNÖNÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026110",
+        "name": "GÜNYÜZÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026111",
+        "name": "HAN MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026112",
+        "name": "MİHALGAZİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "026"
+    },
+    {
+        "code": "026250",
+        "name": "ESKİŞEHİR DEFTERDARLIĞI",
+        "city_code": "026"
+    },
+    {
+        "code": "027107",
+        "name": "KARKAMIŞ MAL MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027202",
+        "name": "NİZİP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027203",
+        "name": "İSLAHİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027250",
+        "name": "GAZİANTEP İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027251",
+        "name": "SUBURCU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027252",
+        "name": "ŞEHİTKAMİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027253",
+        "name": "ŞAHİNBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027254",
+        "name": "GAZİKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027255",
+        "name": "KOZANLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027256",
+        "name": "OĞUZELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027257",
+        "name": "NURDAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027258",
+        "name": "ARABAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "027259",
+        "name": "YAVUZELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "027"
+    },
+    {
+        "code": "028260",
+        "name": "GİRESUN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028261",
+        "name": "BULANCAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028262",
+        "name": "TİREBOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028263",
+        "name": "GÖRELE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028264",
+        "name": "ESPİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028265",
+        "name": "DERELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028266",
+        "name": "KEŞAP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028267",
+        "name": "ŞEBİNKARAHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028268",
+        "name": "EYNESİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028269",
+        "name": "PİRAZİZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028270",
+        "name": "YAĞLIDERE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "028271",
+        "name": "ADA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "028"
+    },
+    {
+        "code": "029107",
+        "name": "KÖSE MAL MÜDÜRLÜĞÜ",
+        "city_code": "029"
+    },
+    {
+        "code": "029260",
+        "name": "GÜMÜŞHANE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "029"
+    },
+    {
+        "code": "029261",
+        "name": "KELKİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "029"
+    },
+    {
+        "code": "029262",
+        "name": "ŞİRAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "029"
+    },
+    {
+        "code": "029263",
+        "name": "TORUL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "029"
+    },
+    {
+        "code": "029264",
+        "name": "KÜRTÜN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "029"
+    },
+    {
+        "code": "030102",
+        "name": "ÇUKURCA MAL MÜDÜRLÜĞÜ",
+        "city_code": "030"
+    },
+    {
+        "code": "030104",
+        "name": "DERECİK MAL MÜDÜRLÜĞÜ",
+        "city_code": "030"
+    },
+    {
+        "code": "030260",
+        "name": "HAKKARİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "030"
+    },
+    {
+        "code": "030261",
+        "name": "YÜKSEKOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "030"
+    },
+    {
+        "code": "030262",
+        "name": "ŞEMDİNLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "030"
+    },
+    {
+        "code": "031111",
+        "name": "KUMLU MAL MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031201",
+        "name": "23 TEMMUZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031202",
+        "name": "SAHİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031203",
+        "name": "ANTAKYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031260",
+        "name": "DÖRTYOL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031261",
+        "name": "KIRIKHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031262",
+        "name": "REYHANLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031263",
+        "name": "SAMANDAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031264",
+        "name": "HASSA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031265",
+        "name": "YAYLADAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031267",
+        "name": "ALTINÖZÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031268",
+        "name": "BELEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031280",
+        "name": "ŞÜKRÜKANATLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031281",
+        "name": "AKDENİZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031282",
+        "name": "ERZİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "031290",
+        "name": "ASIM GÜNDÜZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031"
+    },
+    {
+        "code": "032201",
+        "name": "DAVRAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032260",
+        "name": "KAYMAKKAPI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032261",
+        "name": "EĞİRDİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032262",
+        "name": "YALVAÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032263",
+        "name": "ŞARKİKARAAĞAÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032264",
+        "name": "KEÇİBORLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032265",
+        "name": "SENİRKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032266",
+        "name": "GELENDOST VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "032267",
+        "name": "GÜLKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "032"
+    },
+    {
+        "code": "033109",
+        "name": "ÇAMLIYAYLA MAL MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033201",
+        "name": "ERDEMLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033202",
+        "name": "SİLİFKE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033203",
+        "name": "ANAMUR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033204",
+        "name": "KIZILMURAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033205",
+        "name": "ŞEHİTKERİM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033250",
+        "name": "İSTİKLAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033252",
+        "name": "URAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033254",
+        "name": "LİMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033255",
+        "name": "TOROS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033256",
+        "name": "MERSİN İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033257",
+        "name": "MUT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033258",
+        "name": "BOZYAZI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033259",
+        "name": "GÜLNAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "033260",
+        "name": "AYDINCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "033"
+    },
+    {
+        "code": "034203",
+        "name": "SİLİVRİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034204",
+        "name": "BÜYÜKÇEKMECE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034205",
+        "name": "ŞİLE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034207",
+        "name": "BÜYÜK MÜKELLEFLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034220",
+        "name": "HALİÇ İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034221",
+        "name": "VATAN İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034222",
+        "name": "ÇAMLICA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034223",
+        "name": "ALEMDAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034224",
+        "name": "YENİKAPI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034231",
+        "name": "BOĞAZİÇİ KUR. VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034232",
+        "name": "MARMARA KUR. VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034234",
+        "name": "DAVUTPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034235",
+        "name": "ESENLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034236",
+        "name": "FATİH VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034237",
+        "name": "KÜÇÜKKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034239",
+        "name": "MERTER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034242",
+        "name": "SULTANBEYLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034244",
+        "name": "ANADOLU KURUMLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034245",
+        "name": "TUZLA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034246",
+        "name": "KOZYATAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034247",
+        "name": "MASLAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034248",
+        "name": "ZİNCİRLİKUYU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034249",
+        "name": "İKİTELLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034251",
+        "name": "BEŞİKTAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034252",
+        "name": "ÜMRANİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034253",
+        "name": "YEDİTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034254",
+        "name": "KASIMPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034255",
+        "name": "ERENKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034256",
+        "name": "HİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034257",
+        "name": "TUNA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034258",
+        "name": "RIHTIM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034259",
+        "name": "GÜNGÖREN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034260",
+        "name": "KOCASİNAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034261",
+        "name": "GÜNEŞLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034262",
+        "name": "KÜÇÜKYALI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034263",
+        "name": "PENDİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034264",
+        "name": "BAYRAMPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034265",
+        "name": "BEYAZIT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034266",
+        "name": "BEYOĞLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034269",
+        "name": "GAZİOSMANPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034270",
+        "name": "GÖZTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034271",
+        "name": "HOCAPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034272",
+        "name": "KADIKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034273",
+        "name": "KOCAMUSTAFAPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034274",
+        "name": "MECİDİYEKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034276",
+        "name": "ŞİŞLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034277",
+        "name": "ÜSKÜDAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034278",
+        "name": "HALKALI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034279",
+        "name": "KAĞITHANE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034280",
+        "name": "ZEYTİNBURNU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034281",
+        "name": "BEYKOZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034283",
+        "name": "SARIYER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034284",
+        "name": "BAKIRKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034285",
+        "name": "KARTAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034287",
+        "name": "NAKİL VASITA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034288",
+        "name": "SARIGAZİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034291",
+        "name": "ATIŞALANI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034292",
+        "name": "YAKACIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034293",
+        "name": "YENİBOSNA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034294",
+        "name": "AVCILAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034295",
+        "name": "ADALAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034296",
+        "name": "KÜÇÜKÇEKMECE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034297",
+        "name": "BEYLİKDÜZÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034298",
+        "name": "ESENYURT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "034299",
+        "name": "BAŞAKŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "034"
+    },
+    {
+        "code": "035201",
+        "name": "BAYINDIR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035202",
+        "name": "BERGAMA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035203",
+        "name": "MENEMEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035204",
+        "name": "ÖDEMİŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035205",
+        "name": "TİRE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035206",
+        "name": "TORBALI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035207",
+        "name": "KEMALPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035208",
+        "name": "URLA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035209",
+        "name": "SELÇUK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035210",
+        "name": "KINIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035211",
+        "name": "KİRAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035212",
+        "name": "ÇEŞME VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035213",
+        "name": "ALİAĞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035215",
+        "name": "MENDERES VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035250",
+        "name": "İZMİR İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035251",
+        "name": "9 EYLÜL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035252",
+        "name": "YAMANLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035254",
+        "name": "BELKAHVE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035256",
+        "name": "KARŞIYAKA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035257",
+        "name": "KEMERALTI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035258",
+        "name": "KONAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035259",
+        "name": "KORDON VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035260",
+        "name": "ŞİRİNYER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035261",
+        "name": "KADİFEKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035262",
+        "name": "TAŞITLAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035263",
+        "name": "HASAN TAHSİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035264",
+        "name": "BORNOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035266",
+        "name": "BALÇOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035267",
+        "name": "GAZİEMİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035268",
+        "name": "EGE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035269",
+        "name": "ÇİĞLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035270",
+        "name": "ÇAKABEY İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035271",
+        "name": "DİKİLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035272",
+        "name": "SEFERİHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035273",
+        "name": "FOÇA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035274",
+        "name": "KARABURUN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "035275",
+        "name": "BEYDAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "035"
+    },
+    {
+        "code": "036103",
+        "name": "ARPAÇAY MAL MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036105",
+        "name": "DİGOR MAL MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036113",
+        "name": "SUSUZ MAL MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036115",
+        "name": "AKYAKA MAL MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036260",
+        "name": "KARS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036261",
+        "name": "SARIKAMIŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036262",
+        "name": "KAĞIZMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "036263",
+        "name": "SELİM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "036"
+    },
+    {
+        "code": "037105",
+        "name": "ÇATALZEYTİN MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037109",
+        "name": "KÜRE MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037112",
+        "name": "ABANA MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037113",
+        "name": "İHSANGAZİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037114",
+        "name": "PINARBAŞI (KASTAMONU) MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037115",
+        "name": "ŞENPAZAR MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037116",
+        "name": "AĞLI MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037117",
+        "name": "DOĞANYURT MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037118",
+        "name": "HANÖNÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037119",
+        "name": "SEYDİLER MAL MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037260",
+        "name": "KASTAMONU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037261",
+        "name": "TOSYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037262",
+        "name": "TAŞKÖPRÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037263",
+        "name": "CİDE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037264",
+        "name": "İNEBOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037265",
+        "name": "ARAÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037266",
+        "name": "DEVREKANİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037267",
+        "name": "AZDAVAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037268",
+        "name": "BOZKURT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "037269",
+        "name": "DADAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037"
+    },
+    {
+        "code": "038201",
+        "name": "DEVELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038202",
+        "name": "PINARBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038203",
+        "name": "BÜNYAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038250",
+        "name": "KAYSERİ İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038251",
+        "name": "MİMARSİNAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038252",
+        "name": "ERCİYES VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038253",
+        "name": "KALEÖNÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038254",
+        "name": "GEVHER NESİBE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038255",
+        "name": "YAHYALI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038256",
+        "name": "İNCESU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038257",
+        "name": "TOMARZA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038258",
+        "name": "YEŞİLHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038259",
+        "name": "SARIZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "038260",
+        "name": "KÜLTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "038"
+    },
+    {
+        "code": "039103",
+        "name": "KOFCAZ MAL MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039105",
+        "name": "PEHLİVANKÖY MAL MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039260",
+        "name": "KIRKLARELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039261",
+        "name": "LÜLEBURGAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039262",
+        "name": "BABAESKİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039263",
+        "name": "PINARHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039264",
+        "name": "VİZE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "039265",
+        "name": "DEMİRKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039"
+    },
+    {
+        "code": "040260",
+        "name": "KIRŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "040"
+    },
+    {
+        "code": "040261",
+        "name": "KAMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "040"
+    },
+    {
+        "code": "040262",
+        "name": "MUCUR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "040"
+    },
+    {
+        "code": "040263",
+        "name": "ÇİÇEKDAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "040"
+    },
+    {
+        "code": "040264",
+        "name": "CACABEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "040"
+    },
+    {
+        "code": "041202",
+        "name": "ULUÇINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041203",
+        "name": "İLYASBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041204",
+        "name": "GÖLCÜK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041205",
+        "name": "KARAMÜRSEL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041206",
+        "name": "KÖRFEZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041207",
+        "name": "DERİNCE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041250",
+        "name": "KOCAELİ İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041252",
+        "name": "TEPECİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041253",
+        "name": "ALEMDAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041254",
+        "name": "GEBZE İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041255",
+        "name": "KANDIRA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "041290",
+        "name": "ACISU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "041"
+    },
+    {
+        "code": "042109",
+        "name": "HADIM MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042118",
+        "name": "AKÖREN MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042121",
+        "name": "DEREBUCAK MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042123",
+        "name": "TAŞKENT MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042124",
+        "name": "AHIRLI MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042125",
+        "name": "ÇELTİK MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042126",
+        "name": "DERBENT MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042128",
+        "name": "GÜNEYSINIR MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042129",
+        "name": "HALKAPINAR MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042130",
+        "name": "TUZLUKCU MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042131",
+        "name": "YALIHÜYÜK MAL MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042201",
+        "name": "AKŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042202",
+        "name": "EREĞLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042204",
+        "name": "BEYŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042205",
+        "name": "CİHANBEYLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042206",
+        "name": "ÇUMRA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042207",
+        "name": "SEYDİŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042208",
+        "name": "ILGIN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042209",
+        "name": "KULU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042210",
+        "name": "KARAPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042211",
+        "name": "KADINHANI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042250",
+        "name": "KONYA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042251",
+        "name": "SELÇUK (KONYA) VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042252",
+        "name": "MEVLANA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042253",
+        "name": "MERAM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042254",
+        "name": "ALAADDİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042255",
+        "name": "SARAYÖNÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042256",
+        "name": "BOZKIR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042257",
+        "name": "YUNAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042258",
+        "name": "HÜYÜK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042259",
+        "name": "ALTINEKİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042260",
+        "name": "EMİRGAZİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "042261",
+        "name": "DOĞANHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042"
+    },
+    {
+        "code": "043201",
+        "name": "30 AĞUSTOS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043260",
+        "name": "GEDİZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043261",
+        "name": "SİMAV VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043262",
+        "name": "TAVŞANLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043263",
+        "name": "EMET VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043264",
+        "name": "ALTINTAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043265",
+        "name": "DOMANİÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043266",
+        "name": "HİSARCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043267",
+        "name": "ÇALTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "043280",
+        "name": "ÇİNİLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "043"
+    },
+    {
+        "code": "044103",
+        "name": "ARGUVAN MAL MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044107",
+        "name": "PÜTÜRGE MAL MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044110",
+        "name": "DOĞANYOL MAL MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044111",
+        "name": "KALE (MALATYA) MAL MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044112",
+        "name": "KULUNCAK MAL MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044113",
+        "name": "YAZIHAN MAL MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044251",
+        "name": "FIRAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044252",
+        "name": "BEYDAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044253",
+        "name": "DOĞANŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044254",
+        "name": "DARENDE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044255",
+        "name": "AKÇADAĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044256",
+        "name": "ARAPGİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "044257",
+        "name": "HEKİMHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044"
+    },
+    {
+        "code": "045201",
+        "name": "AKHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045202",
+        "name": "ALAŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045203",
+        "name": "DEMİRCİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045204",
+        "name": "KIRKAĞAÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045205",
+        "name": "SALİHLİ ADİL ORAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045206",
+        "name": "SARIGÖL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045207",
+        "name": "SARUHANLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045208",
+        "name": "SOMA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045209",
+        "name": "TURGUTLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045210",
+        "name": "GÖRDES VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045211",
+        "name": "KULA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045250",
+        "name": "MANİSA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045251",
+        "name": "ŞEHİT CİHAN GÜNEŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045252",
+        "name": "MESİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045253",
+        "name": "AHMETLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045254",
+        "name": "GÖLMARMARA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045255",
+        "name": "SELENDİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "045256",
+        "name": "KÖPRÜBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "045"
+    },
+    {
+        "code": "046108",
+        "name": "EKİNÖZÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046201",
+        "name": "ASLANBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046260",
+        "name": "ELBİSTAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046261",
+        "name": "AFŞİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046262",
+        "name": "PAZARCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046263",
+        "name": "ANDIRIN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046264",
+        "name": "GÖKSUN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046265",
+        "name": "TÜRKOĞLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046266",
+        "name": "ÇAĞLAYANCERİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046267",
+        "name": "NURHAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "046280",
+        "name": "AKSU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "046"
+    },
+    {
+        "code": "047113",
+        "name": "YEŞİLLİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047260",
+        "name": "MARDİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047261",
+        "name": "KIZILTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047262",
+        "name": "NUSAYBİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047263",
+        "name": "MİDYAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047264",
+        "name": "DERİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047265",
+        "name": "MAZIDAĞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047266",
+        "name": "ÖMERLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047268",
+        "name": "SAVUR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "047269",
+        "name": "DARGEÇİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "047"
+    },
+    {
+        "code": "048260",
+        "name": "MUĞLA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048261",
+        "name": "BODRUM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048262",
+        "name": "FETHİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048263",
+        "name": "KÖYCEĞİZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048264",
+        "name": "MİLAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048265",
+        "name": "MARMARİS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048266",
+        "name": "YATAĞAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048267",
+        "name": "ORTACA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048268",
+        "name": "DATÇA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048269",
+        "name": "DALAMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048270",
+        "name": "SEYDİKEMER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048271",
+        "name": "ULA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "048272",
+        "name": "KAVAKLIDERE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "048"
+    },
+    {
+        "code": "049104",
+        "name": "HASKÖY MAL MÜDÜRLÜĞÜ",
+        "city_code": "049"
+    },
+    {
+        "code": "049105",
+        "name": "KORKUT MAL MÜDÜRLÜĞÜ",
+        "city_code": "049"
+    },
+    {
+        "code": "049260",
+        "name": "MUŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "049"
+    },
+    {
+        "code": "049261",
+        "name": "BULANIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "049"
+    },
+    {
+        "code": "049262",
+        "name": "MALAZGİRT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "049"
+    },
+    {
+        "code": "049263",
+        "name": "VARTO VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "049"
+    },
+    {
+        "code": "050260",
+        "name": "NEVŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050261",
+        "name": "ÜRGÜP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050262",
+        "name": "DERİNKUYU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050263",
+        "name": "AVANOS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050264",
+        "name": "GÜLŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050265",
+        "name": "HACIBEKTAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050266",
+        "name": "ACIGÖL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "050267",
+        "name": "KOZAKLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "050"
+    },
+    {
+        "code": "051260",
+        "name": "NİĞDE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "051"
+    },
+    {
+        "code": "051262",
+        "name": "BOR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "051"
+    },
+    {
+        "code": "051263",
+        "name": "ULUKIŞLA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "051"
+    },
+    {
+        "code": "051264",
+        "name": "ÇİFTLİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "051"
+    },
+    {
+        "code": "051265",
+        "name": "ALTUNHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "051"
+    },
+    {
+        "code": "051266",
+        "name": "ÇAMARDI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "051"
+    },
+    {
+        "code": "052107",
+        "name": "MESUDİYE MAL MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052111",
+        "name": "GÜLYALI MAL MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052113",
+        "name": "ÇAMAŞ MAL MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052116",
+        "name": "İKİZCE MAL MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052117",
+        "name": "KABADÜZ MAL MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052201",
+        "name": "BOZTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052260",
+        "name": "KÖPRÜBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052261",
+        "name": "FATSA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052262",
+        "name": "ÜNYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052263",
+        "name": "GÖLKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052264",
+        "name": "AYBASTI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052265",
+        "name": "KORGAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052266",
+        "name": "KUMRU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052267",
+        "name": "PERŞEMBE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052268",
+        "name": "AKKUŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052269",
+        "name": "ÇATALPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052270",
+        "name": "ULUBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052271",
+        "name": "GÜRGENTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052272",
+        "name": "ÇAYBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "052273",
+        "name": "KABATAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052"
+    },
+    {
+        "code": "053201",
+        "name": "KAÇKAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053260",
+        "name": "YEŞİLÇAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053261",
+        "name": "ÇAYELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053262",
+        "name": "PAZAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053263",
+        "name": "ARDEŞEN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053264",
+        "name": "FINDIKLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053265",
+        "name": "ÇAMLIHEMŞİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "053266",
+        "name": "RİZE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "053"
+    },
+    {
+        "code": "054109",
+        "name": "TARAKLI MAL MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054201",
+        "name": "AKYAZI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054202",
+        "name": "GEYVE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054203",
+        "name": "HENDEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054204",
+        "name": "KARASU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054250",
+        "name": "SAKARYA İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054251",
+        "name": "GÜMRÜKÖNÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054252",
+        "name": "ALİ FUAT CEBESOY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054253",
+        "name": "SAPANCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054254",
+        "name": "PAMUKOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054255",
+        "name": "KAYNARCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054256",
+        "name": "KOCAALİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "054257",
+        "name": "KARAPÜRÇEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "054"
+    },
+    {
+        "code": "055113",
+        "name": "AYVACIK (SAMSUN) MAL MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055202",
+        "name": "BAFRA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055203",
+        "name": "ÇARŞAMBA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055204",
+        "name": "TERME VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055205",
+        "name": "HAVZA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055251",
+        "name": "19 MAYIS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055252",
+        "name": "GAZİLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055253",
+        "name": "KAVAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055254",
+        "name": "19 MAYIS BALLICA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055255",
+        "name": "SALIPAZARI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055256",
+        "name": "ALAÇAM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055257",
+        "name": "LADİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055258",
+        "name": "ASARCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055259",
+        "name": "YAKAKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055290",
+        "name": "ZAFER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "055291",
+        "name": "VEZİRKÖPRÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "055"
+    },
+    {
+        "code": "056104",
+        "name": "ERUH MAL MÜDÜRLÜĞÜ",
+        "city_code": "056"
+    },
+    {
+        "code": "056107",
+        "name": "PERVARİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "056"
+    },
+    {
+        "code": "056110",
+        "name": "ŞİRVAN MAL MÜDÜRLÜĞÜ",
+        "city_code": "056"
+    },
+    {
+        "code": "056260",
+        "name": "SİİRT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "056"
+    },
+    {
+        "code": "056261",
+        "name": "KURTALAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "056"
+    },
+    {
+        "code": "056262",
+        "name": "BAYKAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "056"
+    },
+    {
+        "code": "057107",
+        "name": "DİKMEN MAL MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057108",
+        "name": "SARAYDÜZÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057260",
+        "name": "SİNOP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057261",
+        "name": "BOYABAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057262",
+        "name": "GERZE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057263",
+        "name": "AYANCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057264",
+        "name": "TÜRKELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057265",
+        "name": "DURAĞAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "057266",
+        "name": "ERFELEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "057"
+    },
+    {
+        "code": "058201",
+        "name": "KALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058260",
+        "name": "ŞARKIŞLA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058261",
+        "name": "SUŞEHRİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058262",
+        "name": "YILDIZELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058263",
+        "name": "KANGAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058264",
+        "name": "ZARA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058265",
+        "name": "GEMEREK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058266",
+        "name": "GÜRÜN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058267",
+        "name": "DİVRİĞİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058268",
+        "name": "4 EYLÜL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "058280",
+        "name": "SİTE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "058"
+    },
+    {
+        "code": "059201",
+        "name": "SÜLEYMANPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059250",
+        "name": "ÇORLU İHTİSAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059260",
+        "name": "NAMIK KEMAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059261",
+        "name": "ÇERKEZKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059262",
+        "name": "ÇORLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059263",
+        "name": "HAYRABOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059264",
+        "name": "MALKARA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059265",
+        "name": "MURATLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059266",
+        "name": "ŞARKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059267",
+        "name": "KAPAKLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059268",
+        "name": "SARAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "059269",
+        "name": "MARMARAEREĞLİSİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "059"
+    },
+    {
+        "code": "060260",
+        "name": "TOKAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060261",
+        "name": "ERBAA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060262",
+        "name": "NİKSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060263",
+        "name": "TURHAL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060264",
+        "name": "ZİLE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060265",
+        "name": "REŞADİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060266",
+        "name": "ALMUS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060267",
+        "name": "PAZAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "060268",
+        "name": "TOPÇAM VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "060"
+    },
+    {
+        "code": "061201",
+        "name": "HIZIRBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061260",
+        "name": "AKÇAABAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061261",
+        "name": "OF VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061262",
+        "name": "VAKFIKEBİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061280",
+        "name": "KARADENİZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061281",
+        "name": "ARAKLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061282",
+        "name": "YOMRA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061283",
+        "name": "SÜRMENE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061284",
+        "name": "ARSİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061285",
+        "name": "ÇAYKARA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061286",
+        "name": "MAÇKA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061287",
+        "name": "BEŞİKDÜZÜ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061288",
+        "name": "ÇARŞIBAŞI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061289",
+        "name": "TONYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061290",
+        "name": "ŞALPAZARI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061291",
+        "name": "DÜZKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "061292",
+        "name": "ORTAHİSAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "061"
+    },
+    {
+        "code": "062260",
+        "name": "TUNCELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "062"
+    },
+    {
+        "code": "062261",
+        "name": "MUNZUR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "062"
+    },
+    {
+        "code": "063201",
+        "name": "ŞEHİTLİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063260",
+        "name": "SİVEREK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063261",
+        "name": "VİRANŞEHİR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063262",
+        "name": "BİRECİK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063263",
+        "name": "SURUÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063280",
+        "name": "TOPÇUMEYDANI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063281",
+        "name": "GÖBEKLİTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063282",
+        "name": "CEYLANPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063283",
+        "name": "AKÇAKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063284",
+        "name": "HİLVAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063285",
+        "name": "BOZOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063286",
+        "name": "HALFETİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "063287",
+        "name": "HARRAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "063"
+    },
+    {
+        "code": "064260",
+        "name": "UŞAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "064"
+    },
+    {
+        "code": "064261",
+        "name": "BANAZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "064"
+    },
+    {
+        "code": "064262",
+        "name": "EŞME VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "064"
+    },
+    {
+        "code": "064263",
+        "name": "SİVASLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "064"
+    },
+    {
+        "code": "064264",
+        "name": "ULUBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "064"
+    },
+    {
+        "code": "064265",
+        "name": "KARAHALLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "064"
+    },
+    {
+        "code": "065201",
+        "name": "ERCİŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065202",
+        "name": "EDREMİT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065260",
+        "name": "VAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065261",
+        "name": "ÖZALP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065262",
+        "name": "ÇALDIRAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065263",
+        "name": "MURADİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065264",
+        "name": "GEVAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065265",
+        "name": "GÜRPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065266",
+        "name": "BAŞKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "065267",
+        "name": "AKDAMAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "065"
+    },
+    {
+        "code": "066260",
+        "name": "YOZGAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066261",
+        "name": "BOĞAZLIYAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066262",
+        "name": "SORGUN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066263",
+        "name": "YERKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066264",
+        "name": "AKDAĞMADENİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066265",
+        "name": "ŞEFAATLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066266",
+        "name": "SARIKAYA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066267",
+        "name": "ÇEKEREK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066268",
+        "name": "ÇAYIRALAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066269",
+        "name": "AYDINCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066270",
+        "name": "SARAYKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "066271",
+        "name": "ÇAMLIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "066"
+    },
+    {
+        "code": "067201",
+        "name": "UZUNMEHMET VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "067261",
+        "name": "KARADENİZ EREĞLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "067263",
+        "name": "ÇAYCUMA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "067264",
+        "name": "DEVREK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "067265",
+        "name": "ALAPLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "067266",
+        "name": "GÖKÇEBEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "067280",
+        "name": "KARAELMAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "067"
+    },
+    {
+        "code": "068104",
+        "name": "SARIYAHŞİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068201",
+        "name": "AKSARAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068202",
+        "name": "ORTAKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068203",
+        "name": "ESKİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068204",
+        "name": "GÜLAĞAÇ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068205",
+        "name": "AĞAÇÖREN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068206",
+        "name": "GÜZELYURT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "068207",
+        "name": "SULTANHANI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "068"
+    },
+    {
+        "code": "069101",
+        "name": "AYDINTEPE MAL MÜDÜRLÜĞÜ",
+        "city_code": "069"
+    },
+    {
+        "code": "069102",
+        "name": "DEMİRÖZÜ MAL MÜDÜRLÜĞÜ",
+        "city_code": "069"
+    },
+    {
+        "code": "069201",
+        "name": "BAYBURT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "069"
+    },
+    {
+        "code": "070101",
+        "name": "AYRANCI MAL MÜDÜRLÜĞÜ",
+        "city_code": "070"
+    },
+    {
+        "code": "070103",
+        "name": "K.KARABEKİR MAL MÜDÜRLÜĞÜ",
+        "city_code": "070"
+    },
+    {
+        "code": "070104",
+        "name": "BAŞYAYLA MAL MÜDÜRLÜĞÜ",
+        "city_code": "070"
+    },
+    {
+        "code": "070201",
+        "name": "KARAMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "070"
+    },
+    {
+        "code": "070202",
+        "name": "ERMENEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "070"
+    },
+    {
+        "code": "070203",
+        "name": "SARIVELİLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "070"
+    },
+    {
+        "code": "071201",
+        "name": "IRMAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "071"
+    },
+    {
+        "code": "071202",
+        "name": "KALETEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "071"
+    },
+    {
+        "code": "071203",
+        "name": "KESKİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "071"
+    },
+    {
+        "code": "071204",
+        "name": "DELİCE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "071"
+    },
+    {
+        "code": "071205",
+        "name": "KIRIKKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "071"
+    },
+    {
+        "code": "072260",
+        "name": "BATMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "072"
+    },
+    {
+        "code": "072261",
+        "name": "KOZLUK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "072"
+    },
+    {
+        "code": "072262",
+        "name": "RAMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "072"
+    },
+    {
+        "code": "073101",
+        "name": "BEYTÜŞŞEBAB MAL MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "073103",
+        "name": "GÜÇLÜKONAK MAL MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "073260",
+        "name": "ŞIRNAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "073261",
+        "name": "CİZRE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "073262",
+        "name": "SİLOPİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "073263",
+        "name": "ULUDERE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "073264",
+        "name": "İDİL VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "073"
+    },
+    {
+        "code": "074102",
+        "name": "KURUCAŞİLE MAL MÜDÜRLÜĞÜ",
+        "city_code": "074"
+    },
+    {
+        "code": "074260",
+        "name": "BARTIN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "074"
+    },
+    {
+        "code": "074261",
+        "name": "ULUS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "074"
+    },
+    {
+        "code": "074262",
+        "name": "AMASRA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "074"
+    },
+    {
+        "code": "075101",
+        "name": "ÇILDIR MAL MÜDÜRLÜĞÜ",
+        "city_code": "075"
+    },
+    {
+        "code": "075102",
+        "name": "DAMAL MAL MÜDÜRLÜĞÜ",
+        "city_code": "075"
+    },
+    {
+        "code": "075104",
+        "name": "HANAK MAL MÜDÜRLÜĞÜ",
+        "city_code": "075"
+    },
+    {
+        "code": "075105",
+        "name": "POSOF MAL MÜDÜRLÜĞÜ",
+        "city_code": "075"
+    },
+    {
+        "code": "075201",
+        "name": "ARDAHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "075"
+    },
+    {
+        "code": "075202",
+        "name": "GÖLE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "075"
+    },
+    {
+        "code": "076101",
+        "name": "ARALIK MAL MÜDÜRLÜĞÜ",
+        "city_code": "076"
+    },
+    {
+        "code": "076102",
+        "name": "KARAKOYUNLU MAL MÜDÜRLÜĞÜ",
+        "city_code": "076"
+    },
+    {
+        "code": "076201",
+        "name": "IĞDIR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "076"
+    },
+    {
+        "code": "076202",
+        "name": "TUZLUCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "076"
+    },
+    {
+        "code": "077201",
+        "name": "YALOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "077"
+    },
+    {
+        "code": "077202",
+        "name": "ÇINARCIK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "077"
+    },
+    {
+        "code": "077203",
+        "name": "ALTINOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "077"
+    },
+    {
+        "code": "077204",
+        "name": "ARMUTLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "077"
+    },
+    {
+        "code": "078201",
+        "name": "KARABÜK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "078"
+    },
+    {
+        "code": "078202",
+        "name": "YENİCE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "078"
+    },
+    {
+        "code": "078203",
+        "name": "ESKİPAZAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "078"
+    },
+    {
+        "code": "078260",
+        "name": "SAFRANBOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "078"
+    },
+    {
+        "code": "078261",
+        "name": "DEMİRKENT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "078"
+    },
+    {
+        "code": "079201",
+        "name": "KİLİS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "079"
+    },
+    {
+        "code": "080104",
+        "name": "HASANBEYLİ MAL MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "080105",
+        "name": "SUMBAS MAL MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "080201",
+        "name": "OSMANİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "080202",
+        "name": "DÜZİÇİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "080203",
+        "name": "BAHÇE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "080204",
+        "name": "TOPRAKKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "080260",
+        "name": "KADİRLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "080"
+    },
+    {
+        "code": "081260",
+        "name": "DÜZCE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081261",
+        "name": "AKÇAKOCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081262",
+        "name": "GÖLYAKA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081263",
+        "name": "KAYNAŞLI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081264",
+        "name": "GÜMÜŞOVA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081265",
+        "name": "CUMAYERİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081266",
+        "name": "ÇİLİMLİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    },
+    {
+        "code": "081267",
+        "name": "YIĞILCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "081"
+    }
+]

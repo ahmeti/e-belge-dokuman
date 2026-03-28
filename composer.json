@@ -14,6 +14,7 @@
     ],
     "require-dev": {
         "ext-zip": "*",
+        "ahmeti/ivd-api": "^1.1",
         "chrome-php/chrome": "^1.12",
         "guzzlehttp/guzzle": "^7.0",
         "laravel/pint": "^1.18",

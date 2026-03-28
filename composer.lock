@@ -4,9 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb0814ae0d57ba7f62eb2ccfbb67f157",
+    "content-hash": "8390ce1a1c1e294606fedf8da6c0d1ce",
     "packages": [],
     "packages-dev": [
+        {
+            "name": "ahmeti/ivd-api",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ahmeti/ivd-api.git",
+                "reference": "6064dd15f9c438ad334a1f808ddd91bf0e471a23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ahmeti/ivd-api/zipball/6064dd15f9c438ad334a1f808ddd91bf0e471a23",
+                "reference": "6064dd15f9c438ad334a1f808ddd91bf0e471a23",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": ">=6.0.0",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ahmeti\\Ivd\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Imamoglu",
+                    "email": "ahmet363@gmail.com",
+                    "homepage": "https://ahmetimamoglu.com.tr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "İnternet Vergi Dairesi - Api",
+            "homepage": "https://github.com/ahmeti/ivd-api",
+            "keywords": [
+                "api",
+                "dairesi",
+                "internet",
+                "vergi"
+            ],
+            "support": {
+                "issues": "https://github.com/ahmeti/ivd-api/issues",
+                "source": "https://github.com/ahmeti/ivd-api/tree/1.1"
+            },
+            "abandoned": true,
+            "time": "2022-12-11T23:12:58+00:00"
+        },
         {
             "name": "chrome-php/chrome",
             "version": "v1.14.0",

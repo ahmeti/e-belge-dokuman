@@ -4,6 +4,7 @@ namespace Ahmeti\EBelgeDokuman;
 
 require __DIR__.'/vendor/autoload.php';
 
+use Ahmeti\Ivd\IvdService;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Utils;
@@ -181,6 +182,25 @@ class Update
         $this->filesystem->rename($GIBKilavuzPath.'/GENEL AÇIKLAMALAR/UBL-TR Genel Af_çıklamalar - V 0.4.pdf', $GIBKilavuzPath.'/GENEL AÇIKLAMALAR/UBL-TR Genel Açıklamalar - V 0.4.pdf');
 
         $this->crawler();
+
+        // Sync Json Data
+        try {
+            $ivdService = new IvdService();
+
+            $taxOffices = [];
+            foreach ($ivdService->getVergiDaireListesi() as $item) {
+                $taxOffices[] = [
+                    'code' => $item->vdKodu,
+                    'name' => $item->vdAdi,
+                    'city_code' => $item->ilKodu,
+                ];
+            }
+            $json = json_encode($taxOffices, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+            file_put_contents(dirname(__FILE__).'/build/tax_offices.json', $json);
+
+        }catch (\Exception $exception){
+            print_r($exception);
+        }
 
         $this->updateReadme();
 
