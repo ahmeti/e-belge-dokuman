@@ -187,12 +187,18 @@ class Update
         try {
             $ivdService = new IvdService();
 
+            $cities = [];
+            foreach ($ivdService->getIlListesi() as $item) {
+                $cities[str_pad($item->ilKodu, 3, '0', STR_PAD_LEFT)] = $item->ilAdi;
+            }
+
             $taxOffices = [];
             foreach ($ivdService->getVergiDaireListesi() as $item) {
                 $taxOffices[] = [
                     'code' => $item->vdKodu,
                     'name' => $item->vdAdi,
                     'city_code' => $item->ilKodu,
+                    'city_name' => $cities[$item->ilKodu],
                 ];
             }
             $json = json_encode($taxOffices, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
