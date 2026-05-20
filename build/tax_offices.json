@@ -246,18 +246,6 @@
         "city_name": "AFYONKARAHİSAR"
     },
     {
-        "code": "004104",
-        "name": "HAMUR MAL MÜDÜRLÜĞÜ",
-        "city_code": "004",
-        "city_name": "AĞRI"
-    },
-    {
-        "code": "004106",
-        "name": "TAŞLIÇAY MAL MÜDÜRLÜĞÜ",
-        "city_code": "004",
-        "city_name": "AĞRI"
-    },
-    {
         "code": "004260",
         "name": "AĞRI VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "004",
@@ -290,6 +278,12 @@
     {
         "code": "004265",
         "name": "TUTAK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "004",
+        "city_name": "AĞRI"
+    },
+    {
+        "code": "004266",
+        "name": "İSHAKPAŞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "004",
         "city_name": "AĞRI"
     },
@@ -334,24 +328,6 @@
         "name": "GÖYNÜCEK VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "005",
         "city_name": "AMASYA"
-    },
-    {
-        "code": "006106",
-        "name": "ÇAMLIDERE MAL MÜDÜRLÜĞÜ",
-        "city_code": "006",
-        "city_name": "ANKARA"
-    },
-    {
-        "code": "006110",
-        "name": "GÜDÜL MAL MÜDÜRLÜĞÜ",
-        "city_code": "006",
-        "city_name": "ANKARA"
-    },
-    {
-        "code": "006127",
-        "name": "EVREN MAL MÜDÜRLÜĞÜ",
-        "city_code": "006",
-        "city_name": "ANKARA"
     },
     {
         "code": "006205",
@@ -612,16 +588,10 @@
         "city_name": "ANKARA"
     },
     {
-        "code": "007106",
-        "name": "GÜNDOĞMUŞ MAL MÜDÜRLÜĞÜ",
-        "city_code": "007",
-        "city_name": "ANTALYA"
-    },
-    {
-        "code": "007113",
-        "name": "İBRADI MAL MÜDÜRLÜĞÜ",
-        "city_code": "007",
-        "city_name": "ANTALYA"
+        "code": "006292",
+        "name": "BEYTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "006",
+        "city_name": "ANKARA"
     },
     {
         "code": "007201",
@@ -728,6 +698,12 @@
     {
         "code": "007262",
         "name": "AKSEKİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "007",
+        "city_name": "ANTALYA"
+    },
+    {
+        "code": "007263",
+        "name": "FALEZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "007",
         "city_name": "ANTALYA"
     },
@@ -1116,24 +1092,6 @@
         "city_name": "BİTLİS"
     },
     {
-        "code": "014105",
-        "name": "KIBRISCIK MAL MÜDÜRLÜĞÜ",
-        "city_code": "014",
-        "city_name": "BOLU"
-    },
-    {
-        "code": "014108",
-        "name": "SEBEN MAL MÜDÜRLÜĞÜ",
-        "city_code": "014",
-        "city_name": "BOLU"
-    },
-    {
-        "code": "014113",
-        "name": "DÖRTDİVAN MAL MÜDÜRLÜĞÜ",
-        "city_code": "014",
-        "city_name": "BOLU"
-    },
-    {
         "code": "014260",
         "name": "BOLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "014",
@@ -1166,6 +1124,12 @@
     {
         "code": "014266",
         "name": "YENİÇAĞA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "014",
+        "city_name": "BOLU"
+    },
+    {
+        "code": "014267",
+        "name": "KÖROĞLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "014",
         "city_name": "BOLU"
     },
@@ -1638,42 +1602,6 @@
         "city_name": "DENİZLİ"
     },
     {
-        "code": "021104",
-        "name": "ÇÜNGÜŞ MAL MÜDÜRLÜĞÜ",
-        "city_code": "021",
-        "city_name": "DİYARBAKIR"
-    },
-    {
-        "code": "021105",
-        "name": "DİCLE MAL MÜDÜRLÜĞÜ",
-        "city_code": "021",
-        "city_name": "DİYARBAKIR"
-    },
-    {
-        "code": "021108",
-        "name": "HAZRO MAL MÜDÜRLÜĞÜ",
-        "city_code": "021",
-        "city_name": "DİYARBAKIR"
-    },
-    {
-        "code": "021109",
-        "name": "KULP MAL MÜDÜRLÜĞÜ",
-        "city_code": "021",
-        "city_name": "DİYARBAKIR"
-    },
-    {
-        "code": "021112",
-        "name": "EĞİL MAL MÜDÜRLÜĞÜ",
-        "city_code": "021",
-        "city_name": "DİYARBAKIR"
-    },
-    {
-        "code": "021113",
-        "name": "KOCAKÖY MAL MÜDÜRLÜĞÜ",
-        "city_code": "021",
-        "city_name": "DİYARBAKIR"
-    },
-    {
         "code": "021251",
         "name": "GÖKALP VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "021",
@@ -1734,16 +1662,10 @@
         "city_name": "DİYARBAKIR"
     },
     {
-        "code": "022105",
-        "name": "LALAPAŞA MAL MÜDÜRLÜĞÜ",
-        "city_code": "022",
-        "city_name": "EDİRNE"
-    },
-    {
-        "code": "022108",
-        "name": "SÜLOĞLU MAL MÜDÜRLÜĞÜ",
-        "city_code": "022",
-        "city_name": "EDİRNE"
+        "code": "021290",
+        "name": "KAYAPINAR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "021",
+        "city_name": "DİYARBAKIR"
     },
     {
         "code": "022201",
@@ -1794,46 +1716,10 @@
         "city_name": "EDİRNE"
     },
     {
-        "code": "023101",
-        "name": "AĞIN MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
-    },
-    {
-        "code": "023102",
-        "name": "BASKİL MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
-    },
-    {
-        "code": "023104",
-        "name": "KEBAN MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
-    },
-    {
-        "code": "023105",
-        "name": "MADEN MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
-    },
-    {
-        "code": "023107",
-        "name": "SİVRİCE MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
-    },
-    {
-        "code": "023108",
-        "name": "ARICAK MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
-    },
-    {
-        "code": "023110",
-        "name": "ALACAKAYA MAL MÜDÜRLÜĞÜ",
-        "city_code": "023",
-        "city_name": "ELAZIĞ"
+        "code": "022267",
+        "name": "TUNCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "022",
+        "city_name": "EDİRNE"
     },
     {
         "code": "023201",
@@ -1862,6 +1748,12 @@
     {
         "code": "023283",
         "name": "PALU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "023",
+        "city_name": "ELAZIĞ"
+    },
+    {
+        "code": "023284",
+        "name": "ELAZIĞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "023",
         "city_name": "ELAZIĞ"
     },
@@ -2232,12 +2124,6 @@
         "city_name": "HAKKARİ"
     },
     {
-        "code": "031111",
-        "name": "KUMLU MAL MÜDÜRLÜĞÜ",
-        "city_code": "031",
-        "city_name": "HATAY"
-    },
-    {
         "code": "031201",
         "name": "23 TEMMUZ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "031",
@@ -2318,6 +2204,12 @@
     {
         "code": "031282",
         "name": "ERZİN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "031",
+        "city_name": "HATAY"
+    },
+    {
+        "code": "031283",
+        "name": "KUMLU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "031",
         "city_name": "HATAY"
     },
@@ -3084,30 +2976,6 @@
         "city_name": "İZMİR"
     },
     {
-        "code": "036103",
-        "name": "ARPAÇAY MAL MÜDÜRLÜĞÜ",
-        "city_code": "036",
-        "city_name": "KARS"
-    },
-    {
-        "code": "036105",
-        "name": "DİGOR MAL MÜDÜRLÜĞÜ",
-        "city_code": "036",
-        "city_name": "KARS"
-    },
-    {
-        "code": "036113",
-        "name": "SUSUZ MAL MÜDÜRLÜĞÜ",
-        "city_code": "036",
-        "city_name": "KARS"
-    },
-    {
-        "code": "036115",
-        "name": "AKYAKA MAL MÜDÜRLÜĞÜ",
-        "city_code": "036",
-        "city_name": "KARS"
-    },
-    {
         "code": "036260",
         "name": "KARS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "036",
@@ -3132,64 +3000,10 @@
         "city_name": "KARS"
     },
     {
-        "code": "037105",
-        "name": "ÇATALZEYTİN MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037109",
-        "name": "KÜRE MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037112",
-        "name": "ABANA MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037113",
-        "name": "İHSANGAZİ MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037114",
-        "name": "PINARBAŞI (KASTAMONU) MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037115",
-        "name": "ŞENPAZAR MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037116",
-        "name": "AĞLI MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037117",
-        "name": "DOĞANYURT MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037118",
-        "name": "HANÖNÜ MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
-    },
-    {
-        "code": "037119",
-        "name": "SEYDİLER MAL MÜDÜRLÜĞÜ",
-        "city_code": "037",
-        "city_name": "KASTAMONU"
+        "code": "036264",
+        "name": "KAFKAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "036",
+        "city_name": "KARS"
     },
     {
         "code": "037260",
@@ -3248,6 +3062,12 @@
     {
         "code": "037269",
         "name": "DADAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "037",
+        "city_name": "KASTAMONU"
+    },
+    {
+        "code": "037270",
+        "name": "ATABEY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "037",
         "city_name": "KASTAMONU"
     },
@@ -3336,18 +3156,6 @@
         "city_name": "KAYSERİ"
     },
     {
-        "code": "039103",
-        "name": "KOFCAZ MAL MÜDÜRLÜĞÜ",
-        "city_code": "039",
-        "city_name": "KIRKLARELİ"
-    },
-    {
-        "code": "039105",
-        "name": "PEHLİVANKÖY MAL MÜDÜRLÜĞÜ",
-        "city_code": "039",
-        "city_name": "KIRKLARELİ"
-    },
-    {
         "code": "039260",
         "name": "KIRKLARELİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "039",
@@ -3380,6 +3188,12 @@
     {
         "code": "039265",
         "name": "DEMİRKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "039",
+        "city_name": "KIRKLARELİ"
+    },
+    {
+        "code": "039266",
+        "name": "KIRK ŞEHİTLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "039",
         "city_name": "KIRKLARELİ"
     },
@@ -3484,72 +3298,6 @@
         "name": "ACISU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "041",
         "city_name": "KOCAELİ"
-    },
-    {
-        "code": "042109",
-        "name": "HADIM MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042118",
-        "name": "AKÖREN MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042121",
-        "name": "DEREBUCAK MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042123",
-        "name": "TAŞKENT MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042124",
-        "name": "AHIRLI MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042125",
-        "name": "ÇELTİK MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042126",
-        "name": "DERBENT MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042128",
-        "name": "GÜNEYSINIR MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042129",
-        "name": "HALKAPINAR MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042130",
-        "name": "TUZLUKCU MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
-    },
-    {
-        "code": "042131",
-        "name": "YALIHÜYÜK MAL MÜDÜRLÜĞÜ",
-        "city_code": "042",
-        "city_name": "KONYA"
     },
     {
         "code": "042201",
@@ -3684,6 +3432,12 @@
         "city_name": "KONYA"
     },
     {
+        "code": "042262",
+        "name": "KARATAY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "042",
+        "city_name": "KONYA"
+    },
+    {
         "code": "043201",
         "name": "30 AĞUSTOS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "043",
@@ -3744,42 +3498,6 @@
         "city_name": "KÜTAHYA"
     },
     {
-        "code": "044103",
-        "name": "ARGUVAN MAL MÜDÜRLÜĞÜ",
-        "city_code": "044",
-        "city_name": "MALATYA"
-    },
-    {
-        "code": "044107",
-        "name": "PÜTÜRGE MAL MÜDÜRLÜĞÜ",
-        "city_code": "044",
-        "city_name": "MALATYA"
-    },
-    {
-        "code": "044110",
-        "name": "DOĞANYOL MAL MÜDÜRLÜĞÜ",
-        "city_code": "044",
-        "city_name": "MALATYA"
-    },
-    {
-        "code": "044111",
-        "name": "KALE (MALATYA) MAL MÜDÜRLÜĞÜ",
-        "city_code": "044",
-        "city_name": "MALATYA"
-    },
-    {
-        "code": "044112",
-        "name": "KULUNCAK MAL MÜDÜRLÜĞÜ",
-        "city_code": "044",
-        "city_name": "MALATYA"
-    },
-    {
-        "code": "044113",
-        "name": "YAZIHAN MAL MÜDÜRLÜĞÜ",
-        "city_code": "044",
-        "city_name": "MALATYA"
-    },
-    {
         "code": "044251",
         "name": "FIRAT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "044",
@@ -3818,6 +3536,12 @@
     {
         "code": "044257",
         "name": "HEKİMHAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "044",
+        "city_name": "MALATYA"
+    },
+    {
+        "code": "044258",
+        "name": "BATTALGAZİ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "044",
         "city_name": "MALATYA"
     },
@@ -4134,12 +3858,6 @@
         "city_name": "MUĞLA"
     },
     {
-        "code": "049104",
-        "name": "HASKÖY MAL MÜDÜRLÜĞÜ",
-        "city_code": "049",
-        "city_name": "MUŞ"
-    },
-    {
         "code": "049105",
         "name": "KORKUT MAL MÜDÜRLÜĞÜ",
         "city_code": "049",
@@ -4166,6 +3884,12 @@
     {
         "code": "049263",
         "name": "VARTO VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "049",
+        "city_name": "MUŞ"
+    },
+    {
+        "code": "049264",
+        "name": "HASKÖY VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "049",
         "city_name": "MUŞ"
     },
@@ -4254,36 +3978,6 @@
         "city_name": "NİĞDE"
     },
     {
-        "code": "052107",
-        "name": "MESUDİYE MAL MÜDÜRLÜĞÜ",
-        "city_code": "052",
-        "city_name": "ORDU"
-    },
-    {
-        "code": "052111",
-        "name": "GÜLYALI MAL MÜDÜRLÜĞÜ",
-        "city_code": "052",
-        "city_name": "ORDU"
-    },
-    {
-        "code": "052113",
-        "name": "ÇAMAŞ MAL MÜDÜRLÜĞÜ",
-        "city_code": "052",
-        "city_name": "ORDU"
-    },
-    {
-        "code": "052116",
-        "name": "İKİZCE MAL MÜDÜRLÜĞÜ",
-        "city_code": "052",
-        "city_name": "ORDU"
-    },
-    {
-        "code": "052117",
-        "name": "KABADÜZ MAL MÜDÜRLÜĞÜ",
-        "city_code": "052",
-        "city_name": "ORDU"
-    },
-    {
         "code": "052201",
         "name": "BOZTEPE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "052",
@@ -4370,6 +4064,12 @@
     {
         "code": "052273",
         "name": "KABATAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "052",
+        "city_name": "ORDU"
+    },
+    {
+        "code": "052274",
+        "name": "ALTINORDU VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "052",
         "city_name": "ORDU"
     },
@@ -4596,24 +4296,6 @@
         "city_name": "SAMSUN"
     },
     {
-        "code": "056104",
-        "name": "ERUH MAL MÜDÜRLÜĞÜ",
-        "city_code": "056",
-        "city_name": "SİİRT"
-    },
-    {
-        "code": "056107",
-        "name": "PERVARİ MAL MÜDÜRLÜĞÜ",
-        "city_code": "056",
-        "city_name": "SİİRT"
-    },
-    {
-        "code": "056110",
-        "name": "ŞİRVAN MAL MÜDÜRLÜĞÜ",
-        "city_code": "056",
-        "city_name": "SİİRT"
-    },
-    {
         "code": "056260",
         "name": "SİİRT VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "056",
@@ -4628,6 +4310,12 @@
     {
         "code": "056262",
         "name": "BAYKAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "056",
+        "city_name": "SİİRT"
+    },
+    {
+        "code": "056263",
+        "name": "DELİKLİTAŞ VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "056",
         "city_name": "SİİRT"
     },
@@ -5346,24 +5034,6 @@
         "city_name": "BAYBURT"
     },
     {
-        "code": "070101",
-        "name": "AYRANCI MAL MÜDÜRLÜĞÜ",
-        "city_code": "070",
-        "city_name": "KARAMAN"
-    },
-    {
-        "code": "070103",
-        "name": "K.KARABEKİR MAL MÜDÜRLÜĞÜ",
-        "city_code": "070",
-        "city_name": "KARAMAN"
-    },
-    {
-        "code": "070104",
-        "name": "BAŞYAYLA MAL MÜDÜRLÜĞÜ",
-        "city_code": "070",
-        "city_name": "KARAMAN"
-    },
-    {
         "code": "070201",
         "name": "KARAMAN VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "070",
@@ -5378,6 +5048,12 @@
     {
         "code": "070203",
         "name": "SARIVELİLER VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "070",
+        "city_name": "KARAMAN"
+    },
+    {
+        "code": "070204",
+        "name": "LARENDE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "070",
         "city_name": "KARAMAN"
     },
@@ -5532,18 +5208,6 @@
         "city_name": "ARDAHAN"
     },
     {
-        "code": "076101",
-        "name": "ARALIK MAL MÜDÜRLÜĞÜ",
-        "city_code": "076",
-        "city_name": "IĞDIR"
-    },
-    {
-        "code": "076102",
-        "name": "KARAKOYUNLU MAL MÜDÜRLÜĞÜ",
-        "city_code": "076",
-        "city_name": "IĞDIR"
-    },
-    {
         "code": "076201",
         "name": "IĞDIR VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "076",
@@ -5552,6 +5216,12 @@
     {
         "code": "076202",
         "name": "TUZLUCA VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "076",
+        "city_name": "IĞDIR"
+    },
+    {
+        "code": "076203",
+        "name": "ARAS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "076",
         "city_name": "IĞDIR"
     },
@@ -5616,18 +5286,6 @@
         "city_name": "KİLİS"
     },
     {
-        "code": "080104",
-        "name": "HASANBEYLİ MAL MÜDÜRLÜĞÜ",
-        "city_code": "080",
-        "city_name": "OSMANİYE"
-    },
-    {
-        "code": "080105",
-        "name": "SUMBAS MAL MÜDÜRLÜĞÜ",
-        "city_code": "080",
-        "city_name": "OSMANİYE"
-    },
-    {
         "code": "080201",
         "name": "OSMANİYE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "080",
@@ -5648,6 +5306,12 @@
     {
         "code": "080204",
         "name": "TOPRAKKALE VERGİ DAİRESİ MÜDÜRLÜĞÜ",
+        "city_code": "080",
+        "city_name": "OSMANİYE"
+    },
+    {
+        "code": "080205",
+        "name": "AMANOS VERGİ DAİRESİ MÜDÜRLÜĞÜ",
         "city_code": "080",
         "city_name": "OSMANİYE"
     },
