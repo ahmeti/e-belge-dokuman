@@ -1,5 +1,7 @@
 <?php
 
+/** @noinspection PhpIllegalPsrClassPathInspection */
+
 namespace Ahmeti\EBelgeDokuman;
 
 require __DIR__.'/vendor/autoload.php';
@@ -185,7 +187,7 @@ class Update
 
         // Sync Json Data
         try {
-            $ivdService = new IvdService();
+            $ivdService = new IvdService;
 
             $cities = [];
             foreach ($ivdService->getIlListesi() as $item) {
@@ -204,7 +206,7 @@ class Update
             $json = json_encode($taxOffices, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
             file_put_contents(dirname(__FILE__).'/build/tax_offices.json', $json);
 
-        }catch (\Exception $exception){
+        } catch (Exception $exception) {
             print_r($exception);
         }
 

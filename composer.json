@@ -12,11 +12,13 @@
             "email": "ahmet363@gmail.com"
         }
     ],
+    "require": {
+      "ext-zip": "*"
+    },
     "require-dev": {
-        "ext-zip": "*",
         "ahmeti/ivd-api": "^1.1",
         "chrome-php/chrome": "^1.12",
-        "guzzlehttp/guzzle": "^7.0",
+        "guzzlehttp/guzzle": "^8.2",
         "laravel/pint": "^1.18",
         "symfony/filesystem": "^7.2",
         "symfony/var-dumper": "^7.2"

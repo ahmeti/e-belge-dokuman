@@ -285,5 +285,25 @@
 3) TaxExemptionReasonCodeCheck güncellendi.
 4) DemirbasKDVTaxExemptionCheck eklendi.
 
+20260701
+----------
+1) EnerjiInvoicePeriodCheck eklendi.
+2) EnerjiESURaporIDCheck eklendi.
+3) EnerjiPartyIdentificationPlakaCheck eklendi.
+4) EnerjiItemInstanceSerialIDCheck eklendi.
+5) LicensePlateIDCheck eklendi.
+6) TaxExemptionReasonCodeCheck güncellendi.
+7) IdisSevkiyatNoCheck güncellendi.
+8) UserAccountCheck güncellendi.
+9) DespatchIdisSevkiyatNoCheck güncellendi.
+10) LicensePlateIDSchemeIDCheck güncellendi.
+11) TaxExemptionReasonCodeType güncellendi.
+12) YatirimTesvikTaxExemptionReasonCodeType eklendi.
+13) istisnaTaxExemptionReasonCodeType güncellendi.
+14) LicensePlateIDSchemeIDType güncellendi.
+15) ReservedAliases güncellendi.
+16) UserEnvelopeAliases güncellendi.
+17) InvoiceTypeCodeCheck güncellendi.
+
 
 
